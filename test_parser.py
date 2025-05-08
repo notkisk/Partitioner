@@ -7,10 +7,8 @@ def analyze_pdf(pdf_path: str, output_json: str = None) -> List[Dict[str, Any]]:
     analyzer = PDFAnalyzer()
     elements = analyzer.analyze_document(pdf_path)
     
-    # Get document statistics
     stats = analyzer.get_document_statistics()
     
-    # Print statistics
     print("\nElement Type Statistics:")
     element_types = {}
     for element in elements:
@@ -20,7 +18,6 @@ def analyze_pdf(pdf_path: str, output_json: str = None) -> List[Dict[str, Any]]:
     for element_type, count in element_types.items():
         print(f"{element_type}: {count}")
     
-    # Print sample elements
     print("\nSample Elements by Type:")
     samples = {}
     for element in elements:
@@ -35,7 +32,6 @@ def analyze_pdf(pdf_path: str, output_json: str = None) -> List[Dict[str, Any]]:
             if element['cross_page_refs']:
                 print(f"Cross-page references: {element['cross_page_refs']}")
     
-    # Save to JSON if requested
     if output_json:
         json_elements = elements
         with open(output_json, "w", encoding="utf-8") as f:

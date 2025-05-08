@@ -7,9 +7,8 @@ import json
 
 def test_coordinate_system():
     print("\nTesting Coordinate System...")
-    coord_sys = CoordinateSystem(width=612, height=792)  # Standard US Letter size
+    coord_sys = CoordinateSystem(width=612, height=792)  
     
-    # Test bbox normalization
     bbox = (100, 200, 300, 400)
     normalized = coord_sys.normalize_bbox(bbox)
     denormalized = coord_sys.denormalize_bbox(normalized)
@@ -18,14 +17,12 @@ def test_coordinate_system():
     print(f"Normalized: {normalized}")
     print(f"Denormalized: {denormalized}")
     
-    # Test relative position
     rel_pos = coord_sys.get_relative_position(bbox)
     print(f"Relative position metrics: {rel_pos}")
 
 def test_text_analysis():
     print("\nTesting Text Analysis...")
     
-    # Test title detection
     test_cases = [
         ("Introduction to Machine Learning", {"font_size": 14, "is_bold": True, "bbox": (100, 700, 300, 720)}, 
          {"median_font_size": 12, "page_height": 792}),
@@ -60,7 +57,6 @@ def test_list_detection():
 def test_pdf_processing():
     print("\nTesting PDF Processing...")
     
-    # Process a sample PDF
     sample_pdf = "sample.pdf"
     if not Path(sample_pdf).exists():
         print(f"Error: {sample_pdf} not found")
@@ -69,7 +65,6 @@ def test_pdf_processing():
     try:
         elements = process_pdf(sample_pdf)
         
-        # Save results for inspection
         output = []
         for element in elements:
             output.append({
