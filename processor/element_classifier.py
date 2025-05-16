@@ -1,19 +1,13 @@
 from typing import Dict, Any, List, Tuple
-import re
 from .data_models import Element, ElementType, ElementMetadata, CoordinatesMetadata
-from .patterns import (
-    is_list_item_start,
-    is_title_pattern,
+from .text_analysis import (
+    is_possible_title,
+    is_possible_narrative,
+    is_list_item,
     is_header_footer,
-    is_footnote
-)
-from .list_handler import identify_potential_list_items
-from .nlp_utils import (
-    sentence_count,
-    under_non_alpha_ratio,
-    exceeds_cap_ratio,
-    contains_verb,
-    contains_english_word
+    is_footnote,
+    is_contact_info,
+    get_text_stats
 )
 
 def classify_element(text: str, bbox: Tuple[float, float, float, float], style_info: Dict[str, Any], page_info: Dict[str, float], page_number: int, context: Dict[str, Any]) -> Element:
@@ -30,60 +24,70 @@ def classify_element(text: str, bbox: Tuple[float, float, float, float], style_i
     Returns:
         Element: Classified element with metadata
     """
-    from utils.text_analysis import is_title, is_list_item
-    
-    # Initialize context if needed
-    if 'prev_item' not in context:
-        context['prev_item'] = None
+    # Create coordinate metadata
     coords = CoordinatesMetadata(
         x0=bbox[0], y0=bbox[1], x1=bbox[2], y1=bbox[3],
         page_width=page_info['width'],
         page_height=page_info['height']
     )
     
+    # Initialize metadata
     metadata = ElementMetadata(
         style_info=style_info,
         coordinates=coords
     )
     
-    # Get median font size for comparison
-    median_font = context.get('median_font_size', 12)
+    # Prepare style info with median font size
+    style_info['median_font_size'] = context.get('median_font_size', 12)
     
-    # Start classification process with default type
+    # Start classification process
     element_type = ElementType.NARRATIVE_TEXT
     
-    # 1. Check for list items first (high priority)
-    if identify_potential_list_items(text, style_info, {
-        'indent_ratio': coords.indent_ratio,
-        'x0': bbox[0],
-        'y0': bbox[1]
-    }):
+    # 1. Check for list items (high priority)
+    if is_list_item(text):
         element_type = ElementType.LIST_ITEM
         metadata.confidence = 0.9
         
-    # 2. Check for titles if not a list item
-    elif _is_likely_title(text, style_info, median_font):
-        element_type = ElementType.TITLE
-        metadata.confidence = 0.85
-        
-    # 3. Check for headers/footers
-    elif _is_header_footer(text, coords, page_info):
-        element_type = ElementType.HEADER if coords.y0 < page_info['height'] / 2 else ElementType.FOOTER
+    # 2. Check for titles
+    elif not element_type == ElementType.LIST_ITEM:
+        is_title, confidence = is_possible_title(text, style_info)
+        if is_title:
+            element_type = ElementType.TITLE
+            metadata.confidence = confidence
+    
+    # 3. Check for page numbers (high priority)
+    elif is_page_number(text):
+        if coords.relative_y > 0.85:
+            element_type = ElementType.PAGE_NUMBER
+            metadata.confidence = 0.98
+
+    # 4. Check for footers
+    elif is_footer(text) and coords.relative_y > 0.85:
+        element_type = ElementType.FOOTER
+        metadata.confidence = 0.9
+
+    # 5. Check for headers
+    elif is_header_footer(text) and coords.relative_y < 0.15:
+        element_type = ElementType.HEADER
         metadata.confidence = 0.8
-        
-    # 4. Check for page numbers
-    elif _is_page_number(text, coords, page_info):
-        element_type = ElementType.PAGE_NUMBER
-        metadata.confidence = 0.95
-        
-    # 5. Check for footnotes
-    elif _is_footnote(text, coords, page_info):
+
+    # 6. Check for footnotes
+    elif coords.relative_y < 0.15 and is_footnote(text):
         element_type = ElementType.FOOTNOTE
         metadata.confidence = 0.85
-        
-    # 6. Default to narrative text
-    else:
-        metadata.confidence = 0.7
+    
+    # 6. Check for contact information
+    elif is_contact_info(text):
+        element_type = ElementType.CONTACT_INFO
+        metadata.confidence = 0.9
+    
+    # 7. Verify if narrative text
+    elif element_type == ElementType.NARRATIVE_TEXT:
+        if is_possible_narrative(text):
+            metadata.confidence = 0.7
+        else:
+            element_type = ElementType.UNKNOWN
+            metadata.confidence = 0.3
     
     return Element(
         text=text,
@@ -93,58 +97,88 @@ def classify_element(text: str, bbox: Tuple[float, float, float, float], style_i
         metadata=metadata
     )
 
-def _is_likely_title(text: str, style_info: Dict[str, Any], median_font: float) -> bool:
-    """Determine if text block is likely a title based on style and content."""
-    # Early exit if it's a list item
-    if is_list_item_start(text):
-        return False
-
-    # Content-based checks first
+def _is_likely_title(text: str, style_info: Dict[str, Any], median_font: float) -> Tuple[bool, float]:
+    """Determines if a text block is likely a title using improved heuristics.
+    
+    Args:
+        text: The text content to analyze
+        style_info: Font and style information
+        median_font: Median font size for comparison
+        
+    Returns:
+        Tuple[bool, float]: (is_title, confidence_score)
+    """
+    # Clean and normalize text
     text = text.strip()
     
-    # Multi-sentence check
-    if sentence_count(text, min_word_length=5) > 1:
-        return False
+    # Very short texts can't be titles
+    if len(text) < 2:
+        return False, 0.0
+        
+    # Initialize confidence score
+    confidence = 0.0
     
-    # Word length check
-    words = text.split()
-    if len(words) > 12:  # Title shouldn't be too wordy
-        return False
+    # Check text case properties
+    is_all_uppercase = text.isupper()
+    is_title_case = text == text.title() and not text.isupper()
     
-    # Non-alpha ratio check
-    if under_non_alpha_ratio(text, threshold=0.5):
-        return False
+    # Font size comparison (weighted heavily)
+    font_size = style_info.get('font_size', median_font)
+    if font_size > median_font * 1.2:
+        confidence += 0.3
     
-    # Language check
-    if not contains_english_word(text):
-        return False
+    # Font style (bold/italic)
+    if style_info.get('is_bold', False):
+        confidence += 0.2
+    if style_info.get('is_italic', False):
+        confidence += 0.1
+        
+    # Text case analysis
+    if is_all_uppercase:
+        confidence += 0.15
+    elif is_title_case:
+        confidence += 0.1
+        
+    # Length checks
+    word_count = len(text.split())
+    if word_count <= 15:  # Titles are usually short
+        confidence += 0.1
+    elif word_count > 25:  # Too long for a title
+        return False, 0.0
+        
+    # Sentence structure
+    sentence_count = len(re.split(r'[.!?]+', text))
+    if sentence_count > 2:  # Titles rarely have multiple sentences
+        return False, 0.0
     
-    # Capitalization checks
-    if text.isupper() and text.strip().endswith('.'):
-        return False
+    # Punctuation analysis
+    if text.endswith(('.', ':', ';')):  # Titles usually don't end with these
+        confidence -= 0.2
     
-    if text.strip().endswith(','):
-        return False
+    # Section numbering patterns
+    if re.match(r'^\d+\.?\d*\s+\w+', text):  # "1.2 Section Title"
+        confidence += 0.3
+    elif re.match(r'^[A-Z]\.\s+\w+', text):   # "A. Section Title"
+        confidence += 0.25
+        
+    # Common title keywords
+    title_keywords = r'^(chapter|section|appendix|figure|table|introduction|conclusion|abstract|summary)\s+\d*'
+    if re.match(title_keywords, text.lower()):
+        confidence += 0.25
+        
+    # Content analysis
+    if contains_verb(text):  # Titles often don't contain verbs
+        confidence -= 0.1
     
-    if text.replace('.', '').replace(',', '').strip().isdigit():
-        return False
+    # Position on page (if available)
+    y_pos = style_info.get('y_position', 0.5)  # Normalized 0-1
+    if y_pos > 0.8 or y_pos < 0.1:  # Titles are rarely at very top/bottom
+        confidence -= 0.15
+        
+    # Final decision
+    is_title = confidence > 0.4  # Threshold for title classification
     
-    # Style-based checks
-    font_size = style_info.get('font_size', 0)
-    if font_size <= median_font * 1.2:
-        return False
-    
-    # Title pattern check
-    if is_title_pattern(text):
-        return True
-    
-    # Additional style checks
-    if style_info.get('is_bold', False) and font_size > median_font:
-        # For bold text, be more lenient with capitalization
-        return True
-    
-    # For non-bold text, require stricter capitalization
-    return exceeds_cap_ratio(text, threshold=0.7)
+    return is_title, min(1.0, max(0.0, confidence))
 
 def _is_header_footer(text: str, coords: CoordinatesMetadata, page_info: Dict[str, float]) -> bool:
     """Determine if text block is a header or footer."""
@@ -184,6 +218,6 @@ def _is_footnote(text: str, coords: CoordinatesMetadata, page_info: Dict[str, fl
     # Check if text starts with a footnote marker
     if re.match(r'^\d+\.\s+|^\*+\s+', text):
         # Check if text is at the bottom of the page
-        if coords.points[1][1] < page_info['height'] * 0.2:
+        if coords.y0 < page_info['height'] * 0.2:
             return True
     return False

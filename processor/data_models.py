@@ -3,15 +3,20 @@ from enum import Enum, auto
 from typing import Dict, Any, List, Tuple, Optional
 import uuid
 
-class ElementType(str, Enum):
-    TITLE = 'TITLE'
-    LIST_ITEM = 'LIST_ITEM'
-    NARRATIVE_TEXT = 'NARRATIVE_TEXT'
-    HEADER = 'HEADER'
-    FOOTER = 'FOOTER'
-    PAGE_NUMBER = 'PAGE_NUMBER'
-    FOOTNOTE = 'FOOTNOTE'
-    ANNOTATION = 'ANNOTATION'
+class ElementType(Enum):
+    """Types of text elements that can be identified."""
+    NARRATIVE_TEXT = "narrative_text"
+    TITLE = "title"
+    LIST_ITEM = "list_item"
+    HEADER = "header"
+    FOOTER = "footer"
+    PAGE_NUMBER = "page_number"
+    FOOTNOTE = "footnote"
+    CONTACT_INFO = "contact_info"
+    TABLE_CELL = "table_cell"
+    CAPTION = "caption"
+    UNKNOWN = "unknown"
+    ANNOTATION = "annotation"
 
 @dataclass
 class CoordinatesMetadata:

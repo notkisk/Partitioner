@@ -39,3 +39,6 @@ sample_elements.json
 
 # Logs
 *.log
+
+/pdf_documents_fast/
+/example-docs/

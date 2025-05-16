@@ -1,0 +1,327 @@
+{
+  "source_file": "pdf_documents_fast\\DA-1p.pdf",
+  "elements": [
+    {
+      "text": "MAIN GAME",
+      "element_type": "TITLE",
+      "bbox": [
+        251.1,
+        71.19200000000001,
+        344.31600000000003,
+        87.19200000000001
+      ],
+      "page_number": 1,
+      "metadata": {
+        "confidence": 0.7,
+        "style_info": {
+          "font_name": "AAAAAC+Arial-BoldMT",
+          "font_size": 16.0,
+          "is_bold": true,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 12.0
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "CREATURES",
+      "element_type": "TITLE",
+      "bbox": [
+        254.7,
+        146.86799999999994,
+        340.67400000000004,
+        160.86799999999994
+      ],
+      "page_number": 1,
+      "metadata": {
+        "confidence": 0.7,
+        "style_info": {
+          "font_name": "AAAAAC+Arial-BoldMT",
+          "font_size": 14.0,
+          "is_bold": true,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 12.0
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "Abomination",
+      "element_type": "TITLE",
+      "bbox": [
+        56.8,
+        188.74400000000003,
+        130.06,
+        200.74400000000003
+      ],
+      "page_number": 1,
+      "metadata": {
+        "confidence": 0.8,
+        "style_info": {
+          "font_name": "AAAAAC+Arial-BoldMT",
+          "font_size": 12.0,
+          "is_bold": true,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 12.0
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "\"We arrived in the dead of night. We had been tracking the maleficar for days, and\nfinally had him cornered... or so we thought.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        85.2,
+        208.49199999999996,
+        509.61600000000004,
+        234.29200000000003
+      ],
+      "page_number": 1,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "AAAAAE+TimesNewRomanPSMT",
+          "font_size": 12.0,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 12.0
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "As we approached, a home on the edge of the town exploded, sending splinters of wood\nand fist-sized chunks of rocks into our ranks. We had but moments to regroup before\nfire rained from the sky, the sounds of destruction wrapped in a hideous laughter from\nthe center of the village.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        85.2,
+        242.09199999999998,
+        509.92799999999994,
+        295.49199999999996
+      ],
+      "page_number": 1,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "AAAAAE+TimesNewRomanPSMT",
+          "font_size": 12.0,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 12.0
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "There, perched atop the spire of the village chantry, stood the mage. But he was human\nno longer.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        85.2,
+        303.192,
+        510.0359999999998,
+        328.99199999999996
+      ],
+      "page_number": 1,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "AAAAAE+TimesNewRomanPSMT",
+          "font_size": 12.0,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 12.0
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "We shouted prayers to the Maker and deflected what magic we could, but as we fought,\nthe   creature   fought   harder.   I   saw   my   comrades   fall,   burned   by  the   flaming   sky  or\ncrushed by debris. The monstrous creature, looking as if a demon were wearing a man\nlike a twisted suit of skin, spotted me and grinned. We had forced it to this, I realized;\nthe mage had made this pact, given himself over to the demon to survive our assault.\"",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        85.2,
+        336.792,
+        509.9279999999998,
+        403.99199999999996
+      ],
+      "page_number": 1,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "AAAAAE+TimesNewRomanPSMT",
+          "font_size": 12.0,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 12.0
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "—Transcribed from a tale told by a former templar in Cumberland, 8:84 Blessed.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        85.2,
+        411.692,
+        475.83599999999984,
+        423.692
+      ],
+      "page_number": 1,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "AAAAAG+TimesNewRomanPS-ItalicMT",
+          "font_size": 12.0,
+          "is_bold": false,
+          "is_italic": true,
+          "is_monospace": false,
+          "median_font_size": 12.0
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "It is known that mages are able to walk the Fade while completely aware of their surroundings,\nunlike most others who may only enter the realm as dreamers and leave it scarcely aware of their\nexperience. Demons are drawn to mages, though whether it is because of this awareness or simply\nby virtue of their magical power in our world is unknown.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        56.8,
+        445.292,
+        538.2039999999997,
+        498.692
+      ],
+      "page_number": 1,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "AAAAAE+TimesNewRomanPSMT",
+          "font_size": 12.0,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 12.0
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "Regardless of the reason, a demon always attempts to possess a mage when it encounters one—by\nforce or by making some kind of deal depending on the strength of the mage. Should the demon get\nthe upper hand, the result is an unholy union known as an abomination. Abominations have been\nresponsible for some of the worst cataclysms in history, and the notion that some mage in a remote\ntower could turn into such a creature unbeknownst to any was the driving force behind the creation\nof the Circle of Magi.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        56.8,
+        506.49199999999996,
+        538.1319999999997,
+        587.492
+      ],
+      "page_number": 1,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "AAAAAE+TimesNewRomanPSMT",
+          "font_size": 12.0,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 12.0
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "Thankfully, abominations are rare. The Circle has methods for weeding out those who are too at risk\nfor demonic possession, and scant few mages would give up their free will to submit to such a bond\nwith a demon. But once an abomination is created, it will do its best to create more. Considering\nthat entire squads of templars have been known to fall at the hands of a single abomination, it is not\nsurprising that the Chantry takes the business of the Circle of Magi very seriously indeed.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        56.8,
+        595.2919999999999,
+        538.0839999999997,
+        662.492
+      ],
+      "page_number": 1,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "AAAAAE+TimesNewRomanPSMT",
+          "font_size": 12.000000000000028,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 12.0
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "Arcane Horror",
+      "element_type": "TITLE",
+      "bbox": [
+        56.8,
+        682.244,
+        137.99200000000002,
+        694.244
+      ],
+      "page_number": 1,
+      "metadata": {
+        "confidence": 0.8,
+        "style_info": {
+          "font_name": "AAAAAC+Arial-BoldMT",
+          "font_size": 12.0,
+          "is_bold": true,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 12.0
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "\"Upon ascending to the second floor of the tower, we were greeted by a gruesome sight:\na ragged collection of bones wearing the robes of one of the senior enchanters. I had\nknown her for years, watched her raise countless apprentices, and now she was a mere\npuppet for some demon.\"",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        85.2,
+        702.092,
+        509.9639999999999,
+        755.492
+      ],
+      "page_number": 1,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "AAAAAE+TimesNewRomanPSMT",
+          "font_size": 12.0,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 12.0
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "6",
+      "element_type": "LIST_ITEM",
+      "bbox": [
+        294.8,
+        773.192,
+        300.8,
+        785.192
+      ],
+      "page_number": 1,
+      "metadata": {
+        "confidence": 0.9,
+        "style_info": {
+          "font_name": "AAAAAE+TimesNewRomanPSMT",
+          "font_size": 11.999999999999993,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 12.0
+        },
+        "list_group_id": "67c6b9e313e1461eb327610b28930dec"
+      }
+    }
+  ]
+}
