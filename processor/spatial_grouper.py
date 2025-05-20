@@ -18,30 +18,65 @@ def merge_text_blocks(blocks: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     sorted_blocks = sorted(blocks, key=lambda b: (-b['bbox'][1], b['bbox'][0]))
     
     # Parameters for merging
-    y_tolerance = 3  # Reduced tolerance for vertical alignment
-    x_tolerance = 15  # Maximum horizontal gap between blocks
-    font_size_ratio = 0.2  # Maximum font size difference ratio
+    y_tolerance = 3
+    x_tolerance = 60
+    font_size_ratio = 0.2
     
     merged_blocks = []
     current_group = [sorted_blocks[0]]
     
+    import re
     for block in sorted_blocks[1:]:
         prev_block = current_group[-1]
-        
-        # Get bounding boxes
         prev_bbox = prev_block['bbox']
         curr_bbox = block['bbox']
-        
-        # Calculate gaps
-        y_gap = abs(prev_bbox[1] - curr_bbox[1])  # Vertical gap
-        x_gap = curr_bbox[0] - prev_bbox[2]       # Horizontal gap
-        
-        # Get font sizes
+        y_gap = abs(prev_bbox[1] - curr_bbox[1])
+        x_gap = curr_bbox[0] - prev_bbox[2]
         prev_font = prev_block['style_info'].get('font_size', 0)
         curr_font = block['style_info'].get('font_size', 0)
         font_diff_ratio = abs(prev_font - curr_font) / max(prev_font, curr_font) if prev_font and curr_font else 1
-        
-        # Check if blocks should be merged
+        prev_text = prev_block.get('text', '').strip()
+        curr_text = block.get('text', '').strip()
+        section_number_pat = r"^\d+(?:\.\d+)*$"
+        prev_is_section_number = bool(re.match(section_number_pat, prev_text))
+        prev_center = (prev_bbox[1] + prev_bbox[3]) / 2
+        curr_center = (curr_bbox[1] + curr_bbox[3]) / 2
+        center_gap = abs(prev_center - curr_center)
+        similar_font = font_diff_ratio <= font_size_ratio
+        same_style = (
+            prev_block['style_info'].get('is_bold') == block['style_info'].get('is_bold') and
+            prev_block['style_info'].get('is_italic') == block['style_info'].get('is_italic')
+        )
+        section_merge = prev_is_section_number and center_gap <= 40 and similar_font and same_style
+        same_line = y_gap <= y_tolerance
+        close_enough = x_gap <= x_tolerance
+        page_height = prev_block.get('page_height') or prev_block.get('style_info', {}).get('page_height')
+        curr_center_x = (curr_bbox[0] + curr_bbox[2]) / 2
+        prev_center_x = (prev_bbox[0] + prev_bbox[2]) / 2
+        is_centered = False
+        is_page_number = False
+        if page_height:
+            page_mid_x = (prev_bbox[2] + prev_bbox[0]) / 2
+            page_width = prev_block.get('page_width') or prev_block.get('style_info', {}).get('page_width')
+            if page_width:
+                is_centered = abs(curr_center_x - page_width/2) < page_width * 0.15
+            is_page_number = is_centered and curr_bbox[1] > page_height * 0.85 and len(curr_text.strip()) <= 5 and curr_text.strip().isdigit()
+        large_y_gap = y_gap > 30
+        if is_page_number or (is_centered and large_y_gap and curr_bbox[1] > prev_bbox[3]):
+            if len(current_group) > 0:
+                merged_block = merge_blocks(current_group)
+                if merged_block:
+                    merged_blocks.append(merged_block)
+            current_group = [block]
+        elif same_line and close_enough and similar_font and same_style:
+            current_group.append(block)
+        else:
+            if len(current_group) > 0:
+                merged_block = merge_blocks(current_group)
+                if merged_block:
+                    merged_blocks.append(merged_block)
+            current_group = [block]
+
         same_line = y_gap <= y_tolerance
         close_enough = x_gap <= x_tolerance
         similar_font = font_diff_ratio <= font_size_ratio
@@ -54,23 +89,126 @@ def merge_text_blocks(blocks: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
             current_group.append(block)
         else:
             # Merge current group and start new one
-            if len(current_group) > 0:
+            if current_group:
                 merged_block = merge_blocks(current_group)
                 if merged_block:
                     merged_blocks.append(merged_block)
             current_group = [block]
-    
-    # Handle the last group
-    if current_group:
-        merged_block = merge_blocks(current_group)
-        if merged_block:
-            merged_blocks.append(merged_block)
-    
-    return blocks
-            
-    merged_blocks.append(current_block)
-    
-    return merged_blocks
+
+    def check_coords_within_boundary(coords, boundary, horizontal_threshold=0.2, vertical_threshold=0.3):
+        x0, y0, x1, y1 = coords
+        bx0, by0, bx1, by1 = boundary
+        width = bx1 - bx0
+        height = by1 - by0
+        x_within = (x0 > bx0 - horizontal_threshold * width) and (x1 < bx1 + horizontal_threshold * width)
+        y_within = (y0 > by0 - vertical_threshold * height) and (y1 < by1 + vertical_threshold * height)
+        return x_within and y_within
+
+    grouped = []
+    tmp = None
+    tmp_bbox = None
+    for block in merged_blocks:
+        if block.get('element_type') == 'list_item':
+            if tmp is None:
+                tmp = block.copy()
+                tmp_bbox = list(block['bbox'])
+            else:
+                coords = block['bbox']
+                if check_coords_within_boundary(coords, tmp_bbox, horizontal_threshold=0.08, vertical_threshold=0.12):
+                    tmp['text'] = tmp['text'] + ' ' + block['text']
+                    tmp_bbox = (
+                        min(tmp_bbox[0], coords[0]),
+                        min(tmp_bbox[1], coords[1]),
+                        max(tmp_bbox[2], coords[2]),
+                        max(tmp_bbox[3], coords[3])
+                    )
+                    tmp['bbox'] = tmp_bbox
+                else:
+                    grouped.append(tmp)
+                    tmp = block.copy()
+                    tmp_bbox = list(block['bbox'])
+        else:
+            if tmp is not None:
+                grouped.append(tmp)
+                tmp = None
+                tmp_bbox = None
+            grouped.append(block)
+    if tmp is not None:
+        grouped.append(tmp)
+
+    def iou(a, b):
+        ax0, ay0, ax1, ay1 = a
+        bx0, by0, bx1, by1 = b
+        ix0 = max(ax0, bx0)
+        iy0 = max(ay0, by0)
+        ix1 = min(ax1, bx1)
+        iy1 = min(ay1, by1)
+        inter_area = max(0, ix1 - ix0) * max(0, iy1 - iy0)
+        a_area = (ax1 - ax0) * (ay1 - ay0)
+        b_area = (bx1 - bx0) * (by1 - by0)
+        union_area = a_area + b_area - inter_area
+        return inter_area / (union_area + 1e-8), inter_area / (a_area + 1e-8), a_area, b_area
+
+    filtered = []
+    for i, a in enumerate(grouped):
+        if a.get('element_type') != 'list_item':
+            filtered.append(a)
+            continue
+        keep = True
+        for j, b in enumerate(grouped):
+            if i != j and b.get('element_type') == 'list_item':
+                iou_val, overlap_a, area_a, area_b = iou(a['bbox'], b['bbox'])
+                if overlap_a > 0.92 and area_a < area_b * 0.9:
+                    keep = False
+                    break
+        if keep:
+            filtered.append(a)
+    seen = set()
+    deduped = []
+    for block in filtered:
+        key = (block.get('element_type'), tuple(block.get('bbox', [])), block.get('text', ''))
+        if key not in seen:
+            seen.add(key)
+            deduped.append(block)
+    def area(b):
+        return max(0, b[2] - b[0]) * max(0, b[3] - b[1])
+    def overlap_ratio(a, b):
+        ax0, ay0, ax1, ay1 = a
+        bx0, by0, bx1, by1 = b
+        ix0 = max(ax0, bx0)
+        iy0 = max(ay0, by0)
+        ix1 = min(ax1, bx1)
+        iy1 = min(ay1, by1)
+        inter_area = max(0, ix1 - ix0) * max(0, iy1 - iy0)
+        area_a = area(a)
+        area_b = area(b)
+        return inter_area / (area_a + 1e-8), inter_area / (area_b + 1e-8)
+    merged = [False] * len(deduped)
+    results = []
+    for i, a in enumerate(deduped):
+        if merged[i]:
+            continue
+        a_bbox = a.get('bbox', [])
+        a_text = a.get('text', '')
+        a_type = a.get('element_type')
+        out_bbox = list(a_bbox)
+        out_text = a_text
+        for j, b in enumerate(deduped):
+            if i != j and not merged[j]:
+                b_bbox = b.get('bbox', [])
+                b_text = b.get('text', '')
+                b_type = b.get('element_type')
+                r1, r2 = overlap_ratio(a_bbox, b_bbox)
+                if (r1 > 0.8 or r2 > 0.8):
+                    out_bbox = [min(out_bbox[0], b_bbox[0]), min(out_bbox[1], b_bbox[1]), max(out_bbox[2], b_bbox[2]), max(out_bbox[3], b_bbox[3])]
+                    out_text = out_text + ' ' + b_text if b_bbox[0] >= out_bbox[0] else b_text + ' ' + out_text
+                    merged[j] = True
+        merged[i] = True
+        merged_block = a.copy()
+        merged_block['bbox'] = tuple(out_bbox)
+        merged_block['text'] = out_text
+        results.append(merged_block)
+    return results
 
 def should_merge_blocks(block1: Dict[str, Any], block2: Dict[str, Any]) -> bool:
     # Get style information

@@ -44,11 +44,15 @@ def classify_element(text: str, bbox: Tuple[float, float, float, float], style_i
     element_type = ElementType.NARRATIVE_TEXT
     
     # 1. Check for list items (high priority)
-    if is_list_item(text):
+    import re
+    section_title_pat = r"^\d+(?:\.\d+)*[\s\-:]+[A-Za-z]"
+    bullet_pat = r"^(\s*[\u2022\u2023\u25E6\u2043\u2219\*-]|\d+\.|[a-zA-Z]\))\s+"
+    if re.match(section_title_pat, text.strip()):
+        element_type = ElementType.TITLE
+        metadata.confidence = 0.97
+    elif is_list_item(text) and not re.match(section_title_pat, text.strip()):
         element_type = ElementType.LIST_ITEM
         metadata.confidence = 0.9
-        
-    # 2. Check for titles
     elif not element_type == ElementType.LIST_ITEM:
         is_title, confidence = is_possible_title(text, style_info)
         if is_title:
