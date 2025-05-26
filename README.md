@@ -1,4 +1,5 @@
-# PDF Processor
+# Partitioner
+
 
 A Python library for extracting and classifying text elements from PDF documents. The processor uses advanced heuristics and machine learning techniques to identify different types of text elements such as titles, list items, headers, footers, and more.
 
@@ -25,7 +26,7 @@ A Python library for extracting and classifying text elements from PDF documents
 1. Clone this repository:
 ```bash
 git clone https://github.com/yourusername/pdf-processor.git
-cd pdf-processor
+cd Partitioner
 ```
 
 2. Install dependencies:
