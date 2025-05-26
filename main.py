@@ -1,7 +1,11 @@
 import argparse
 import json
+import os
+import fitz  # PyMuPDF
+import matplotlib.pyplot as plt
 from pathlib import Path
-from typing import Dict, Any
+from typing import Dict, Any, List, Tuple
+from dataclasses import dataclass
 
 from processor import process_pdf
 from utils import save_json, load_json, setup_logger
@@ -43,6 +47,12 @@ def parse_args() -> argparse.Namespace:
         action="store_true"
     )
     
+    parser.add_argument(
+        "--visualize",
+        help="Generate visualization of the PDF with element bounding boxes",
+        action="store_true"
+    )
+    
     return parser.parse_args()
 
 def load_config(config_path: str) -> Dict[str, Any]:
@@ -60,10 +70,97 @@ def load_config(config_path: str) -> Dict[str, Any]:
     
     return load_json(config_path)
 
+@dataclass
+class BoundingBox:
+    x0: float
+    y0: float
+    x1: float
+    y1: float
+    element_type: str
+    text: str
+    page_num: int
+    confidence: float
+
+def draw_bbox_on_pdf(pdf_path: str, elements: List[dict], output_dir: str) -> None:
+    """Draw bounding boxes directly on the original PDF pages."""
+    try:
+        # Open the original PDF
+        doc = fitz.open(pdf_path)
+        
+        # Create output directory if it doesn't exist
+        output_dir = Path(output_dir)
+        output_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Create output PDF path
+        output_pdf = output_dir / f"{Path(pdf_path).stem}_annotated.pdf"
+        
+        # Group elements by page
+        pages = {}
+        for elem in elements:
+            page_num = elem['page_number'] - 1  # Convert to 0-based index
+            if page_num not in pages:
+                pages[page_num] = []
+            pages[page_num].append(elem)
+        
+        # Process each page
+        for page_num, page_elems in pages.items():
+            if page_num >= len(doc):
+                continue
+                
+            page = doc[page_num]
+            
+            # Draw each bounding box on the original page
+            for elem in page_elems:
+                bbox = elem.get('bbox')
+                if not bbox or len(bbox) != 4:
+                    continue
+                
+                # Define colors based on element type (RGB format)
+                colors = {
+                    'TITLE': (1, 0, 0),      # Red
+                    'HEADING': (0, 1, 0),    # Green
+                    'LIST_ITEM': (0, 0, 1),  # Blue
+                    'NARRATIVE_TEXT': (0.5, 0, 0.5),  # Purple
+                    'FIGURE': (1, 0.5, 0),   # Orange
+                    'TABLE': (0, 0.5, 0.5),  # Teal
+                    'EQUATION': (1, 0, 1),   # Magenta
+                }
+                
+                color = colors.get(elem['element_type'], (0.5, 0.5, 0.5))  # Default gray
+                
+                # Draw the bounding box
+                rect = fitz.Rect(*bbox)
+                page.draw_rect(rect, color=color, width=1.5)
+                
+                # Add element type label
+                label = f"{elem['element_type']}"
+                if 'metadata' in elem and 'confidence' in elem['metadata']:
+                    label += f" ({elem['metadata']['confidence']:.2f})"
+                
+                # Add text annotation near the top-left corner of the box
+                page.insert_text(
+                    (bbox[0] + 2, bbox[1] - 2),
+                    label,
+                    fontsize=8,
+                    color=color
+                )
+        
+        # Save the annotated PDF
+        doc.save(output_pdf, deflate=True)
+        logger.info(f"Saved annotated PDF to {output_pdf}")
+        
+    except Exception as e:
+        logger.error(f"Error generating annotated PDF: {str(e)}")
+        raise
+    finally:
+        if 'doc' in locals():
+            doc.close()
+
 def process_single_pdf(
     pdf_path: str,
     output_dir: str,
-    config: Dict[str, Any]
+    config: Dict[str, Any],
+    visualize: bool = False
 ) -> None:
     """Process a single PDF file."""
     try:
@@ -95,6 +192,10 @@ def process_single_pdf(
         output_path = Path(output_dir) / f"{Path(pdf_path).stem}_elements.json"
         save_json(output, str(output_path))
         logger.info(f"Saved output to {output_path}")
+        
+        # Generate visualization if requested
+        if visualize:
+            draw_bbox_on_pdf(pdf_path, output['elements'], output_dir)
         
     except Exception as e:
         logger.error(f"Error processing {pdf_path}: {str(e)}")
@@ -128,11 +229,11 @@ def main() -> None:
         if input_path.suffix.lower() != '.pdf':
             logger.error(f"Input file is not a PDF: {input_path}")
             return
-        process_single_pdf(str(input_path), output_dir, config)
+        process_single_pdf(str(input_path), output_dir, config, visualize=args.visualize)
     else:
         # Process all PDFs in directory
         for pdf_path in input_path.glob('*.pdf'):
-            process_single_pdf(str(pdf_path), output_dir, config)
+            process_single_pdf(str(pdf_path), output_dir, config, visualize=args.visualize)
 
 if __name__ == "__main__":
     main()

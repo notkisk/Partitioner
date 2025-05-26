@@ -1,0 +1,2880 @@
+{
+  "source_file": "pdf_documents_fast\\demo2.pdf",
+  "elements": [
+    {
+      "text": "Disparity maps obtained using this simple strategy are often\ntoo noisy to be considered useable. To reduce the effects\nof noise and enforce spatial consistency of matches, local\nstereo algorithms consider arbitrarily shaped and sized support\nwindows centered at each pixel of the reference image, and",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        311.97300000000007,
+        668.505603,
+        563.0406000000003,
+        726.2896029999999
+      ],
+      "page_number": 1,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.963000000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "Stereo matching is the process of identifying correspon-\ndences between pixels in stereo images obtained using a\npair of synchronized cameras. These correspondences are\nconveniently represented using the notion of disparity, i.e. the\npositional offset between two matching pixels. It is assumed\nthat the stereo images are rectiﬁed, such that matching pixels\nare conﬁned within corresponding rows of the images and\nthus disparities are restricted to the horizontal dimension, as\nillustrated in Figure 1. For visualization purposes, disparities\nrecovered for every pixel of a reference image are stored\ntogether in the form of an image, which is known as the",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.95900000000004,
+        596.7746029999997,
+        300.02660000000014,
+        726.2896029999997
+      ],
+      "page_number": 1,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.963000000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "II. BACKGROUND",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        136.16800000000003,
+        581.2426029999997,
+        212.81594000000007,
+        591.2056029999997
+      ],
+      "page_number": 1,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.969999999999999,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "In contrast, local methods, which are typically built upon\nthe Winner-Takes-All (WTA) framework, have the property of\ncomputational regularity and are thus suitable for implemen-\ntation on parallel graphics hardware. Within the WTA frame-\nwork, local stereo algorithms consider a range of disparity\nhypotheses and compute a volume of pixel-wise dissimilarity\nmetrics between the reference image and the matched image at\nevery considered disparity value. Final disparities are chosen\nfrom the cost volume by traversing through its values and\nselecting the disparities associated with minimum matching\ncosts for every pixel of the reference image.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        311.97300000000007,
+        536.9496029999999,
+        563.0406000000003,
+        666.464603
+      ],
+      "page_number": 1,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.962999999999994,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "A method is proposed for real-time temporal stereo match-\ning that efﬁciently propagates matching cost information be-\ntween consecutive frames of a stereo video sequence. This\nmethod is invariant\nto the number of prior frames being\nconsidered, and can be easily incorporated into any local stereo\nmethod based on edge-aware ﬁlters. The iterative adaptive\nsupport matching algorithm presented in [3] serves as a\nfoundation for the proposed method.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.95900000000004,
+        478.2556029999997,
+        300.02660000000014,
+        571.9046029999997
+      ],
+      "page_number": 1,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.962999999999965,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "In their excellent [1], Scharstein and\ntaxonomy paper\nSzeliski classify stereo algorithms as local or global meth-\nods. Global methods, which offer outstanding accuracy, are\ntypically derived from an energy minimization framework\nthat allows for explicit integration of disparity smoothness\nconstraints and thus is capable of regularizing the solution\nin weakly textured areas. The minimization, however, is often\nachieved using iterative methods or graph cuts, which do not\nlend themselves well to parallel implementation.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        311.97300000000007,
+        429.303603,
+        563.0406000000003,
+        534.9086029999999
+      ],
+      "page_number": 1,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.962999999999965,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "Figure 1: Geometry of two horizontally aligned views where p\ndenotes a pixel in the reference frame, ¯p denotes its matching\npixel in the target frame, and dp denotes the disparity between\nthem along the horizontal dimension.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        311.973,
+        359.62375000000003,
+        563.0414430000001,
+        405.761603
+      ],
+      "page_number": 1,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.962999999999965,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "Modern stereo matching algorithms achieve excellent results\non static stereo images, as demonstrated by the Middlebury\nstereo performance benchmark [1], [2]. However, their ap-\nplication to stereo video sequences does not guarantee inter-\nframe consistency of matches extracted from subsequent stereo\nframe pairs. The lack of temporal consistency of matches\nbetween successive frames introduces spurious artifacts in the\nresulting disparity maps. The problem of obtaining temporally\nconsistent sequences of disparity maps from video streams is\nknown as the temporal stereo correspondence problem, yet\nthe amount of research efforts oriented towards ﬁnding an\neffective solution to this problem is surprisingly small.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.95900000000004,
+        334.7206029999998,
+        300.0266000000002,
+        476.19060299999967
+      ],
+      "page_number": 1,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.962999999999965,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "I. INTRODUCTION",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        135.61500000000004,
+        319.18860299999983,
+        213.36606000000006,
+        329.1516029999998
+      ],
+      "page_number": 1,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.970000000000027,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "Abstract—Stereo matching algorithms are nearly always de-\nsigned to ﬁnd matches between a single pair of images. A method\nis presented that was speciﬁcally designed to operate on sequences\nof images. This method considers the cost of matching image\npoints in both the spatial and temporal domain. To maintain\nreal-time operation, a temporal cost aggregation method is used\nto evaluate the likelihood of matches that is invariant with respect\nto the number of prior images being considered. This method\nhas been implemented on massively parallel GPU hardware,\nand the implementation ranks as one of the fastest and most\naccurate real-time stereo matching methods as measured by the\nMiddlebury stereo performance benchmark. Abstract—Stereo matching algorithms are nearly always de-\nsigned to ﬁnd matches between a single pair of images. A method\nis presented that was speciﬁcally designed to operate on sequences\nof images. This method considers the cost of matching image\npoints in both the spatial and temporal domain. To maintain\nreal-time operation, a temporal cost aggregation method is used\nto evaluate the likelihood of matches that is invariant with respect\nto the number of prior images being considered. This method\nhas been implemented on massively parallel GPU hardware,\nand the implementation ranks as one of the fastest and most\naccurate real-time stereo matching methods as measured by the\nMiddlebury stereo performance benchmark. disparity map. Note that individual disparities can be converted\nto actual depths if the geometry of the camera setup is\nknown, i.e., the stereo conﬁguration of cameras has been pre-\ncalibrated. disparity map. Note that individual disparities can be converted\nto actual depths if the geometry of the camera setup is\nknown, i.e., the stereo conﬁguration of cameras has been pre-\ncalibrated.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.959000000000024,
+        190.29860299999973,
+        563.0406000000003,
+        308.9248939999998
+      ],
+      "page_number": 1,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "OXBQDD+NimbusRomNo9L-Medi",
+          "font_size": 8.965999999999894,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "J˛edrzej Kowalczuk, Eric T. Psota, and Lance C. Pérez\nDepartment of Electrical Engineering, University of Nebraska-Lincoln\n[jkowalczuk2,epsota,lperez]@unl.edu",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        160.497,
+        129.5794790000001,
+        448.0192170000001,
+        164.69859000000008
+      ],
+      "page_number": 1,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.96300000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "Real-time Temporal Stereo Matching\nusing Iterative Adaptive Support Weights",
+      "element_type": "TITLE",
+      "bbox": [
+        103.895,
+        60.98971000000006,
+        508.09354999999994,
+        112.79471000000001
+      ],
+      "page_number": 1,
+      "metadata": {
+        "confidence": 0.5,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 23.909999999999968,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "This limits each of their magnitudes to at most τ , which pro-\nvides additional robustness to outliers. Rather than evaluating\nEquation (2) directly, real-time algorithms often approximate",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        311.97299999999996,
+        692.10675,
+        563.0406,
+        726.289603
+      ],
+      "page_number": 2,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.963000000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "c={r,g,b}",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        403.883,
+        677.252956,
+        437.5799732,
+        684.6175000000001
+      ],
+      "page_number": 2,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "SVPCHQ+CMMI7",
+          "font_size": 6.974000000000004,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "(3) (3) δ(q, ¯q) = δ(q, ¯q) = min( min( qc −\n| qc −\n| qc|\n¯ , τ ). qc|\n¯ , τ ).",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        364.009,
+        663.0317500000001,
+        563.0318579999999,
+        680.06848
+      ],
+      "page_number": 2,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.963000000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "(cid:88)",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        413.537,
+        657.0538,
+        427.92855349999996,
+        667.0168000000001
+      ],
+      "page_number": 2,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "CZEOJW+CMEX10",
+          "font_size": 9.962999999999994,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "where the pixel dissimilarity metric δ(q, ¯q) is chosen as the\nsum of truncated absolute color differences between pixels q\nand ¯q. Here, the truncation of color difference for the red,\ngreen, and blue components given by",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        311.973,
+        607.33675,
+        563.0453260000002,
+        653.474603
+      ],
+      "page_number": 2,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.962999999999994,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "q∈Ωp,¯q∈Ω ¯p",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        406.40000000000003,
+        591.543956,
+        446.92006860000004,
+        599.128314
+      ],
+      "page_number": 2,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "SVPCHQ+CMMI7",
+          "font_size": 6.974000000000018,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "Most recently, local stereo algorithms based on edge-aware\nﬁlters were extended to incorporate temporal evidence into\nthe matching process. The method of Richardt et al. [19]\nemploys a variant of the bilateral grid [20] implemented on\ngraphics hardware, which accelerates cost aggregation and\nallows for weighted propagation of pixel dissimilarity metrics\nfrom previous frames to the current one. Although this method\noutperforms the baseline frame-to-frame approach, the amount\nof hardware memory necessary to construct the bilateral grid\nlimits its application to single-channel, i.e., grayscale images\nonly. Hosni et al. [10], on the other hand, reformulated kernels\nof the guided image ﬁlter to operate on both spatial and",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.959,
+        584.8196030000005,
+        300.026853,
+        726.2896030000005
+      ],
+      "page_number": 2,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.963000000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "w(p, q)w(¯p, ¯q)",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        448.70700000000005,
+        577.78775,
+        507.49561070000004,
+        587.75075
+      ],
+      "page_number": 2,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "FLGMHU+CMMI10",
+          "font_size": 9.962999999999994,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "(2) (2) C(p, ¯p) = C(p, ¯p) =",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        348.59000000000003,
+        568.4227500000002,
+        563.031858,
+        578.694603
+      ],
+      "page_number": 2,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.962999999999994,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "q∈Ωp,¯q∈Ω ¯p\n(cid:88)",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        393.1040000000001,
+        563.4279560000001,
+        433.9195535,
+        581.7728
+      ],
+      "page_number": 2,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "SVPCHQ+CMMI7",
+          "font_size": 6.974000000000018,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "w(p, q)w(¯p, ¯q)δ(q, ¯q)",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        435.4110000000001,
+        549.6707500000002,
+        520.7916107000001,
+        559.6337500000002
+      ],
+      "page_number": 2,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "FLGMHU+CMMI10",
+          "font_size": 9.962999999999994,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "(cid:88)",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        406.2320000000001,
+        543.6938000000001,
+        420.62355350000007,
+        553.6568000000002
+      ],
+      "page_number": 2,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "CZEOJW+CMEX10",
+          "font_size": 9.962999999999994,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "To identify a match for the pixel of interest p, the real-time\niterative adaptive support-weight algorithm evaluates matching\ncosts between p and every match candidate ¯p\nSp, where Sp\ndenotes a set of matching candidates associated with pixel p.\nFor a pair of pixels p and ¯p, and their support windows Ωp\nand Ω ¯p, the initial matching cost is aggregated using",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        311.973,
+        469.3727500000001,
+        563.0406000000002,
+        539.8595000000001
+      ],
+      "page_number": 2,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.962999999999965,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "where ∆g(p, q) is the geometric distance, ∆c(p, q) is the color\ndifference between pixels p and q, and the coefﬁcients γg and\nγc regulate the strength of grouping by geometric distance and\ncolor similarity, respectively.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        311.97299999999996,
+        421.4427500000001,
+        563.0459260000001,
+        467.58060300000005
+      ],
+      "page_number": 2,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.962999999999965,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "(1) (1) w(p, q) = exp w(p, q) = exp",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        352.00900000000007,
+        397.0757500000011,
+        563.0318579999999,
+        407.34760300000005
+      ],
+      "page_number": 2,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.962999999999965,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "∆g(p, q)\nγg ∆g(p, q)\nγg ∆c(p, q)\nγc ∆c(p, q)\nγc",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        427.8460000000001,
+        390.3357500000001,
+        511.69961070000005,
+        414.6195
+      ],
+      "page_number": 2,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "FLGMHU+CMMI10",
+          "font_size": 9.962999999999965,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "(cid:18)",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        411.5680000000001,
+        386.51580000000104,
+        418.9017643000001,
+        396.47880000000106
+      ],
+      "page_number": 2,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "CZEOJW+CMEX10",
+          "font_size": 9.963000000000022,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "(cid:19)\n,",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        512.895,
+        386.5158,
+        522.9957214,
+        407.03875000000005
+      ],
+      "page_number": 2,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "CZEOJW+CMEX10",
+          "font_size": 9.963000000000022,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "It has been demonstrated that the performance of stereo\nalgorithms designed to match a single pair of images can\nbe adapted to take advantage of the temporal dependencies\navailable in stereo video sequences. Early proposed solutions\nto temporal stereo matching attempted to average matching\ncosts across subsequent frames of a video sequence [13],\n[14]. Attempts have been made to integrate estimation of\nmotion ﬁelds (optical ﬂow) into temporal stereo matching. The\nmethods of [15] and [16] perform smoothing of disparities\nalong motion vectors recovered from the video sequence. The\nestimation of the motion ﬁeld, however, prevents real-time\nimplementation, since state-of-the-art optical ﬂow algorithms\ndo not, in general, approach real-time frame rates. In a related\napproach, Sizintsev and Wildes [17], [18] used steerable\nﬁlters to obtain descriptors characterizing motion of image\nfeatures in both space and time. Unlike traditional algorithms,\ntheir method performs matching on spatio-temporal motion\ndescriptors, rather than on pure pixel intensity values, which\nleads to improved temporal coherence of disparity maps at the\ncost of reduced accuracy at depth discontinuities.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.959,
+        345.7156030000006,
+        300.0266000000001,
+        582.8276030000004
+      ],
+      "page_number": 2,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.962999999999965,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "Humans group shapes by observing the geometric distance\nand color similarity of points in space. To mimic this vi-\nsual grouping, the adaptive support-weight stereo matching\nalgorithm [4] considers a support window Ωp centered at the\npixel of interest p, and assigns a support weight to each pixel\nq\nΩp. The support weight relating pixels p and q is given\nby",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        311.973,
+        308.56460300000117,
+        563.0420133000001,
+        390.2586030000011
+      ],
+      "page_number": 2,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.962999999999965,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "A. Two-Pass Spatial Cost Aggregation",
+      "element_type": "TITLE",
+      "bbox": [
+        311.973,
+        292.21185900000114,
+        469.219029,
+        302.17485900000116
+      ],
+      "page_number": 2,
+      "metadata": {
+        "confidence": 0.5,
+        "style_info": {
+          "font_name": "BENCCL+NimbusRomNo9L-ReguItal",
+          "font_size": 9.963000000000022,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "Recently, Rheman et al. [9], [10] have revisited the cost\naggregation step of stereo algorithms, and demonstrated that\ncost aggregation can be performed by ﬁltering of subsequent\nlayers of the initially computed matching cost volume. In par-\nticular, the edge-aware image ﬁlters, such as the bilateral ﬁlter\nof Tomasi and Manducci [11] or the guided ﬁlter of He [12],\nhave been rendered useful for the problem of matching cost\naggregation, enabling stereo algorithms to correctly recover\ndisparities along object boundaries. In fact, Yoon and Kweon’s\nadaptive support-weight cost aggregation scheme is equivalent\nto the application of the so-called joint bilateral ﬁlter to the\nlayers of the matching cost volume.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.959,
+        201.37685900000054,
+        300.02660000000014,
+        343.7236030000006
+      ],
+      "page_number": 2,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.96300000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "The proposed temporal stereo matching algorithm is an\nextension of the real-time iterative adaptive support-weight\nalgorithm described in [3]. In addition to real-time two-\npass aggregation of the cost values in the spatial domain,\nthe proposed algorithm enhances stereo matching on video\nsequences by aggregating costs along the time dimension.\nThe operation of the algorithm has been divided into four\nstages: 1) two-pass spatial cost aggregation, 2) temporal cost\naggregation, 3) disparity selection and conﬁdence assessment,\nand 4) iterative disparity reﬁnement. In the following, each of\nthese stages is described in detail.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        311.973,
+        153.92760300000077,
+        563.0406000000002,
+        283.44260300000116
+      ],
+      "page_number": 2,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.96300000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "III. METHOD",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        408.636,
+        138.17760300000077,
+        466.37098000000003,
+        148.14060300000085
+      ],
+      "page_number": 2,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.96300000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "temporal information, making it possible to process a temporal\ncollection of cost volumes. The ﬁltering operation was shown\nto preserve spatio-temporal edges present in the cost volumes,\nresulting in increased temporal consistency of disparity maps,\ngreater robustness to image noise, and more accurate behavior\naround object boundaries.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        311.973,
+        58.79160300000058,
+        563.0406000000003,
+        128.53060300000084
+      ],
+      "page_number": 2,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.96300000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "(7)",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        288.4019999999999,
+        716.326603,
+        300.01885799999985,
+        726.289603
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.963000000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "otherwise otherwise 0, 0,",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        88.61999999999989,
+        704.95875,
+        266.70914399999987,
+        715.230603
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.963000000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "Fp =",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        55.468999999999994,
+        686.6587500000002,
+        76.99722139999999,
+        697.3685000000002
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "FLGMHU+CMMI10",
+          "font_size": 9.963000000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "| ≤",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        265.1919999999999,
+        686.55948,
+        278.4786567999999,
+        696.52248
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "WBEEEC+CMSY10",
+          "font_size": 9.963000000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "min\np∈Sp\\m(p)\n¯",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        121.02699999999999,
+        685.06475,
+        161.06180179999996,
+        701.390314
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "SVPCHQ+CMMI7",
+          "font_size": 6.974000000000004,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "1",
+      "element_type": "LIST_ITEM",
+      "bbox": [
+        281.2429999999999,
+        679.48575,
+        286.22449999999986,
+        689.44875
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.9,
+        "style_info": {
+          "font_name": "NGOCPQ+CMR10",
+          "font_size": 9.963000000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": "82732991f70f4664805bef04b85dea56"
+      }
+    },
+    {
+      "text": "min\np∈Sp\\m(p)\n¯",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        89.81499999999998,
+        666.5447500000001,
+        129.85080179999997,
+        682.8713140000001
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "SVPCHQ+CMMI7",
+          "font_size": 6.974000000000004,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "C(p, ¯p) C(p, ¯p) min\n−\np∈Sp\n¯\nC(p, ¯p) min\n−\np∈Sp\n¯\nC(p, ¯p) C(p, ¯p) dp − dp(cid:48) C(p, ¯p) dp − dp(cid:48)",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        121.58999999999999,
+        666.5447500000001,
+        264.1956209999999,
+        696.52248
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "FLGMHU+CMMI10",
+          "font_size": 9.963000000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "To asses the level of conﬁdence associated with selecting\nminimum cost matches, the algorithm determines another set\nof matches, this time from the target to reference image, and\nveriﬁes if the results agree. Given that ¯p = m(p), i.e. pixel ¯p\nin the right image is the match for pixel p in the left image,\nand p(cid:48) = m(¯p), the conﬁdence measure Fp is computed as",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.95899999999994,
+        582.7726030000001,
+        300.8324999999999,
+        652.9495000000002
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.962999999999994,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "p∈Sp\n¯",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        164.54799999999997,
+        569.719956,
+        182.60044569999997,
+        577.3033140000001
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "SVPCHQ+CMMI7",
+          "font_size": 6.974000000000018,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "(6) (6) m(p) = argmin m(p) = argmin C(p, ¯p) . C(p, ¯p) .",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        123.79699999999998,
+        559.50575,
+        300.0188579999999,
+        569.777603
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.962999999999994,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "To evaluate the performance of temporal aggregation, a\nnew synthetic stereo video sequence is introduced along with\ncorresponding disparity maps, occlusion maps, and disconti-\nnuity maps for evaluating the performance of temporal stereo\nmatching algorithms. To create the video sequence, a complex\nscene was constructed using Google Sketchup and a pair\nof animated paths were rendered photorealistically using the\nKerkythea rendering software. Realistic material properties\nwere used to give surfaces a natural-looking appearance by\nadjusting their specularity, reﬂectance, and diffusion. The\nvideo sequence has a resolution of 640\n480 pixels, a\nframe rate of 30 frames per second, and a duration of 4\nseconds. In addition to performing photorealistic rendering,\ndepth renders of both video sequences were also generated and\nconverted to ground truth disparity for the stereo video. The\nvideo sequences and ground truth data have been made avail-\nat http://mc2.unl.edu/current-research\nable\n/image-processing/. Figure 2 shows two sample frames",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        311.9729999999998,
+        513.0886029999999,
+        563.0406,
+        726.289603
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.962999999999994,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "Having performed temporal cost aggregation, matches are\ndetermined using the Winner-Takes-All (WTA) match selec-\ntion criteria. The match for p, denoted as m(p), is the can-\nSp characterized by the minimum matching\ndidate pixel ¯p\ncost, and is given by",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.95899999999999,
+        494.82060300000006,
+        300.02660000000003,
+        552.604603
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.962999999999965,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "C. Disparity Selection and Conﬁdence Assessment",
+      "element_type": "TITLE",
+      "bbox": [
+        48.95899999999999,
+        479.189859,
+        256.33884500000005,
+        489.15285900000003
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.5,
+        "style_info": {
+          "font_name": "BENCCL+NimbusRomNo9L-ReguItal",
+          "font_size": 9.963000000000022,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "where γt regulates the strength of grouping by color similarity\nin the temporal dimension. The temporal adaptive weight has\nthe effect of preserving edges in the temporal domain, such\nthat when a pixel coordinate transitions from one side of an\nedge to another in subsequent frames, the auxiliary cost is\nassigned a small weight and the majority of the cost is derived\nfrom the current frame.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.958999999999975,
+        391.3807500000001,
+        300.0266000000001,
+        473.383603
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.962999999999965,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "(5) (5) wt(p, pt-1) = exp wt(p, pt-1) = exp",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        102.11599999999991,
+        369.94375,
+        300.01885799999997,
+        380.870694
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.962999999999965,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "∆c(p, pt-1)\nγt",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        191.20099999999988,
+        363.20375,
+        235.56461069999986,
+        387.4875
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "FLGMHU+CMMI10",
+          "font_size": 9.962999999999965,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "(cid:19) (cid:19) (cid:18) (cid:18)",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        174.9229999999999,
+        359.38379999999995,
+        244.0937643,
+        369.34680000000003
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "CZEOJW+CMEX10",
+          "font_size": 9.963000000000022,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "The speed and accuracy of real-time stereo matching al-\ngorithms are traditionally demonstrated using still-frame im-\nages from the Middlebury stereo benchmark [1], [2]. Still\nframes, however, are insufﬁcient for evaluating stereo match-\ning algorithms that incorporate frame-to-frame prediction to\nenhance matching accuracy. An alternative approach is to\nuse a stereo video sequence with a ground truth disparity\nfor each frame. Obtaining the ground truth disparity of real\nworld video sequences is a difﬁcult undertaking due to the\nhigh frame rate of video and limitations in depth sensing-\ntechnology. To address the need for stereo video with ground\ntruth disparities, ﬁve pairs of synthetic stereo video sequences\nof a computer-generated scene were given in [19]. While these\nvideos incorporate a sufﬁcient amount of movement variation,\nthey were generated from relatively simple models using low-\nresolution rendering, and they do not provide occlusion or\ndiscontinuity maps.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        311.9729999999998,
+        309.9406030000001,
+        563.0406,
+        511.18660299999993
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.962999999999965,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "IV. RESULTS",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        409.36299999999983,
+        294.9366030000001,
+        465.64550999999983,
+        304.89960300000007
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.970000000000027,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "·\n· ·\n· C(p, ¯p) C(p, ¯p) C(p, ¯p) + λ\nλ) + λ\n(1\nwhere the feedback coefﬁcient λ controls the amount of cost\nsmoothing and wt(p, pt-1) enforces color similarity in the\ntemporal domain. The temporal adaptive weight computed\nbetween the pixel of interest p in the current frame and pixel\npt-1, located at the same spatial coordinate in the prior frame,\nis given by C(p, ¯p) + λ\nλ) + λ\n(1\nwhere the feedback coefﬁcient λ controls the amount of cost\nsmoothing and wt(p, pt-1) enforces color similarity in the\ntemporal domain. The temporal adaptive weight computed\nbetween the pixel of interest p in the current frame and pixel\npt-1, located at the same spatial coordinate in the prior frame,\nis given by (1 (1 λ) λ)",
+      "element_type": "LIST_ITEM",
+      "bbox": [
+        48.95899999999992,
+        260.14675000000045,
+        300.02660000000003,
+        358.395603
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.9,
+        "style_info": {
+          "font_name": "WBEEEC+CMSY10",
+          "font_size": 9.962999999999965,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": "919662ea90bc419791ebd2162914f3e9"
+      }
+    },
+    {
+      "text": ", (4) Once aggregated costs C(p, ¯p) have been computed for all\npixels p in the reference image and their respective matching\ncandidates ¯p in the target\nimage, a single-pass temporal\naggregation routine is exectuted. At each time instance, the\nalgorithm stores an auxiliary cost Ca(p, ¯p) which holds a\nweighted summation of costs obtained in the previous frames.\nDuring temporal aggregation, the auxiliary cost is merged with\nthe cost obtained from the current frame using\nwt(p, pt-1)\nwt(p, pt-1)",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.958999999999946,
+        161.6137500000002,
+        300.02991199999997,
+        284.646694
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.96300000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "Ca(p, ¯p)",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        244.4759999999999,
+        260.14675000000045,
+        278.61799599999995,
+        270.85650000000055
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "FLGMHU+CMMI10",
+          "font_size": 9.96300000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "and the matches are reselected using the WTA match selection\ncriteria. The resulting disparity maps are then post-processed\nusing a combination of median ﬁltering and occlusion ﬁlling.\nFinally, the current cost becomes the auxiliary cost for the next\npair of frames in the video sequence, i.e., Ca(p, ¯p)\nC(p, ¯p)\nfor all pixels p in the and their matching candidates ¯p.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        311.97299999999984,
+        217.02060299999994,
+        563.0406,
+        286.7596030000001
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.96300000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "(9) (9) C i(p, ¯p) = C 0(p, ¯p) + Λi(p, ¯p) , C i(p, ¯p) = C 0(p, ¯p) + Λi(p, ¯p) ,",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        372.41199999999986,
+        196.16895599999998,
+        563.0318579999999,
+        208.70360300000004
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.96300000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "where the value of α is chosen empirically. Next, the penalty\nvalues are incorporated into the matching cost as",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        311.97299999999984,
+        168.19574999999998,
+        563.0347489999998,
+        190.42360300000007
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.96300000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "q∈Ωp",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        407.61599999999993,
+        154.00695600000017,
+        426.2584456999999,
+        161.59031400000015
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "SVPCHQ+CMMI7",
+          "font_size": 6.974000000000046,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "q q q − q − (8) dp dp Λi(p, ¯p) = α Λi(p, ¯p) = α O\nB. Temporal cost aggregation O\nB. Temporal cost aggregation O O",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.958999999999975,
+        137.2874800000003,
+        563.0318579999998,
+        157.28647999999998
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "SVPCHQ+CMMI7",
+          "font_size": 6.974000000000046,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "(8)",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        551.4149999999998,
+        140.55860299999995,
+        563.0318579999998,
+        150.52160300000003
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.96300000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "w(p, q)F i-1 w(p, q)F i-1 Di-1 Di-1 (cid:88) (cid:88)",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        409.99099999999993,
+        134.2728000000002,
+        499.8222627999999,
+        150.21275000000014
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "FLGMHU+CMMI10",
+          "font_size": 9.96300000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "(ω2) to the matching cost by performing two-pass aggregation using\ntwo orthogonal 1D windows [5], [6], [8]. The two-pass method\nﬁrst aggregates matching costs in the vertical direction, and\nthen computes a weighted sum of the aggregated costs in the\nhorizontal direction. Given that support regions are of size\nω, the two-pass method reduces the complexity of cost\nω\n(ω).\naggregation from",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.958999999999996,
+        58.79160300000001,
+        300.0266000000001,
+        140.4856030000003
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "NGOCPQ+CMR10",
+          "font_size": 9.96300000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "Once the ﬁrst iteration of stereo matching is complete,\ndisparity estimates Di\np can be used to guide matching in\nsubsequent iterations. This is done by penalizing disparities\nthat deviate from their expected values. The penalty function\nis given by",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        311.9729999999999,
+        73.79560300000003,
+        563.0406,
+        131.57860300000027
+      ],
+      "page_number": 3,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.96300000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "of averaging out noise in the per-pixel costs by selecting\nmatches based more heavily upon the auxiliary cost, which\nis essentially a much more stable running average of the cost 20, and 20, and",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        181.87022140000005,
+        692.10675,
+        563.0406000000002,
+        726.289603
+      ],
+      "page_number": 4,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.963000000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "Signiﬁcant improvements in accuracy can be seen in Figure\n40. In this scenario,\n3 when the noise has ranges of\n±\nthe effect of noise in the current frame is reduced by increasing\nthe feedback coefﬁcient λ. This increasing of λ has the effect",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.960000000000036,
+        680.4606030000001,
+        300.0276000000001,
+        726.2886030000001
+      ],
+      "page_number": 4,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.963000000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "Figure 4: Optimal values of the feedback coefﬁcient λ cor-\nresponding to the smallest mean squared error (MSE) of the\ndisparity estimates for a range of noise strengths.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        311.973,
+        631.53775,
+        563.0406000000002,
+        665.719603
+      ],
+      "page_number": 4,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.962999999999994,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "Noise ±",
+      "element_type": "TITLE",
+      "bbox": [
+        428.951,
+        614.7531799999999,
+        456.92140800000004,
+        623.41657
+      ],
+      "page_number": 4,
+      "metadata": {
+        "confidence": 0.30000000000000004,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.969999999999999,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "0 0 10 10 20 20 30 30 40 40",
+      "element_type": "LIST_ITEM",
+      "bbox": [
+        349.852,
+        599.54218,
+        538.132889,
+        607.51218
+      ],
+      "page_number": 4,
+      "metadata": {
+        "confidence": 0.9,
+        "style_info": {
+          "font_name": "VXISTQ+CMR8",
+          "font_size": 7.969999999999999,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": "ad2d8bd6368048a48b0c02d2cfeaa2c1"
+      }
+    },
+    {
+      "text": "λ",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        314.63,
+        574.2141799999999,
+        319.56980599999997,
+        582.18418
+      ],
+      "page_number": 4,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "NDQRIC+CMMI8",
+          "font_size": 7.969999999999999,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "20, and 3 for uniform additive noise conﬁned to the ranges of The results of temporal stereo matching are given in Figure\n0,\n40. Each performance plot is given as a function\n±\nof the feedback coefﬁcient λ. As with the majority of temporal\nstereo matching methods, improvements are negligible when\nno noise is added to the images [10], [19]. This is largely due\nto the fact that the video used to evaluate these methods is\ncomputer generated with very little noise to start with, thus\nthe noise suppression achieved with temporal stereo matching\nshows little to no improvement over methods that operate on\npairs of images.",
+      "element_type": "LIST_ITEM",
+      "bbox": [
+        48.96000000000001,
+        549.3096029999999,
+        300.0289334,
+        678.824603
+      ],
+      "page_number": 4,
+      "metadata": {
+        "confidence": 0.9,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.962999999999994,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": "4e7d574af85742f3b3a7cf925cbb38c3"
+      }
+    },
+    {
+      "text": "1\n0.8\n0.6\n0.4\n0.2\n0",
+      "element_type": "LIST_ITEM",
+      "bbox": [
+        338.29299999999995,
+        553.9111800000001,
+        349.11386899999997,
+        602.08818
+      ],
+      "page_number": 4,
+      "metadata": {
+        "confidence": 0.9,
+        "style_info": {
+          "font_name": "VXISTQ+CMR8",
+          "font_size": 7.969999999999999,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": "288ae6a6410c485ba90f76dfe059d066"
+      }
+    },
+    {
+      "text": "1 To enable propagation of disparity information in the iterative\nreﬁnement stage, the values of γc and γg were set to 0.09 and\n0.01, respectively.",
+      "element_type": "TITLE",
+      "bbox": [
+        336.207,
+        507.04681800000003,
+        545.1746800000001,
+        534.3305700000001
+      ],
+      "page_number": 4,
+      "metadata": {
+        "confidence": 0.97,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.970000000000027,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "Figure 2: Two sample frames from the synthetic video se-\nquence (1st row), along with their corresponding ground truth\ndisparity (2nd row), occlusion map (3rd row), and discontinuity\nmap (4th row).",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.96000000000001,
+        490.00160300000005,
+        300.0276000000001,
+        535.8296029999999
+      ],
+      "page_number": 4,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.962999999999965,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "Frame 30",
+      "element_type": "TITLE",
+      "bbox": [
+        95.287,
+        476.175446,
+        130.29923,
+        485.14144600000003
+      ],
+      "page_number": 4,
+      "metadata": {
+        "confidence": 0.30000000000000004,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 8.966000000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "Frame 90",
+      "element_type": "TITLE",
+      "bbox": [
+        214.830678,
+        476.175446,
+        249.84290800000005,
+        485.14144600000003
+      ],
+      "page_number": 4,
+      "metadata": {
+        "confidence": 0.30000000000000004,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 8.966000000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "Symbol\nω\nτ\nγc\nγg\nλ\nγt\nk\nα Symbol\nω\nτ\nγc\nγg\nλ\nγt\nk\nα Description\nWindow size for cost aggregation\nColor difference truncation value\nStrength of grouping by color similarity 1\nStrength of grouping by proximity 1\nTemporal feedback coefﬁcient\nStrength of temporal grouping\nNumber of iterations in reﬁnement stage\nDisparity difference penalty Description\nWindow size for cost aggregation\nColor difference truncation value\nStrength of grouping by color similarity 1\nStrength of grouping by proximity 1\nTemporal feedback coefﬁcient\nStrength of temporal grouping\nNumber of iterations in reﬁnement stage\nDisparity difference penalty Value\n33\n40\n0.03\n0.03\nvaried\n0.01\n3\n0.08 Value\n33\n40\n0.03\n0.03\nvaried\n0.01\n3\n0.08",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        335.809,
+        420.49873,
+        539.1967800000001,
+        504.34257
+      ],
+      "page_number": 4,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "NDQRIC+CMMI8",
+          "font_size": 7.96999999999997,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "Table I: Parameters used in the evaluation of real-time tempo-\nral stereo matching.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        311.97400000000005,
+        385.467603,
+        563.0416,
+        407.38560299999995
+      ],
+      "page_number": 4,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.962999999999965,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "{± Figure 3: Performance of temporal matching at different levels\n. Mean\nof uniformly distributed image noise\nsquared error (MSE) of disparities is plotted versus the values\nof the feedback coefﬁcient λ. Dashed lines correspond to the\nvalues of MSE obtained without temporal aggregation.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        311.97399999999993,
+        312.943603,
+        563.0416,
+        370.72660299999995
+      ],
+      "page_number": 4,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "WBEEEC+CMSY10",
+          "font_size": 9.963000000000022,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "40 0, 40 0, 20, 20,",
+      "element_type": "LIST_ITEM",
+      "bbox": [
+        479.78872140000004,
+        324.58975000000004,
+        529.0482214000001,
+        334.55275
+      ],
+      "page_number": 4,
+      "metadata": {
+        "confidence": 0.9,
+        "style_info": {
+          "font_name": "NGOCPQ+CMR10",
+          "font_size": 9.962999999999965,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": "ada6c1c3bfb94168b7ceed34fc0a23f1"
+      }
+    },
+    {
+      "text": "λ",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        440.74,
+        296.68018,
+        445.679806,
+        304.65018
+      ],
+      "page_number": 4,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "NDQRIC+CMMI8",
+          "font_size": 7.96999999999997,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "0 0 0.2 0.2 0.4 0.4 0.6 0.6 0.8 0.8",
+      "element_type": "LIST_ITEM",
+      "bbox": [
+        350.124,
+        281.33818,
+        519.399627,
+        289.30818
+      ],
+      "page_number": 4,
+      "metadata": {
+        "confidence": 0.9,
+        "style_info": {
+          "font_name": "VXISTQ+CMR8",
+          "font_size": 7.96999999999997,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": "a939319b85ea46cf978ee4e20857d81d"
+      }
+    },
+    {
+      "text": "80\n60\n40\n20",
+      "element_type": "LIST_ITEM",
+      "bbox": [
+        340.91700000000003,
+        244.6451800000001,
+        349.38592200000005,
+        280.37017999999995
+      ],
+      "page_number": 4,
+      "metadata": {
+        "confidence": 0.9,
+        "style_info": {
+          "font_name": "VXISTQ+CMR8",
+          "font_size": 7.970000000000027,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": "42a2ff2a512f41a4877289c4855f58a8"
+      }
+    },
+    {
+      "text": "λ\nNoise: ±40",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        423.883,
+        212.76318000000003,
+        462.53733,
+        232.14356999999995
+      ],
+      "page_number": 4,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.969999999999914,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "0 0 0.2 0.2 0.4 0.4 0.6 0.6 0.8 0.8",
+      "element_type": "LIST_ITEM",
+      "bbox": [
+        350.124,
+        197.42118000000005,
+        519.399627,
+        205.39118000000008
+      ],
+      "page_number": 4,
+      "metadata": {
+        "confidence": 0.9,
+        "style_info": {
+          "font_name": "VXISTQ+CMR8",
+          "font_size": 7.970000000000027,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": "d547352893ae4c16bddee15234372d34"
+      }
+    },
+    {
+      "text": "3.5\n3\n2.5\n2",
+      "element_type": "LIST_ITEM",
+      "bbox": [
+        338.564,
+        152.9291800000002,
+        349.385461,
+        193.68918000000008
+      ],
+      "page_number": 4,
+      "metadata": {
+        "confidence": 0.9,
+        "style_info": {
+          "font_name": "VXISTQ+CMR8",
+          "font_size": 7.970000000000027,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": "cc049ab0d24542179e0f9a8477fa9e40"
+      }
+    },
+    {
+      "text": "λ\nNoise: ±20",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        423.883,
+        128.84217999999998,
+        462.53733,
+        148.2225699999999
+      ],
+      "page_number": 4,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.969999999999914,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "0 0 0.2 0.2 0.4 0.4 0.6 0.6 0.8 0.8",
+      "element_type": "LIST_ITEM",
+      "bbox": [
+        350.123,
+        113.50018,
+        519.398627,
+        121.47018000000003
+      ],
+      "page_number": 4,
+      "metadata": {
+        "confidence": 0.9,
+        "style_info": {
+          "font_name": "VXISTQ+CMR8",
+          "font_size": 7.970000000000027,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": "88ebc832a5bd44d7a36a2b8688aa6a84"
+      }
+    },
+    {
+      "text": "of the synthetic stereo scene from a single camera perspective,\nalong with the ground truth disparity, occlusion map, and\ndiscontinuity map.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.959,
+        58.79160300000001,
+        300.02660000000003,
+        92.66560300000015
+      ],
+      "page_number": 4,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.96300000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "Noise: ±0",
+      "element_type": "TITLE",
+      "bbox": [
+        426.0,
+        55.63617999999997,
+        460.419869,
+        64.2995699999999
+      ],
+      "page_number": 4,
+      "metadata": {
+        "confidence": 0.30000000000000004,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.969999999999914,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "[5] L. Wang, M. Liao, M. Gong, R. Yang, and D. Nister, “High-quality real-\ntime stereo using adaptive cost aggregation and dynamic programming,”\nin 3DPVT ’06: Proceedings of\nthe Third International Symposium\non 3D Data Processing, Visualization, and Transmission (3DPVT’06),\n(Washington, DC, USA), pp. 798–805, IEEE Computer Society, 2006.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        315.95799999999997,
+        681.8935700000001,
+        563.0290400000001,
+        725.72857
+      ],
+      "page_number": 5,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.969999999999999,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "The algorithm was implement using NVIDIA’s Compute\nUniﬁed Device Architecture (CUDA). The details of the im-\nplementation are similar to those given in [3]. When compared\nto other existing real-time stereo matching implementations,",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.959,
+        680.460603,
+        300.0266000000001,
+        726.289603
+      ],
+      "page_number": 5,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.963000000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "[4] K.-J. Yoon and I.-S. Kweon, “Locally adaptive support-weight approach\nfor visual correspondence search,” in CVPR ’05: Proceedings of the 2005\nIEEE Computer Society Conference on Computer Vision and Pattern\nRecognition (CVPR’05) - Volume 2, (Washington, DC, USA), pp. 924–\n931, IEEE Computer Society, 2005.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        315.95799999999997,
+        637.0615700000001,
+        563.0287300000003,
+        680.8975700000001
+      ],
+      "page_number": 5,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.969999999999999,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "[2] D. Scharstein and R. Szeliski, “High-accuracy stereo depth maps using\nstructured light,” in In IEEE Computer Society Conference on Computer\nVision and Pattern Recognition, vol. 1, pp. 195–202, June 2003.\n[3] J. Kowalczuk, E. Psota, and L. Perez, “Real-time stereo matching on\nCUDA using an iterative reﬁnement method for adaptive support-weight\ncorrespondences,” Circuits and Systems for Video Technology, IEEE\nTransactions on, vol. 23, pp. 94 –104, Jan. 2013.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        315.95799999999997,
+        574.29657,
+        563.0313600000001,
+        636.06557
+      ],
+      "page_number": 5,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.969999999999999,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "The optimal value of the feedback coefﬁcient is largely\ndependent on the noise being added to the image. Figure 4\n0\nshows the optimal values of λ for noise ranging between\n±\n40. As intuition would suggest, it is more beneﬁcial to\nto\nrely on the auxiliary cost when noise is high and it is more\nbeneﬁcial to rely on the current cost when noise is low. Figure\n5 illustrates the improvements that are achieved when applying\ntemporal stereo matching to a particular pair of frames in the\nsynthetic video sequence. Clearly, the noise in the disparity\nmap is drastically reduced when temporal stereo matching is\nused.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.958999999999996,
+        548.548603,
+        300.02660000000014,
+        678.0636030000001
+      ],
+      "page_number": 5,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.962999999999994,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "[1] D. Scharstein and R. Szeliski, “A taxonomy and evaluation of dense\ntwo-frame stereo correspondence algorithms,” International Journal of\nComputer Vision, vol. 47, pp. 7–42, April-June 2002.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        315.958,
+        547.3975699999999,
+        563.0282799999999,
+        573.3005699999999
+      ],
+      "page_number": 5,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.969999999999999,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "REFERENCES",
+      "element_type": "TITLE",
+      "bbox": [
+        409.607,
+        531.9636029999999,
+        465.40785000000005,
+        541.9266029999999
+      ],
+      "page_number": 5,
+      "metadata": {
+        "confidence": 0.6000000000000001,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.96999999999997,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "Figure 5: A comparison of stereo matching without temporal\ncost aggregation (top) and with temporal cost aggregation\n(bottom) for a single frame in the synthetic video sequence\n30 and the feedback coefﬁcient is λ = 0.8.\nwhere the noise is",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.959,
+        486.264603,
+        300.02660000000014,
+        532.0926029999999
+      ],
+      "page_number": 5,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.962999999999965,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "While the majority of stereo matching algorithms focus\non achieving high accuracy on still images, the volume of\nresearch aimed at recovery of temporally consistent disparity\nmaps remains disproportionally small. This paper introduces\nan efﬁcient temporal cost aggregation scheme that can easily\nbe combined with conventional spatial cost aggregation to\nimprove the accuracy of stereo matching when operating on\nvideo sequences. A synthetic video sequence, along with\nground truth disparity data, was generated to evaluate the\nperformance of the proposed method. It was shown that\ntemporal aggregation is signiﬁcantly more robust to noise than\na method that only considers the current stereo frames.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        311.973,
+        384.15760300000005,
+        563.0406000000002,
+        525.6276029999999
+      ],
+      "page_number": 5,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.962999999999965,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "V. CONCLUSION",
+      "element_type": "TITLE",
+      "bbox": [
+        401.75700000000006,
+        369.46060300000005,
+        473.2558700000001,
+        379.423603
+      ],
+      "page_number": 5,
+      "metadata": {
+        "confidence": 0.30000000000000004,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.970000000000027,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "the avgerage % of bad pixels.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        330.24500000000006,
+        338.81257,
+        428.23615000000007,
+        346.78257
+      ],
+      "page_number": 5,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.970000000000027,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "1 Millions of Disparity Estimates per Second.\n2 Assumes 320 × 240 images with 32 disparity levels.\n3 As measured by the Middlebury stereo performance benchmark using",
+      "element_type": "TITLE",
+      "bbox": [
+        324.666,
+        310.532818,
+        556.7125500000002,
+        337.81557000000004
+      ],
+      "page_number": 5,
+      "metadata": {
+        "confidence": 0.97,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.970000000000027,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "Method\nOur Method\nCostFilter [10]\nFastBilateral [7]\nRealtimeBFV [8]\nRealtimeBP [21]\nESAW [6]\nRealTimeGPU [5]\nDCBGrid [19] Method\nOur Method\nCostFilter [10]\nFastBilateral [7]\nRealtimeBFV [8]\nRealtimeBP [21]\nESAW [6]\nRealTimeGPU [5]\nDCBGrid [19] GPU\nGeForce GTX 680\nGeForce GTX 480\nTesla C2070\nGeForce 8800 GTX\nGeForce 7900 GTX\nGeForce 8800 GTX\nRadeon XL1800\nQuadro FX 5800 GPU\nGeForce GTX 680\nGeForce GTX 480\nTesla C2070\nGeForce 8800 GTX\nGeForce 7900 GTX\nGeForce 8800 GTX\nRadeon XL1800\nQuadro FX 5800 MDE/s1\n215.7\n57.9\n50.6\n114.3\n20.9\n194.8\n52.8\n25.1 MDE/s1\n215.7\n57.9\n50.6\n114.3\n20.9\n194.8\n52.8\n25.1 FPS2 Error3\n6.20\n90\n5.55\n24\n7.31\n21\n7.65\n46\n7.69\n8\n8.21\n79\n9.82\n21\n10.90\n10 FPS2 Error3\n6.20\n90\n5.55\n24\n7.31\n21\n7.65\n46\n7.69\n8\n8.21\n79\n9.82\n21\n10.90\n10",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        324.268,
+        221.56581800000004,
+        553.168,
+        307.82857
+      ],
+      "page_number": 5,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.969999999999914,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "Table II: A comparison of speed and accuracy for the imple-\nmentations of many leading real-time stereo matching meth-\nods.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        311.973,
+        174.79760300000032,
+        563.0406000000002,
+        208.67160300000046
+      ],
+      "page_number": 5,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.96300000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "over the most recent frames. By maintaining a reasonably\nhigh value of γt, the auxiliary cost also preserves temporal\nedges, essentially reducing over-smoothing of a pixel’s dis-\nparity when a pixel transitions from one depth to another in\nsubsequent frames.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.959,
+        58.79160300000001,
+        300.0300830000001,
+        116.57560300000023
+      ],
+      "page_number": 5,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 9.96300000000008,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "[21] Q. Yang, L. Wang, R. Yang, S. Wang, M. Liao, and D. Nistér, “Real-\ntime global stereo matching using hierarchical belief propagation.,” in\nBritish Machine Vision Conference, pp. 989–998, 2006.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.95999999999991,
+        571.30757,
+        300.0150000000002,
+        597.2105700000001
+      ],
+      "page_number": 6,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.969999999999999,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "[20] S. Paris and F. Durand, “A fast approximation of the bilateral ﬁlter using\na signal processing approach,” Int. J. Comput. Vision, vol. 81, pp. 24–52,\nJan. 2009.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.95999999999991,
+        544.40857,
+        300.01500000000027,
+        570.3115700000001
+      ],
+      "page_number": 6,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.969999999999999,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "[19] C. Richardt, D. Orr, I. Davies, A. Criminisi, and N. A. Dodgson,\n“Real-time spatiotemporal stereo matching using the dual-cross-bilateral\ngrid,” in Proceedings of the European Conference on Computer Vision\n(ECCV), Lecture Notes in Computer Science, pp. 510–523, September\n2010.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.959999999999894,
+        499.57657,
+        300.01500000000016,
+        543.41257
+      ],
+      "page_number": 6,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.970000000000027,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "[18] M. Sizintsev and R. Wildes, “Spatiotemporal stereo and scene ﬂow via\nstequel matching,” Pattern Analysis and Machine Intelligence, IEEE\nTransactions on, vol. 34, pp. 1206 –1219, june 2012.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.95999999999991,
+        472.67757,
+        300.0181199999999,
+        498.58057
+      ],
+      "page_number": 6,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.970000000000027,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "[17] M. Sizintsev and R. Wildes, “Spatiotemporal stereo via spatiotemporal\nquadric element (stequel) matching,” in Computer Vision and Pattern\nRecognition, 2009. CVPR 2009. IEEE Conference on, pp. 493 –500,\njune 2009.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.95999999999991,
+        436.81257,
+        300.0193399999999,
+        471.68157
+      ],
+      "page_number": 6,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.970000000000027,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "[16] M. Bleyer, M. Gelautz, C. Rother, and C. Rhemann, “A stereo approach\nthat handles the matting problem via image warping,” in Computer\nVision and Pattern Recognition, 2009. CVPR 2009. IEEE Conference\non, pp. 501 –508, June 2009.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.95999999999992,
+        400.94657,
+        300.0179999999999,
+        435.81557000000004
+      ],
+      "page_number": 6,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.970000000000027,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "[15] E. Larsen, P. Mordohai, M. Pollefeys, and H. Fuchs, “Temporally\nconsistent reconstruction from multiple video streams using enhanced\nbelief propagation,” in Computer Vision, 2007. ICCV 2007. IEEE 11th\nInternational Conference on, pp. 1 –8, oct. 2007.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.95999999999994,
+        365.08157,
+        300.01829,
+        399.95057
+      ],
+      "page_number": 6,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.970000000000027,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "[13] L. Zhang, B. Curless, and S. M. Seitz, “Spacetime stereo: Shape\nrecovery for dynamic scenes,” in IEEE Computer Society Conference\non Computer Vision and Pattern Recognition, pp. 367–374, June 2003.\n[14] J. Davis, D. Nehab, R. Ramamoorthi, and S. Rusinkiewicz, “Spacetime\nstereo: a unifying framework for depth from triangulation,” Pattern\nAnalysis and Machine Intelligence, IEEE Transactions on, vol. 27,\npp. 296 –302, February 2005.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.95999999999995,
+        302.31657,
+        300.01839999999993,
+        364.08457000000004
+      ],
+      "page_number": 6,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.970000000000027,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "[12] K. He, J. Sun, and X. Tang, “Guided image ﬁltering,” in Computer\nVision – ECCV 2010, vol. 6311 of Lecture Notes in Computer Science,\npp. 1–14, Springer Berlin / Heidelberg, 2010.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.959999999999965,
+        274.71621000000005,
+        300.018,
+        301.32057000000003
+      ],
+      "page_number": 6,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BENCCL+NimbusRomNo9L-ReguItal",
+          "font_size": 7.96999999999997,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "[11] C. Tomasi and R. Manduchi, “Bilateral ﬁltering for gray and color\nimages,” in Computer Vision, 1998. Sixth International Conference on,\npp. 839 –846, jan 1998.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.959999999999965,
+        248.51857000000007,
+        300.0150000000002,
+        274.42157
+      ],
+      "page_number": 6,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.969999999999914,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "[10] A. Hosni, C. Rhemann, M. Bleyer, and M. Gelautz, “Temporally con-\nsistent disparity and optical ﬂow via efﬁcient spatio-temporal ﬁltering,”\nin Advances in Image and Video Technology (Y.-S. Ho, ed.), vol. 7087\nof Lecture Notes in Computer Science, pp. 165–177, Springer Berlin /\nHeidelberg, 2012.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        48.959999999999965,
+        203.68657000000007,
+        300.01860999999997,
+        247.52256999999997
+      ],
+      "page_number": 6,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.969999999999914,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "[9] C. Rhemann, A. Hosni, M. Bleyer, C. Rother, and M. Gelautz, “Fast cost-\nvolume ﬁltering for visual correspondence and beyond,” in Computer\nVision and Pattern Recognition (CVPR), 2011 IEEE Conference on,\npp. 3017 –3024, June 2011.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        52.94499999999998,
+        167.82157000000007,
+        300.018,
+        202.69056999999998
+      ],
+      "page_number": 6,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.969999999999914,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "[8] K. Zhang, J. Lu, Q. Yang, G. Lafruit, R. Lauwereins, and L. Van Gool,\n“Real-time and accurate stereo: A scalable approach with bitwise fast\nvoting on CUDA,” Circuits and Systems for Video Technology, IEEE\nTransactions on, vol. 21, pp. 867 –878, July 2011.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        52.94499999999999,
+        131.95557000000008,
+        300.016,
+        166.82457
+      ],
+      "page_number": 6,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.969999999999914,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "[7] S. Mattoccia, M. Viti, and F. Ries, “Near real-time fast bilateral stereo\non the GPU,” in Computer Vision and Pattern Recognition Workshops\n(CVPRW), 2011 IEEE Computer Society Conference on, pp. 136 –143,\nJune 2011.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        52.94499999999999,
+        96.09057000000007,
+        300.01722000000007,
+        130.95956999999999
+      ],
+      "page_number": 6,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.969999999999914,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    },
+    {
+      "text": "[6] W. Yu, T. Chen, F. Franchetti, and J. C. Hoe, “High performance stereo\nvision designed for massively data parallel platforms,” Circuits and\nSystems for Video Technology, IEEE Transactions on, vol. 20, pp. 1509\n–1519, November 2010.",
+      "element_type": "NARRATIVE_TEXT",
+      "bbox": [
+        52.945,
+        60.224570000000085,
+        300.01500000000016,
+        95.09357
+      ],
+      "page_number": 6,
+      "metadata": {
+        "confidence": 0.0,
+        "style_info": {
+          "font_name": "BWWEYN+NimbusRomNo9L-Regu",
+          "font_size": 7.969999999999914,
+          "is_bold": false,
+          "is_italic": false,
+          "is_monospace": false,
+          "median_font_size": 9.962999999999965
+        },
+        "list_group_id": null
+      }
+    }
+  ]
+}
