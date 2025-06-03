@@ -1,0 +1,266 @@
+[
+  {
+    "text": "market, and objective?",
+    "element_type": "TEXT",
+    "bbox": [
+      113.25,
+      699.9447053554785,
+      223.8471297540381,
+      710.9447056054786
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'BAAAAA+ArialMT', 'font_size': 11.00000025, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'median_font_size': 11.00000025}, coordinates=CoordinatesMetadata(x0=113.25, y0=699.9447053554785, x1=223.8471297540381, y1=710.9447056054786, page_width=612.0, page_height=792.0, relative_x=0.18504901960784315, relative_y=0.8837685673680284, indent_ratio=0.18504901960784315), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "● Who should lead the development?\n● Step 1: Concept development\n● What is the product idea, target",
+    "element_type": "LIST_ITEM",
+    "bbox": [
+      95.25,
+      661.9979253554786,
+      285.5815774290381,
+      698.2957756054785
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'BAAAAA+ArialMT', 'font_size': 11.00000025, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'median_font_size': 11.00000025}, coordinates=CoordinatesMetadata(x0=95.25, y0=661.9979253554786, x1=285.5815774290381, y1=698.2957756054785, page_width=612.0, page_height=792.0, relative_x=0.1556372549019608, relative_y=0.8358559663579276, indent_ratio=0.1556372549019608), list_group_id='5e7223a1-b3c1-444e-9d5a-61a63fb9705e', confidence=0.9, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Market research and defining requirements\nCollaboration and initial planning\nEngaging stakeholders and recording\ninformation",
+    "element_type": "TITLE",
+    "bbox": [
+      77.25,
+      611.4022253554785,
+      286.824680775,
+      660.3489956054785
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'BAAAAA+ArialMT', 'font_size': 11.00000025, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'median_font_size': 11.00000025}, coordinates=CoordinatesMetadata(x0=77.25, y0=611.4022253554785, x1=286.824680775, y1=660.3489956054785, page_width=612.0, page_height=792.0, relative_x=0.12622549019607843, relative_y=0.7719725067619678, indent_ratio=0.12622549019607843), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Module Two: Initial Planning and Step 1:\nConcept Development\nThis module considers immediate actions\nfollowing a product idea, including market\nresearch, defining requirements, and initial\ncollaboration with stakeholders. It then looks\nat who should lead the development and\nwhat relevant information might need to be\ngathered as part of the process.",
+    "element_type": "TEXT",
+    "bbox": [
+      77.25,
+      484.91296535547855,
+      292.94338005,
+      597.1043656054785
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'BAAAAA+ArialMT', 'font_size': 11.00000025, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'median_font_size': 11.00000025}, coordinates=CoordinatesMetadata(x0=77.25, y0=484.91296535547855, x1=292.94338005, y1=597.1043656054785, page_width=612.0, page_height=792.0, relative_x=0.12622549019607843, relative_y=0.6122638451458062, indent_ratio=0.12622549019607843), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "● Determining root challenges: market factors",
+    "element_type": "LIST_ITEM",
+    "bbox": [
+      327.75,
+      448.3651153554785,
+      522.319550299458,
+      472.01403560547857
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'BAAAAA+ArialMT', 'font_size': 11.000000250000028, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'median_font_size': 11.00000025}, coordinates=CoordinatesMetadata(x0=327.75, y0=448.3651153554785, x1=522.319550299458, y1=472.01403560547857, page_width=612.0, page_height=792.0, relative_x=0.5355392156862745, relative_y=0.566117569893281, indent_ratio=0.5355392156862745), list_group_id='a330b1d9-0bd6-4a3a-8d9b-e3a505621986', confidence=0.9, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "and iterations",
+    "element_type": "TITLE",
+    "bbox": [
+      345.75,
+      435.7161853554785,
+      411.749969625,
+      446.71618560547853
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'BAAAAA+ArialMT', 'font_size': 11.000000250000028, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'median_font_size': 11.00000025}, coordinates=CoordinatesMetadata(x0=345.75, y0=435.7161853554785, x1=411.749969625, y1=446.71618560547853, page_width=612.0, page_height=792.0, relative_x=0.5649509803921569, relative_y=0.5501466986811597, indent_ratio=0.5649509803921569), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "● Timescales and conduct of development",
+    "element_type": "LIST_ITEM",
+    "bbox": [
+      95.25,
+      423.06725535547855,
+      243.596255749458,
+      446.71618560547853
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'BAAAAA+ArialMT', 'font_size': 11.000000250000028, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'median_font_size': 11.00000025}, coordinates=CoordinatesMetadata(x0=95.25, y0=423.06725535547855, x1=243.596255749458, y1=446.71618560547853, page_width=612.0, page_height=792.0, relative_x=0.1556372549019608, relative_y=0.5341758274690386, indent_ratio=0.1556372549019608), list_group_id='ca959850-b5a7-4a61-a096-bb293e060dc6', confidence=0.9, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "● Design thinking and innovation\n● Management of changes, feedback,",
+    "element_type": "LIST_ITEM",
+    "bbox": [
+      327.75,
+      410.4183353554785,
+      520.521513424458,
+      434.0672556054786
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'BAAAAA+ArialMT', 'font_size': 11.000000250000028, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'median_font_size': 11.00000025}, coordinates=CoordinatesMetadata(x0=327.75, y0=410.4183353554785, x1=520.521513424458, y1=434.0672556054786, page_width=612.0, page_height=792.0, relative_x=0.5355392156862745, relative_y=0.5182049688831799, indent_ratio=0.5355392156862745), list_group_id='d057d7ee-8137-40c6-aef2-8d1cb047906f', confidence=0.9, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "● Ensuring standards and efficiency in training development",
+    "element_type": "LIST_ITEM",
+    "bbox": [
+      95.25,
+      397.7694053554785,
+      381.8063585040381,
+      421.41833560547855
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'BAAAAA+ArialMT', 'font_size': 11.000000250000028, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'median_font_size': 11.00000025}, coordinates=CoordinatesMetadata(x0=95.25, y0=397.7694053554785, x1=381.8063585040381, y1=421.41833560547855, page_width=612.0, page_height=792.0, relative_x=0.1556372549019608, relative_y=0.5022340976710588, indent_ratio=0.1556372549019608), list_group_id='c646ece6-3e75-4c66-9eae-70b78a5e07bc', confidence=0.9, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "● Which products should be developed and tested? ● Which products should be developed and tested? ● The product development lifecycle\n● Collaboration, responsibilities, and ● The product development lifecycle\n● Collaboration, responsibilities, and",
+    "element_type": "LIST_ITEM",
+    "bbox": [
+      95.25,
+      372.47155535547853,
+      513.175880079038,
+      396.12048560547856
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'BAAAAA+ArialMT', 'font_size': 11.000000250000028, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'median_font_size': 11.00000025}, coordinates=CoordinatesMetadata(x0=95.25, y0=372.47155535547853, x1=513.175880079038, y1=396.12048560547856, page_width=612.0, page_height=792.0, relative_x=0.1556372549019608, relative_y=0.47029236787307893, indent_ratio=0.1556372549019608), list_group_id='6d7d583b-1d7c-4392-9b5a-72dfdc92d2e1', confidence=0.9, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "● Determining root challenges: organizational factors",
+    "element_type": "LIST_ITEM",
+    "bbox": [
+      327.75,
+      347.17370535547855,
+      485.67176794945806,
+      370.8226356054786
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'BAAAAA+ArialMT', 'font_size': 11.000000250000028, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'median_font_size': 11.00000025}, coordinates=CoordinatesMetadata(x0=327.75, y0=347.17370535547855, x1=485.67176794945806, y1=370.8226356054786, page_width=612.0, page_height=792.0, relative_x=0.5355392156862745, relative_y=0.43835063807509916, indent_ratio=0.5355392156862745), list_group_id='b3e25976-9a9a-4be6-b882-1164a4d8e2c2', confidence=0.9, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "● The importance and benefits of product development and quality\nassurance",
+    "element_type": "LIST_ITEM",
+    "bbox": [
+      95.25,
+      334.52477535547854,
+      272.1360984,
+      370.8226356054786
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'BAAAAA+ArialMT', 'font_size': 11.000000250000028, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'median_font_size': 11.00000025}, coordinates=CoordinatesMetadata(x0=95.25, y0=334.52477535547854, x1=272.1360984, y1=370.8226356054786, page_width=612.0, page_height=792.0, relative_x=0.1556372549019608, relative_y=0.42237976686297796, indent_ratio=0.1556372549019608), list_group_id='36833edc-0048-4da7-9dd1-58d4d455867c', confidence=0.9, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "● Underlying considerations: compliance and standards",
+    "element_type": "LIST_ITEM",
+    "bbox": [
+      327.75,
+      321.8758553554785,
+      533.941883829038,
+      345.52477560547857
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'BAAAAA+ArialMT', 'font_size': 11.000000250000028, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'median_font_size': 11.00000025}, coordinates=CoordinatesMetadata(x0=327.75, y0=321.8758553554785, x1=533.941883829038, y1=345.52477560547857, page_width=612.0, page_height=792.0, relative_x=0.5355392156862745, relative_y=0.40640890827711934, indent_ratio=0.5355392156862745), list_group_id='1f9b6fa7-eef8-491f-b0b4-7b66a01b5e01', confidence=0.9, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "● What is product development and\nquality assurance, and who is\ninvolved? ● What is product development and\nquality assurance, and who is\ninvolved? ● Underlying considerations: materials and manufacturing processes ● Underlying considerations: materials and manufacturing processes",
+    "element_type": "LIST_ITEM",
+    "bbox": [
+      95.25,
+      296.5780053554785,
+      522.93315585,
+      332.87585560547853
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'BAAAAA+ArialMT', 'font_size': 11.000000250000028, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'median_font_size': 11.00000025}, coordinates=CoordinatesMetadata(x0=95.25, y0=296.5780053554785, x1=522.93315585, y1=332.87585560547853, page_width=612.0, page_height=792.0, relative_x=0.1556372549019608, relative_y=0.3744671784791396, indent_ratio=0.1556372549019608), list_group_id='1e5c0288-2fc0-4ae8-82f4-8750106643ed', confidence=0.9, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "development?",
+    "element_type": "TEXT",
+    "bbox": [
+      113.25,
+      283.9290753554785,
+      182.3097574290381,
+      294.92907560547854
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'BAAAAA+ArialMT', 'font_size': 11.000000250000028, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'median_font_size': 11.00000025}, coordinates=CoordinatesMetadata(x0=113.25, y0=283.9290753554785, x1=182.3097574290381, y1=294.92907560547854, page_width=612.0, page_height=792.0, relative_x=0.18504901960784315, relative_y=0.3584963072670183, indent_ratio=0.18504901960784315), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "and user experience",
+    "element_type": "TITLE",
+    "bbox": [
+      345.75,
+      283.9290753554785,
+      445.36030970403806,
+      294.92907560547854
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'BAAAAA+ArialMT', 'font_size': 11.000000250000028, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'median_font_size': 11.00000025}, coordinates=CoordinatesMetadata(x0=345.75, y0=283.9290753554785, x1=445.36030970403806, y1=294.92907560547854, page_width=612.0, page_height=792.0, relative_x=0.5649509803921569, relative_y=0.3584963072670183, indent_ratio=0.5649509803921569), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "● What are product types?\n● What challenges may arise in",
+    "element_type": "LIST_ITEM",
+    "bbox": [
+      95.25,
+      258.6312253554785,
+      256.8290628540381,
+      282.28015560547846
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'BAAAAA+ArialMT', 'font_size': 11.000000250000028, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'median_font_size': 11.00000025}, coordinates=CoordinatesMetadata(x0=95.25, y0=258.6312253554785, x1=256.8290628540381, y1=282.28015560547846, page_width=612.0, page_height=792.0, relative_x=0.1556372549019608, relative_y=0.3265545774690385, indent_ratio=0.1556372549019608), list_group_id='fc629b18-67b4-4966-b093-30d84513845e', confidence=0.9, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "● The role of the design team\n● Determining the immediate and\nunderlying challenges of design\n● Underlying considerations: usability",
+    "element_type": "LIST_ITEM",
+    "bbox": [
+      327.75,
+      233.33337535547844,
+      518.0542991250001,
+      282.28015560547846
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'BAAAAA+ArialMT', 'font_size': 11.000000249999971, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'median_font_size': 11.00000025}, coordinates=CoordinatesMetadata(x0=327.75, y0=233.33337535547844, x1=518.0542991250001, y1=282.28015560547846, page_width=612.0, page_height=792.0, relative_x=0.5355392156862745, relative_y=0.2946128476710586, indent_ratio=0.5355392156862745), list_group_id='7fc98878-483a-422a-83b3-5473c09b421d', confidence=0.9, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "This module introduces the learner to the\nimportance and principles of product\ndevelopment and quality assurance, explores\nwhat kinds of products might be developed\nand tested, considers potential challenges\nand provides guidance on ensuring\nstandards and efficiency throughout the\ndevelopment process. It then introduces the\nfour steps of successful development. This module introduces the learner to the\nimportance and principles of product\ndevelopment and quality assurance, explores\nwhat kinds of products might be developed\nand tested, considers potential challenges\nand provides guidance on ensuring\nstandards and efficiency throughout the\ndevelopment process. It then introduces the\nfour steps of successful development. This module looks at the role of the design\nteam in detail and outlines an approach for\ncreating and testing prototypes based on the\nconcept developed in the previous step. It\nlooks at potential root challenges that may\narise during the design phase, as well as\nconsidering underlying considerations. This module looks at the role of the design\nteam in detail and outlines an approach for\ncreating and testing prototypes based on the\nconcept developed in the previous step. It\nlooks at potential root challenges that may\narise during the design phase, as well as\nconsidering underlying considerations.",
+    "element_type": "TEXT",
+    "bbox": [
+      77.25,
+      132.14196735547853,
+      526.694396004038,
+      244.3333756054784
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'BAAAAA+ArialMT', 'font_size': 11.000000249999971, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'median_font_size': 11.00000025}, coordinates=CoordinatesMetadata(x0=77.25, y0=132.14196735547853, x1=526.694396004038, y1=244.3333756054784, page_width=612.0, page_height=792.0, relative_x=0.12622549019607843, relative_y=0.16684591837812945, indent_ratio=0.12622549019607843), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Module One - Introduction to Product\nDevelopment and Quality Assurance",
+    "element_type": "TITLE",
+    "bbox": [
+      77.25,
+      94.19519035547842,
+      272.03652724325195,
+      117.84411560547846
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAA+Arial-BoldMT', 'font_size': 11.000000249999971, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'median_font_size': 11.00000025}, coordinates=CoordinatesMetadata(x0=77.25, y0=94.19519035547842, x1=272.03652724325195, y1=117.84411560547846, page_width=612.0, page_height=792.0, relative_x=0.12622549019607843, relative_y=0.11893332115590709, indent_ratio=0.12622549019607843), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "● Design considerations\n● Case study\n● Prototyping methodologies\n● Intellectual property considerations\n● Concept validation\n● Team collaboration and leadership\n● Budgeting and resource planning\n● Technology and tools selection",
+    "element_type": "LIST_ITEM",
+    "bbox": [
+      95.25,
+      104.9467773554785,
+      283.11755115,
+      204.48925560547843
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'BAAAAA+ArialMT', 'font_size': 11.000000249999971, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'median_font_size': 11.00000025}, coordinates=CoordinatesMetadata(x0=95.25, y0=104.9467773554785, x1=283.11755115, y1=204.48925560547843, page_width=612.0, page_height=792.0, relative_x=0.1556372549019608, relative_y=0.13250855726701832, indent_ratio=0.1556372549019608), list_group_id='04f733d9-6c51-4488-8d3c-88ede54e421d', confidence=0.9, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "● How will the product meet market needs?",
+    "element_type": "LIST_ITEM",
+    "bbox": [
+      95.25,
+      79.64892535547847,
+      275.75191279945807,
+      103.2978516054784
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'BAAAAA+ArialMT', 'font_size': 11.000000249999971, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'median_font_size': 11.00000025}, coordinates=CoordinatesMetadata(x0=95.25, y0=79.64892535547847, x1=275.75191279945807, y1=103.2978516054784, page_width=612.0, page_height=792.0, relative_x=0.1556372549019608, relative_y=0.10056682494378595, indent_ratio=0.1556372549019608), list_group_id='4dfe8452-f33a-445a-aafc-8309c7502dac', confidence=0.9, cross_page_refs=[], page_number=None)"
+  }
+]

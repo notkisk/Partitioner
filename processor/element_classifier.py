@@ -1,3 +1,4 @@
+import re
 from typing import Dict, Any, List, Tuple
 from .data_models import Element, ElementType, ElementMetadata, CoordinatesMetadata
 from .text_analysis import (
@@ -7,10 +8,22 @@ from .text_analysis import (
     is_header_footer,
     is_footnote,
     is_contact_info,
+    is_page_number,
+    is_footer,
     get_text_stats
 )
+from .caption_detector import is_likely_caption
 
-def classify_element(text: str, bbox: Tuple[float, float, float, float], style_info: Dict[str, Any], page_info: Dict[str, float], page_number: int, context: Dict[str, Any]) -> Element:
+def classify_element(
+    text: str, 
+    bbox: Tuple[float, float, float, float], 
+    style_info: Dict[str, Any], 
+    page_info: Dict[str, float], 
+    page_number: int, 
+    context: Dict[str, Any],
+    elements_before: List[Dict] = None,
+    elements_after: List[Dict] = None
+) -> Element:
     """Classify a text block into its appropriate element type.
     
     Args:
@@ -40,58 +53,174 @@ def classify_element(text: str, bbox: Tuple[float, float, float, float], style_i
     # Prepare style info with median font size
     style_info['median_font_size'] = context.get('median_font_size', 12)
     
-    # Start classification process
-    element_type = ElementType.NARRATIVE_TEXT
+    # Start classification process with default values
+    element_type = ElementType.TEXT
+    confidence = 0.7  # Default confidence for regular text
     
-    # 1. Check for list items (high priority)
-    import re
-    section_title_pat = r"^\d+(?:\.\d+)*[\s\-:]+[A-Za-z]"
-    bullet_pat = r"^(\s*[\u2022\u2023\u25E6\u2043\u2219\*-]|\d+\.|[a-zA-Z]\))\s+"
-    if re.match(section_title_pat, text.strip()):
-        element_type = ElementType.TITLE
-        metadata.confidence = 0.97
-    elif is_list_item(text) and not re.match(section_title_pat, text.strip()):
-        element_type = ElementType.LIST_ITEM
-        metadata.confidence = 0.9
-    elif not element_type == ElementType.LIST_ITEM:
-        is_title, confidence = is_possible_title(text, style_info)
-        if is_title:
+    # Clean and prepare text
+    text = text.strip()
+    if not text:
+        return Element(
+            text="",
+            element_type=ElementType.DISCARDED,
+            bbox=bbox,
+            page_number=page_number,
+            metadata=ElementMetadata(
+                style_info=style_info,
+                coordinates=coords,
+                confidence=1.0
+            )
+        )
+    
+    # Initialize variables
+    is_title, title_confidence = is_possible_title(text, style_info)
+    is_list = False  # Initialize is_list to avoid UnboundLocalError
+    
+    # 1. First check for section headers (highest priority)
+    if is_title and title_confidence > 0.6:  # Only consider high-confidence titles
+        # Check for section number patterns (e.g., "1.2.3 Section Title")
+        section_pattern = r'^(\d+(?:\.\d+)+)\s+[A-Z]'
+        if re.match(section_pattern, text):
             element_type = ElementType.TITLE
-            metadata.confidence = confidence
+            confidence = max(0.9, title_confidence)  # High confidence for section headers
     
-    # 3. Check for page numbers (high priority)
-    elif is_page_number(text):
-        if coords.relative_y > 0.85:
-            element_type = ElementType.PAGE_NUMBER
-            metadata.confidence = 0.98
-
-    # 4. Check for footers
-    elif is_footer(text) and coords.relative_y > 0.85:
-        element_type = ElementType.FOOTER
-        metadata.confidence = 0.9
-
-    # 5. Check for headers
-    elif is_header_footer(text) and coords.relative_y < 0.15:
-        element_type = ElementType.HEADER
-        metadata.confidence = 0.8
-
-    # 6. Check for footnotes
-    elif coords.relative_y < 0.15 and is_footnote(text):
-        element_type = ElementType.FOOTNOTE
-        metadata.confidence = 0.85
+    # 2. Check for list items (high priority, but lower than section headers)
+    if element_type != ElementType.TITLE:  # Only check for lists if not already identified as title
+        is_list = is_list_item(text)
+        if is_list:
+            element_type = ElementType.LIST_ITEM
+            confidence = 0.9
     
-    # 6. Check for contact information
+    # 3. Check for other types of titles (lower priority than list items)
+    if element_type == ElementType.TEXT and is_title and title_confidence > 0.4:
+        element_type = ElementType.TITLE
+        confidence = max(confidence, title_confidence)
+    
+    # 3. Check for block equations (medium priority)
+    # This is a simplified check - you might want to enhance this
+    if '=' in text and ('\\' in text or '$' in text):
+        element_type = ElementType.BLOCK_EQUATION
+        confidence = 0.9
+    
+    # 4. Check for captions (only if we have elements before to check against)
+    if not is_list and element_type == ElementType.TEXT and elements_before:
+        try:
+            # First check if this is likely a caption based on text patterns
+            is_caption, caption_confidence = is_likely_caption(
+                text, 
+                bbox, 
+                style_info, 
+                page_info, 
+                elements_before, 
+                elements_after or []
+            )
+            
+            if is_caption and caption_confidence > 0.6:  # Higher threshold to reduce false positives
+                is_image_caption = False
+                figure_found = False
+                
+                # Look at previous elements to find a potential figure/table
+                for i in range(1, min(5, len(elements_before) + 1)):  # Check up to 4 previous elements
+                    prev_element = elements_before[-i]
+                    prev_bbox = getattr(prev_element, 'bbox', None) or (prev_element.get('bbox') if isinstance(prev_element, dict) else None)
+                    if not prev_bbox or len(prev_bbox) < 4:
+                        continue
+                    
+                    # Skip text elements that are likely not figures
+                    if hasattr(prev_element, 'element_type') and 'text' in str(prev_element.element_type).lower():
+                        continue
+                        
+                    # Calculate element dimensions and position
+                    width = prev_bbox[2] - prev_bbox[0]
+                    height = prev_bbox[3] - prev_bbox[1]
+                    
+                    # Skip very small elements
+                    if width < 80 or height < 60:  # Increased minimum size
+                        continue
+                    
+                    # Check vertical gap (caption should be below figure)
+                    vertical_gap = bbox[1] - prev_bbox[3]
+                    if vertical_gap < 0 or vertical_gap > 60:  # Caption should be below with reasonable gap
+                        continue
+                    
+                    # Calculate horizontal overlap
+                    overlap_start = max(bbox[0], prev_bbox[0])
+                    overlap_end = min(bbox[2], prev_bbox[2])
+                    overlap_width = max(0, overlap_end - overlap_start)
+                    
+                    # Require significant horizontal overlap (60% of caption width)
+                    caption_width = bbox[2] - bbox[0]
+                    if caption_width > 0:
+                        overlap_pct = overlap_width / caption_width
+                        if overlap_pct < 0.6:  # Require at least 60% overlap
+                            continue
+                    
+                    # Check if the element above is figure-like
+                    prev_type = getattr(prev_element, 'element_type', None) or (prev_element.get('element_type') if isinstance(prev_element, dict) else None)
+                    
+                    # If we have a type, use it to determine if it's a figure/table
+                    if prev_type:
+                        prev_type_str = str(prev_type).lower()
+                        if any(t in prev_type_str for t in ['image', 'figure', 'table', 'chart']):
+                            is_image_caption = True
+                            figure_found = True
+                            break
+                    
+                    # If no type, check size and aspect ratio
+                    aspect_ratio = width / height if height > 0 else 0
+                    if 0.4 < aspect_ratio < 2.5:  # Reasonable aspect ratio for figures/tables
+                        is_image_caption = True
+                        figure_found = True
+                        break
+                
+                # Only classify as caption if we found a matching figure/table
+                if figure_found:
+                    if is_image_caption:
+                        element_type = ElementType.FIGURE_CAPTION
+                        confidence = min(0.95, caption_confidence * 1.1)  # Cap confidence
+                    else:
+                        element_type = ElementType.TABLE_CAPTION
+                        confidence = min(0.9, caption_confidence)
+                    
+                    # Return early if we're confident this is a caption
+                    if confidence > 0.75:
+                        return Element(
+                            text=text,
+                            element_type=element_type,
+                            bbox=bbox,
+                            page_number=page_number,
+                            metadata=ElementMetadata(
+                                style_info=style_info,
+                                coordinates=coords,
+                                confidence=confidence
+                            )
+                        )
+        except Exception as e:
+            import logging
+            logging.debug(f"Caption detection warning: {e}", exc_info=True)
+    
+    # 5. Check for page numbers (high confidence when detected)
+    if is_page_number(text) and coords.relative_y > 0.85:
+        element_type = ElementType.TEXT  # Page numbers are just regular text
+        confidence = 0.98
+    
+    # 6. Check for footers/headers (treated as regular text but with position info)
+    elif (is_footer(text) or is_header_footer(text)) and (coords.relative_y > 0.85 or coords.relative_y < 0.15):
+        element_type = ElementType.TEXT
+        confidence = 0.9
+    
+    # 7. Check for footnotes (treated as regular text)
+    elif is_footnote(text) and coords.relative_y < 0.15:
+        element_type = ElementType.TEXT
+        confidence = 0.9
+    
+    # 8. Check for contact information (treated as regular text)
     elif is_contact_info(text):
-        element_type = ElementType.CONTACT_INFO
-        metadata.confidence = 0.9
+        element_type = ElementType.TEXT
+        confidence = 0.9
     
-    # 7. Verify if narrative text
-    elif element_type == ElementType.NARRATIVE_TEXT:
-        if is_possible_narrative(text):
-            metadata.confidence = 0.7
-        else:
-            element_type = ElementType.UNKNOWN
-            metadata.confidence = 0.3
+    # Set the final confidence
+    metadata.confidence = confidence
     
     return Element(
         text=text,

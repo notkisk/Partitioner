@@ -86,6 +86,24 @@ IMAGE_URL_PATTERN = (
 NUMBERED_LIST_PATTERN = r"^\d+(\.|\))\s(.+)"
 NUMBERED_LIST_RE = re.compile(NUMBERED_LIST_PATTERN)
 
+# Caption patterns
+CAPTION_PATTERNS = [
+    r'^(?:Figure|Fig\.?|Table|Chart|Diagram|Image|Photo|Illustration|Fig\.?\s*\d+)[:.]?\s*',
+    r'^\s*\(?\s*(?:Figure|Fig\.?|Table|Chart|Diagram|Image|Photo|Illustration)\s*\d+\s*\)?\s*[:.-]?\s*',
+    r'^\s*\[?\s*(?:Figure|Fig\.?|Table|Chart|Diagram|Image|Photo|Illustration)\s*\d+\s*\]?\s*[:.-]?\s*',
+    r'^\s*\d+\s*[:.-]?\s*[A-Z]',  # Number followed by capital letter (e.g., "1. A diagram showing...")
+]
+
+# Compiled regex for caption patterns
+CAPTION_RE = [re.compile(pattern, re.IGNORECASE) for pattern in CAPTION_PATTERNS]
+
+# Common caption suffixes that might indicate the end of a caption
+CAPTION_END_PATTERNS = [
+    r'\s*[.?!]?\s*$',  # Ends with optional punctuation
+    r'\s*\[\d+\]\s*$',  # Ends with citation [1]
+    r'\s*\([^)]*\)\s*$',  # Ends with parenthetical note
+]
+
 TITLE_PATTERNS = [
     r"^(?:chapter|section|appendix)\s+\d+",
     r"^(?:table|figure|appendix)\s+\d+[-.:]\s*",

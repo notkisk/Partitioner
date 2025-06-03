@@ -101,16 +101,28 @@ def draw_element_boxes(pdf_path: str, output_path: str, elements: List[Dict[str,
     
     # Define colors for different element types (RGB format)
     colors = {
-        "TITLE": (1, 0, 0),        # Red
-        "HEADER": (0, 1, 0),       # Green
-        "FOOTER": (0, 0, 1),       # Blue
-        "PAGE_NUMBER": (1, 0.5, 0), # Orange
-        "LIST_ITEM": (0, 1, 1),    # Cyan
-        "NARRATIVE_TEXT": (0.5, 0, 0.5),  # Purple
-        "FOOTNOTE": (0.7, 0.3, 0.1),  # Brown
-        "TABLE": (0.5, 0.5, 0),    # Olive
-        "FIGURE": (0.8, 0, 0.8),   # Magenta
-        "CAPTION": (0, 0.5, 0.5)   # Teal
+        # Text elements
+        "TITLE": (102/255, 102/255, 255/255),       # Blue
+        "TEXT": (153/255, 0/255, 76/255),           # Dark Red / Maroon
+        "BLOCK_EQUATION": (0/255, 255/255, 0/255),  # Pure Green
+        
+        # List elements
+        "LIST_ITEM": (40/255, 169/255, 92/255),     # Dark Green
+        "LIST": (40/255, 169/255, 92/255),          # Dark Green (same as LIST_ITEM)
+        "INDEX": (40/255, 169/255, 92/255),         # Dark Green (same as LIST_ITEM)
+        
+        # Table elements (for future use)
+        "TABLE_BODY": (204/255, 204/255, 0/255),    # Yellow
+        "TABLE_CAPTION": (255/255, 255/255, 102/255), # Light Yellow
+        "TABLE_FOOTNOTE": (229/255, 255/255, 204/255), # Light Green
+        
+        # Image elements (for future use)
+        "IMAGE_BODY": (153/255, 255/255, 51/255),    # Bright Green
+        "IMAGE_CAPTION": (102/255, 178/255, 255/255), # Light Blue
+        "IMAGE_FOOTNOTE": (255/255, 178/255, 102/255), # Orange
+        
+        # Other
+        "DISCARDED": (158/255, 158/255, 158/255)    # Gray
     }
     
     # Process each page
@@ -125,11 +137,32 @@ def draw_element_boxes(pdf_path: str, output_path: str, elements: List[Dict[str,
         page_height = page.rect.height
         
         for element in page_elements:
-            # Extract coordinates - already in top-left origin format
-            x0, y0, x1, y1 = element["bbox"]
+            # Extract coordinates - handle both string and list/tuple formats
+            bbox = element["bbox"]
+            
+            # Convert string bbox to tuple if needed
+            if isinstance(bbox, str):
+                try:
+                    # Handle string format like "(x0, y0, x1, y1)"
+                    bbox = bbox.strip('()')
+                    bbox = [float(x.strip()) for x in bbox.split(',')]
+                except (ValueError, AttributeError) as e:
+                    print(f"Error parsing bbox '{bbox}': {e}")
+                    continue
+            
+            if not isinstance(bbox, (list, tuple)) or len(bbox) != 4:
+                print(f"Invalid bbox format: {bbox}")
+                continue
+                
+            try:
+                x0, y0, x1, y1 = [float(coord) for coord in bbox]
+            except (ValueError, TypeError) as e:
+                print(f"Error converting bbox coordinates to float: {e}")
+                continue
             
             # Get color for element type (black if type unknown)
-            color = colors.get(element["element_type"], (0, 0, 0))
+            element_type = element.get("element_type", "").replace("ElementType.", "")
+            color = colors.get(element_type, (0, 0, 0))
             
             # Draw rectangle
             rect = fitz.Rect(x0, y0, x1, y1)

@@ -1,0 +1,842 @@
+[
+  {
+    "text": "Jazz Pharmaceuticals [JAZZ]",
+    "element_type": "TITLE",
+    "bbox": [
+      33.0,
+      744.6,
+      158.37024,
+      755.64
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAC+Calibri', 'font_size': 11.04, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'char_count': 28, 'avg_char_width': 4.492491428571428, 'line_count': 1, 'text_density': 0.019507437920778102, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=33.0, y0=744.6, x1=158.37024, y1=755.64, page_width=612.0, page_height=792.0, relative_x=0.05392156862745098, relative_y=0.9401515151515152, indent_ratio=0.05392156862745098), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Number of shares (m) \n    63.3 \nBV / Share (US $) \n         19.73 \nNet Debt (US$ m) \n   893.5 \n  9.8 \nNet Debt / Total Cap. (%) \nSource: Company data, Goldman Stanley estimates. Number of shares (m) \n    63.3 \nBV / Share (US $) \n         19.73 \nNet Debt (US$ m) \n   893.5 \n  9.8 \nNet Debt / Total Cap. (%) \nSource: Company data, Goldman Stanley estimates. Enterprise Value (US$ m) \nMarket Cap (US$ m) Enterprise Value (US$ m) \nMarket Cap (US$ m) 9,089.5 \n8,196.0 9,089.5 \n8,196.0",
+    "element_type": "TEXT",
+    "bbox": [
+      227.04,
+      691.77,
+      559.914,
+      735.69
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAC+Calibri', 'font_size': 9.0, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'char_count': 171, 'avg_char_width': 3.4558533333333292, 'line_count': 9, 'text_density': 0.0244038318268687, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=227.04, y0=691.77, x1=559.914, y1=735.69, page_width=612.0, page_height=792.0, relative_x=0.37098039215686274, relative_y=0.8734469696969697, indent_ratio=0.37098039215686274), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "12/12A \n4.79 \n27.0 \n586.0 \n15.5 \n272.1 \n33.4 12/12A \n4.79 \n27.0 \n586.0 \n15.5 \n272.1 \n33.4 12/13A \n3.51 \n36.8 \n872.4 \n10.4 \n426.4 \n21.3 12/13A \n3.51 \n36.8 \n872.4 \n10.4 \n426.4 \n21.3 12/14E \n3.40 \n39.1 \n1,090.4 \n8.3 \n565.1 \n16.1 12/14E \n3.40 \n39.1 \n1,090.4 \n8.3 \n565.1 \n16.1 12/15E \n7.85 \n17.0 \n1,421.9 \n6.4 \n760.7 \n11.9 12/15E \n7.85 \n17.0 \n1,421.9 \n6.4 \n760.7 \n11.9",
+    "element_type": "LIST_ITEM",
+    "bbox": [
+      363.96,
+      589.77,
+      557.634,
+      669.9300000000001
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 9.0, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 39, 'avg_char_width': 3.7610769230769105, 'line_count': 7, 'text_density': 0.018522717001038726, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=363.96, y0=589.77, x1=557.634, y1=669.9300000000001, page_width=612.0, page_height=792.0, relative_x=0.5947058823529412, relative_y=0.7446590909090909, indent_ratio=0.5947058823529412), list_group_id='11676504-6bc9-452f-b45b-bb9b708d9778', confidence=0.9, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Financial and Valuation Metrics \nYear \nGAAP EPS (US $) \nGAAP P / E (x) \nRevenue (US $m) \nEV / Revenue (x) \nEBITDA (US $m) \nEV / EBITDA (x)",
+    "element_type": "TEXT",
+    "bbox": [
+      229.2,
+      577.77,
+      349.074,
+      669.9300000000001
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 9.0, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 132, 'avg_char_width': 3.7725681818181798, 'line_count': 8, 'text_density': 0.012491414596437355, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=229.2, y0=577.77, x1=349.074, y1=669.9300000000001, page_width=612.0, page_height=792.0, relative_x=0.37450980392156863, relative_y=0.7295075757575757, indent_ratio=0.37450980392156863), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "■  Our $170.00 target price is based on an FY 14 EV / EBITDA multiple of 20.7x and an FY 15 \nEV / EBITDA multiple of 15.3x, vs. median peer company multiples of 21.8x and 15.3x, \nrespectively.  Given  Jazz’s  higher  revenue  growth,  margins,  and  EBITDA  growth,  we \nbelieve this is still quite conservative. A DCF analysis with our long-term FCF projections, \na  discount  rate  of  8.07%,  and  a  Terminal  FCF  growth  rate  of  0.3%  also  produces  an \nimplied share price of $168.71.",
+    "element_type": "TEXT",
+    "bbox": [
+      225.48,
+      488.72976,
+      564.7234,
+      561.6878
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAI+ArialMT', 'font_size': 9.479999999999961, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'char_count': 464, 'avg_char_width': 3.8461913301724104, 'line_count': 6, 'text_density': 0.019959165690840417, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=225.48, y0=488.72976, x1=564.7234, y1=561.6878, page_width=612.0, page_height=792.0, relative_x=0.3684313725490196, relative_y=0.6170830303030304, indent_ratio=0.3684313725490196), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Figure 1 - JAZZ Stock Price Performance",
+    "element_type": "TEXT",
+    "bbox": [
+      48.6,
+      381.5699,
+      197.397,
+      390.5699
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 9.0, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 40, 'avg_char_width': 3.7206, 'line_count': 1, 'text_density': 0.02912245094547157, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=48.6, y0=381.5699, x1=197.397, y1=390.5699, page_width=612.0, page_height=792.0, relative_x=0.07941176470588235, relative_y=0.4817801767676768, indent_ratio=0.07941176470588235), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "■  Catalysts: 1) Possible price increases for Xyrem – Given the historical price increases \nand the price ranges for comparable orphan drugs, we believe the company is likely \nto announce another round of price increases at the end of FY 14 or early FY 15, and \nthat there is significant room to grow pricing beyond the current levels. 2)  Launch of \nnew  marketing  campaigns  for  Xyrem  –  Jazz  management  is  in  the  process  of \nlaunching awareness campaigns for narcolepsy patients in key geographies, and has \nalready reported 11,400 Xyrem patients in Q1, above our FY 14 estimate of ~11,300. \n3)  Settlement of Roxane lawsuit  –  We believe this will be decided in Jazz’s favor, \nresulting  in  a  delayed  entrance  for  Xyrem  generics.  Current  market  expectations \npoint to generics in FY 19 or FY 20, but we believe FY 21 is more likely (with peak \nsales of ~$3.0 billion in FY 20).",
+    "element_type": "TEXT",
+    "bbox": [
+      225.6,
+      349.04976,
+      564.7746319999997,
+      479.7031
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAI+ArialMT', 'font_size': 9.480000000000018, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'char_count': 864, 'avg_char_width': 3.840611362499998, 'line_count': 11, 'text_density': 0.020309471890076942, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=225.6, y0=349.04976, x1=564.7746319999997, y1=479.7031, page_width=612.0, page_height=792.0, relative_x=0.3686274509803921, relative_y=0.4407193939393939, indent_ratio=0.3686274509803921), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "$200.00\n$180.00\n$160.00\n$140.00\n$120.00\n$100.00\n$80.00\n$60.00\n$40.00\n$20.00\n$0.00",
+    "element_type": "TEXT",
+    "bbox": [
+      57.4267,
+      294.29605000000004,
+      75.3237437,
+      359.50065
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 5.382999999999981, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 71, 'avg_char_width': 2.5333936774647867, 'line_count': 11, 'text_density': 0.0694105499327234, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=57.4267, y0=294.29605000000004, x1=75.3237437, y1=359.50065, page_width=612.0, page_height=792.0, relative_x=0.093834477124183, relative_y=0.37158592171717175, indent_ratio=0.093834477124183), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Price Performance - 1-Year",
+    "element_type": "TEXT",
+    "bbox": [
+      86.8502,
+      283.768775,
+      168.38821944,
+      291.175475
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 7.406700000000001, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 25, 'avg_char_width': 3.223284136000001, 'line_count': 1, 'text_density': 0.043051514632363924, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=86.8502, y0=283.768775, x1=168.38821944, y1=291.175475, page_width=612.0, page_height=792.0, relative_x=0.14191209150326797, relative_y=0.35829390782828285, indent_ratio=0.14191209150326797), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "■  FY 14 Guidance: The Company reaffirmed its FY 14 guidance across the board, with \nrevenue of $1.10 billion – $1.16 billion, Xyrem sales of $755 – $755 million, Erwinaze \nat $185 – $200 million, Defitelio at $42 – $52 million, and Adjusted Net Income of \n$496  –  $520  million.  While  we  believe  the  market  has  already  priced  in  these \nexpectations, we continue to see Jazz as an undervalued, high-growth story going \nforward, and we believe that its longer-term revenue, EPS, and EBITDA are likely to \nexceed consensus estimates in FY 15, FY 16, and beyond.",
+    "element_type": "TEXT",
+    "bbox": [
+      225.48,
+      254.72976000000006,
+      564.7499439999999,
+      340.2868
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAI+ArialMT', 'font_size': 9.480000000000018, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'char_count': 551, 'avg_char_width': 3.8667630076225015, 'line_count': 7, 'text_density': 0.01963693567992177, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=225.48, y0=254.72976000000006, x1=564.7499439999999, y1=340.2868, page_width=612.0, page_height=792.0, relative_x=0.3684313725490196, relative_y=0.32162848484848494, indent_ratio=0.3684313725490196), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "John Tuld, M.D.",
+    "element_type": "TITLE",
+    "bbox": [
+      159.7211,
+      234.5716,
+      212.77704,
+      242.61159999999995
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 8.039999999999964, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 16, 'avg_char_width': 3.3828299999999967, 'line_count': 1, 'text_density': 0.03516423687509925, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=159.7211, y0=234.5716, x1=212.77704, y1=242.61159999999995, page_width=612.0, page_height=792.0, relative_x=0.26098218954248364, relative_y=0.2961762626262626, indent_ratio=0.26098218954248364), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Seth Davis, M.D.",
+    "element_type": "TITLE",
+    "bbox": [
+      156.9553,
+      220.05130000000008,
+      212.77704,
+      228.09130000000005
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 8.039999999999964, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 17, 'avg_char_width': 3.346531764705879, 'line_count': 1, 'text_density': 0.03565008455923785, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=156.9553, y0=220.05130000000008, x1=212.77704, y1=228.09130000000005, page_width=612.0, page_height=792.0, relative_x=0.25646290849673203, relative_y=0.27784255050505063, indent_ratio=0.25646290849673203), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Peter Sullivan, Ph.D.",
+    "element_type": "TITLE",
+    "bbox": [
+      144.4772,
+      205.53110000000004,
+      212.77944,
+      213.5711
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 8.039999999999964, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 22, 'avg_char_width': 3.1652018181818122, 'line_count': 1, 'text_density': 0.038240917113515974, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=144.4772, y0=205.53110000000004, x1=212.77944, y1=213.5711, page_width=612.0, page_height=792.0, relative_x=0.23607385620915033, relative_y=0.25950896464646467, indent_ratio=0.23607385620915033), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Research Analysts:",
+    "element_type": "TEXT",
+    "bbox": [
+      149.5183,
+      191.01080000000002,
+      212.77704,
+      199.05079999999998
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 8.039999999999964, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 19, 'avg_char_width': 3.386109473684205, 'line_count': 1, 'text_density': 0.0353912513930765, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=149.5183, y0=191.01080000000002, x1=212.77704, y1=199.05079999999998, page_width=612.0, page_height=792.0, relative_x=0.24431094771241832, relative_y=0.24117525252525254, indent_ratio=0.24431094771241832), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "■  Q1  Results:  Jazz  Pharmaceuticals  reported  strong  Q1  results  on  Thursday,  with \nrevenue of $247 million vs. $196 million in Q1 of FY 13, representing 26% YoY growth. \nThe GAAP Net Loss was $93 million vs. GAAP Net Income of $43 million in Q1 of FY \n13, but $127 million of that was due to an upfront license fee and milestone payment \nfor  JZP-110.  Adjusted  Net Income  was $101  million  vs. $84 million  in  Q1  of  FY  13. \nThese  figures  were  slightly ahead  of Goldman  Stanley  estimates of $240  million in \nrevenue and $95 million in Adjusted Net Income.",
+    "element_type": "TEXT",
+    "bbox": [
+      225.48,
+      160.28976,
+      564.69976,
+      245.84680000000003
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAI+ArialMT', 'font_size': 9.480000000000018, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'char_count': 545, 'avg_char_width': 3.886998343486235, 'line_count': 7, 'text_density': 0.01991548764610563, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=225.48, y0=160.28976, x1=564.69976, y1=245.84680000000003, page_width=612.0, page_height=792.0, relative_x=0.3684313725490196, relative_y=0.2023860606060606, indent_ratio=0.3684313725490196), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Strong Q1 FY14 & Multiple Catalysts Ahead",
+    "element_type": "TITLE",
+    "bbox": [
+      225.48,
+      133.83000000000004,
+      512.91,
+      148.83000000000004
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 15.0, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 42, 'avg_char_width': 6.478214285714286, 'line_count': 1, 'text_density': 0.009509561748367722, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=225.48, y0=133.83000000000004, x1=512.91, y1=148.83000000000004, page_width=612.0, page_height=792.0, relative_x=0.3684313725490196, relative_y=0.16897727272727278, indent_ratio=0.3684313725490196), list_group_id=None, confidence=0.8500000000000001, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "ACCUMMULATE RECOMMENDATION / COMPANY UPDATE",
+    "element_type": "TITLE",
+    "bbox": [
+      232.08,
+      113.85000000000002,
+      426.61504,
+      121.88999999999999
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 8.039999999999964, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 44, 'avg_char_width': 4.490339999999998, 'line_count': 1, 'text_density': 0.027492521174939413, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=232.08, y0=113.85000000000002, x1=426.61504, y1=121.88999999999999, page_width=612.0, page_height=792.0, relative_x=0.3792156862745098, relative_y=0.14375000000000002, indent_ratio=0.3792156862745098), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Rating: \nPrice (9 May 14, US$): \nTarget Price (US$): \n52-Week Price Range: \nMarket Cap. (US$ m): \nEnterprise Value (US$ m): \n      *Target Price is for 12 months.",
+    "element_type": "TEXT",
+    "bbox": [
+      38.28,
+      111.69000000000005,
+      149.89354,
+      174.45000000000005
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAC+Calibri', 'font_size': 9.0, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'char_count': 157, 'avg_char_width': 3.5130670038216576, 'line_count': 7, 'text_density': 0.023126781484457955, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=38.28, y0=111.69000000000005, x1=149.89354, y1=174.45000000000005, page_width=612.0, page_height=792.0, relative_x=0.06254901960784313, relative_y=0.14102272727272736, indent_ratio=0.06254901960784313), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "OUTPERFORM* \n                 129.45 \n                 170.00 \n   55.28 – 174.98 \n                8,196.0 \n                9,089.5",
+    "element_type": "TITLE",
+    "bbox": [
+      148.2,
+      111.69000000000005,
+      212.754,
+      162.45000000000005
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 9.0, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 127, 'avg_char_width': 2.928047244094481, 'line_count': 6, 'text_density': 0.03967332326436597, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=148.2, y0=111.69000000000005, x1=212.754, y1=162.45000000000005, page_width=612.0, page_height=792.0, relative_x=0.242156862745098, relative_y=0.14102272727272736, indent_ratio=0.242156862745098), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Jazz Pharmaceuticals (JAZZ)",
+    "element_type": "TITLE",
+    "bbox": [
+      226.44,
+      80.97000000000003,
+      447.57588,
+      102.93000000000006
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 21.960000000000036, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 28, 'avg_char_width': 7.885911428571426, 'line_count': 1, 'text_density': 0.00555996700635514, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=226.44, y0=80.97000000000003, x1=447.57588, y1=102.93000000000006, page_width=612.0, page_height=792.0, relative_x=0.37, relative_y=0.10223484848484853, indent_ratio=0.37), list_group_id=None, confidence=0.8500000000000001, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Goldman Stanley",
+    "element_type": "TEXT",
+    "bbox": [
+      54.12,
+      35.85000000000002,
+      197.00904,
+      55.889999999999986
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAC+Calibri', 'font_size': 20.039999999999964, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'char_count': 16, 'avg_char_width': 8.949112500000002, 'line_count': 1, 'text_density': 0.005238351338996871, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=54.12, y0=35.85000000000002, x1=197.00904, y1=55.889999999999986, page_width=612.0, page_height=792.0, relative_x=0.0884313725490196, relative_y=0.04526515151515154, indent_ratio=0.0884313725490196), list_group_id=None, confidence=0.9, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "9 May 2014 \nAmericas/United States \nEquity Research \n       Specialty Pharmaceuticals",
+    "element_type": "TITLE",
+    "bbox": [
+      443.7542,
+      23.49000000000001,
+      564.45358,
+      71.0122
+    ],
+    "page_number": 1,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAC+Calibri', 'font_size': 9.480000000000018, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'char_count': 83, 'avg_char_width': 3.9280880578313333, 'line_count': 4, 'text_density': 0.01481894713475876, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=443.7542, y0=23.49000000000001, x1=564.45358, y1=71.0122, page_width=612.0, page_height=792.0, relative_x=0.7250885620915033, relative_y=0.02965909090909092, indent_ratio=0.7250885620915033), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "7 / 9 Jazz Pharmaceuticals [JAZZ]",
+    "element_type": "LIST_ITEM",
+    "bbox": [
+      33.0,
+      731.52,
+      566.49504,
+      742.56
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAC+Calibri', 'font_size': 9.96, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'char_count': 28, 'avg_char_width': 4.053008571428573, 'line_count': 1, 'text_density': 0.02378511554911692, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=33.0, y0=731.52, x1=566.49504, y1=742.56, page_width=612.0, page_height=792.0, relative_x=0.05392156862745098, relative_y=0.9236363636363636, indent_ratio=0.05392156862745098), list_group_id='8c30bb7e-86d3-4f2e-9118-3a7cb49bbd9c', confidence=0.9, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Source: Company data, Goldman Stanley estimates.",
+    "element_type": "TEXT",
+    "bbox": [
+      37.56,
+      706.77,
+      201.10248,
+      716.25
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAK+Calibri-Italic', 'font_size': 8.040000000000006, 'is_bold': False, 'is_italic': True, 'is_monospace': False, 'char_count': 49, 'avg_char_width': 3.476475918367348, 'line_count': 1, 'text_density': 0.030960097579787807, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=37.56, y0=706.77, x1=201.10248, y1=716.25, page_width=612.0, page_height=792.0, relative_x=0.06137254901960785, relative_y=0.8923863636363636, indent_ratio=0.06137254901960785), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Annual EBITDA Growth Rate: 822.6\n8.9% Annual EBITDA: 565.1\n32.5% 760.7\n34.6% 946.0\n24.4% 1,171.0\n23.8% 1,413.7\n20.7% 1,665.7\n17.8% 1,918.8\n15.2% 686.0\n(64.3%) 822.6\n8.9% Annual EBITDA: 565.1\n32.5% 760.7\n34.6% 946.0\n24.4% 1,171.0\n23.8% 1,413.7\n20.7% 1,665.7\n17.8% 1,918.8\n15.2% 686.0\n(64.3%) 755.7\n10.2% 755.7\n10.2%",
+    "element_type": "TEXT",
+    "bbox": [
+      51.60568,
+      668.905975,
+      576.4849720999999,
+      684.962375
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAK+Calibri-Italic', 'font_size': 6.882300000000001, 'is_bold': False, 'is_italic': True, 'is_monospace': False, 'char_count': 26, 'avg_char_width': 3.0993050461538467, 'line_count': 1, 'text_density': 0.04727769909601825, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=51.60568, y0=668.905975, x1=576.4849720999999, y1=684.962375, page_width=612.0, page_height=792.0, relative_x=0.08432300653594771, relative_y=0.8445782512626263, indent_ratio=0.08432300653594771), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Annual Free Cash Flow Growth Rate:",
+    "element_type": "TEXT",
+    "bbox": [
+      51.60568,
+      650.5574750000001,
+      152.16636326,
+      657.439775
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAK+Calibri-Italic', 'font_size': 6.8822999999999865, 'is_bold': False, 'is_italic': True, 'is_monospace': False, 'char_count': 34, 'avg_char_width': 2.9982353294117643, 'line_count': 1, 'text_density': 0.04912664454561498, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=51.60568, y0=650.5574750000001, x1=152.16636326, y1=657.439775, page_width=612.0, page_height=792.0, relative_x=0.08432300653594771, relative_y=0.8214109532828283, indent_ratio=0.08432300653594771), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "58.4% 58.4% 22.2% 22.2% 26.1% 26.1% 23.1% 23.1% 20.6% 20.6% 17.6% 17.6% 15.5% 15.5% (44.9%) (44.9%) (26.4%) (26.4%) 8.7% 8.7%",
+    "element_type": "TEXT",
+    "bbox": [
+      224.9988,
+      650.5574750000001,
+      576.3252721,
+      657.439775
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAK+Calibri-Italic', 'font_size': 6.8822999999999865, 'is_bold': False, 'is_italic': True, 'is_monospace': False, 'char_count': 5, 'avg_char_width': 3.4283147199999973, 'line_count': 1, 'text_density': 0.04229741384458176, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=224.9988, y0=650.5574750000001, x1=576.3252721, y1=657.439775, page_width=612.0, page_height=792.0, relative_x=0.3676450980392157, relative_y=0.8214109532828283, indent_ratio=0.3676450980392157), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Normal Discount Period:\nMid-Year Discount Period:",
+    "element_type": "TITLE",
+    "bbox": [
+      51.5919,
+      623.028275,
+      124.65854674000002,
+      639.0846750000001
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAC+Calibri', 'font_size': 6.8822999999999865, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'char_count': 48, 'avg_char_width': 2.9607050395833325, 'line_count': 2, 'text_density': 0.041766561673050775, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=51.5919, y0=623.028275, x1=124.65854674000002, y1=639.0846750000001, page_width=612.0, page_height=792.0, relative_x=0.08430049019607844, relative_y=0.7866518623737374, indent_ratio=0.08430049019607844), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "0.647\n0.323 0.647\n0.323 1.647\n1.147 1.647\n1.147 2.647\n2.147 2.647\n2.147 3.647\n3.147 3.647\n3.147 4.647\n4.147 4.647\n4.147 5.647\n5.147 5.647\n5.147 6.647\n6.147 6.647\n6.147 7.647\n7.147 7.647\n7.147 8.647\n8.147 8.647\n8.147 9.647\n9.147 9.647\n9.147",
+    "element_type": "TEXT",
+    "bbox": [
+      227.6651,
+      623.028275,
+      577.5722645,
+      639.0846750000001
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAC+Calibri', 'font_size': 6.8822999999999865, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'char_count': 10, 'avg_char_width': 3.1417032000000007, 'line_count': 2, 'text_density': 0.04349783930587048, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=227.6651, y0=623.028275, x1=577.5722645, y1=639.0846750000001, page_width=612.0, page_height=792.0, relative_x=0.3720017973856209, relative_y=0.7866518623737374, indent_ratio=0.3720017973856209), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Annual Unlevered Free Cash Flow:\nUnlevered Free Cash Flow for Remaining Quarters:\nNet Present Value of Free Cash Flow: Annual Unlevered Free Cash Flow:\nUnlevered Free Cash Flow for Remaining Quarters:\nNet Present Value of Free Cash Flow: 539.3\n459.1\n447.7 539.3\n459.1\n447.7 659.2\n659.2\n603.1 659.2\n659.2\n603.1 830.9\n830.9\n703.4 830.9\n830.9\n703.4 1,022.7\n1,022.7\n801.2 1,022.7\n1,022.7\n801.2 1,233.5\n1,233.5\n894.1 1,233.5\n1,233.5\n894.1 1,450.6\n1,450.6\n973.0 1,450.6\n1,450.6\n973.0 1,675.9\n1,675.9\n1,040.1 1,675.9\n1,675.9\n1,040.1 923.5\n923.5\n530.4 923.5\n923.5\n530.4 679.2\n679.2\n361.0 679.2\n679.2\n361.0 738.3\n738.3\n363.1 738.3\n738.3\n363.1",
+    "element_type": "TEXT",
+    "bbox": [
+      51.64702,
+      586.324975,
+      575.3537645,
+      611.555475
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 6.8822999999999865, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 116, 'avg_char_width': 3.0011770775862057, 'line_count': 3, 'text_density': 0.03241143639547823, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=51.64702, y0=586.324975, x1=575.3537645, y1=611.555475, page_width=612.0, page_height=792.0, relative_x=0.08439055555555555, relative_y=0.7403093118686869, indent_ratio=0.08439055555555555), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Less: Capital Expenditures:",
+    "element_type": "TEXT",
+    "bbox": [
+      51.70903,
+      567.969875,
+      127.83332529999997,
+      574.852175
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 6.8822999999999865, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 27, 'avg_char_width': 2.8245218259259266, 'line_count': 1, 'text_density': 0.051535545719841445, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=51.70903, y0=567.969875, x1=127.83332529999997, y1=574.852175, page_width=612.0, page_height=792.0, relative_x=0.08449187908496732, relative_y=0.7171336805555556, indent_ratio=0.08449187908496732), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "(13.1) (13.1) (18.5) (18.5) (25.3) (25.3) (34.3) (34.3) (45.0) (45.0) (57.3) (57.3) (71.1) (71.1) (27.0) (27.0) (31.5) (31.5) (36.1) (36.1)",
+    "element_type": "TEXT",
+    "bbox": [
+      226.6316,
+      567.969875,
+      577.4861879499999,
+      574.852175
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 6.8822999999999865, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 6, 'avg_char_width': 2.769659400000004, 'line_count': 1, 'text_density': 0.05221247916544282, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=226.6316, y0=567.969875, x1=577.4861879499999, y1=574.852175, page_width=612.0, page_height=792.0, relative_x=0.37031307189542484, relative_y=0.7171336805555556, indent_ratio=0.37031307189542484), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Total Changes in Operating Assets & Liabilities: Total Changes in Operating Assets & Liabilities: (20.3) (20.3) (50.1) (50.1) (44.0) (44.0) (54.1) (54.1) (60.4) (60.4) (65.7) (65.7) (66.9) (66.9) 287.0 287.0 (18.6) (18.6) (18.3) (18.3)",
+    "element_type": "TEXT",
+    "bbox": [
+      51.70903,
+      549.614775,
+      577.47928795,
+      556.497075
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 6.8822999999999865, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 48, 'avg_char_width': 2.794347491666667, 'line_count': 1, 'text_density': 0.05221786578250308, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=51.70903, y0=549.614775, x1=577.47928795, y1=556.497075, page_width=612.0, page_height=792.0, relative_x=0.08449187908496732, relative_y=0.6939580492424242, indent_ratio=0.08449187908496732), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Total Adjustments for Non-Cash Charges: Total Adjustments for Non-Cash Charges: 323.2 323.2 213.3 213.3 233.3 233.3 263.8 263.8 294.9 294.9 315.2 315.2 355.4 355.4 196.3 196.3 207.7 207.7 219.1 219.1",
+    "element_type": "TEXT",
+    "bbox": [
+      51.77104,
+      531.259675,
+      575.3813645,
+      538.141975
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 6.8822999999999865, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 39, 'avg_char_width': 3.0171586230769214, 'line_count': 1, 'text_density': 0.04760331816028641, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=51.77104, y0=531.259675, x1=575.3813645, y1=538.141975, page_width=612.0, page_height=792.0, relative_x=0.08459320261437908, relative_y=0.6707824179292929, indent_ratio=0.08459320261437908), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Net Operating Profit After Tax (NOPAT): Net Operating Profit After Tax (NOPAT): 249.5 249.5 514.5 514.5 666.9 666.9 847.3 847.3 1,043.9 1,043.9 1,258.5 1,258.5 1,458.5 1,458.5 467.1 467.1 521.6 521.6 573.7 573.7",
+    "element_type": "TEXT",
+    "bbox": [
+      51.81238,
+      512.904575,
+      575.4433644999999,
+      519.786875
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 6.8822999999999865, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 39, 'avg_char_width': 2.92988908974359, 'line_count': 1, 'text_density': 0.049524924201776864, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=51.81238, y0=512.904575, x1=575.4433644999999, y1=519.786875, page_width=612.0, page_height=792.0, relative_x=0.08466075163398692, relative_y=0.6476067866161617, indent_ratio=0.08466075163398692), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Less: Taxes, Excluding Effect of Interest:",
+    "element_type": "TEXT",
+    "bbox": [
+      51.80549,
+      494.54947500000003,
+      163.55917988000002,
+      501.431775
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAC+Calibri', 'font_size': 6.8822999999999865, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'char_count': 42, 'avg_char_width': 2.644496516666667, 'line_count': 1, 'text_density': 0.05460769172166866, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=51.80549, y0=494.54947500000003, x1=163.55917988000002, y1=501.431775, page_width=612.0, page_height=792.0, relative_x=0.08464949346405229, relative_y=0.6244311553030304, indent_ratio=0.08464949346405229), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "(54.8) (54.8) (112.9) (112.9) (146.4) (146.4) (186.0) (186.0) (229.1) (229.1) (276.2) (276.2) (320.2) (320.2) (102.5) (102.5) (114.5) (114.5) (125.9) (125.9)",
+    "element_type": "TEXT",
+    "bbox": [
+      227.4928,
+      494.54947500000003,
+      577.8946846599999,
+      501.431775
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAC+Calibri', 'font_size': 6.8822999999999865, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'char_count': 6, 'avg_char_width': 2.7317660499999996, 'line_count': 1, 'text_density': 0.053662825808927346, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=227.4928, y0=494.54947500000003, x1=577.8946846599999, y1=501.431775, page_width=612.0, page_height=792.0, relative_x=0.3717202614379085, relative_y=0.6244311553030304, indent_ratio=0.3717202614379085), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Annual / Annualized Operating Margin:",
+    "element_type": "TEXT",
+    "bbox": [
+      56.39403,
+      476.19437500000004,
+      164.22196881999997,
+      483.076675
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAK+Calibri-Italic', 'font_size': 6.8822999999999865, 'is_bold': False, 'is_italic': True, 'is_monospace': False, 'char_count': 37, 'avg_char_width': 2.973371070270271, 'line_count': 1, 'text_density': 0.0498582258883118, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=56.39403, y0=476.19437500000004, x1=164.22196881999997, y1=483.076675, page_width=612.0, page_height=792.0, relative_x=0.09214710784313726, relative_y=0.601255523989899, indent_ratio=0.09214710784313726), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Operating Income (EBIT):",
+    "element_type": "TEXT",
+    "bbox": [
+      51.79171,
+      467.020275,
+      121.75041277,
+      473.902575
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAC+Calibri', 'font_size': 6.8822999999999865, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'char_count': 24, 'avg_char_width': 2.926400075, 'line_count': 1, 'text_density': 0.049846640571769296, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=51.79171, y0=467.020275, x1=121.75041277, y1=473.902575, page_width=612.0, page_height=792.0, relative_x=0.084626977124183, relative_y=0.5896720643939394, indent_ratio=0.084626977124183), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Annual / Annualized Revenue Growth Rate:",
+    "element_type": "TEXT",
+    "bbox": [
+      56.38714,
+      457.846175,
+      175.69194108,
+      464.728475
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAK+Calibri-Italic', 'font_size': 6.8822999999999865, 'is_bold': False, 'is_italic': True, 'is_monospace': False, 'char_count': 40, 'avg_char_width': 3.014588235, 'line_count': 1, 'text_density': 0.048715646538330014, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=56.38714, y0=457.846175, x1=175.69194108, y1=464.728475, page_width=612.0, page_height=792.0, relative_x=0.09213584967320262, relative_y=0.5780886047979799, indent_ratio=0.09213584967320262), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Revenue:",
+    "element_type": "TEXT",
+    "bbox": [
+      51.79171,
+      448.672075,
+      78.94539564,
+      455.554375
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 6.8822999999999865, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 8, 'avg_char_width': 3.354422687499998, 'line_count': 1, 'text_density': 0.0428082625452318, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=51.79171, y0=448.672075, x1=78.94539564, y1=455.554375, page_width=612.0, page_height=792.0, relative_x=0.084626977124183, relative_y=0.5665051452020202, indent_ratio=0.084626977124183), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "1,090.4\n25.0%\n304.2\n27.9% 1,090.4\n25.0%\n304.2\n27.9% 1,421.9\n30.4%\n627.4\n44.1% 1,421.9\n30.4%\n627.4\n44.1% 1,807.8\n27.1%\n813.3\n45.0% 1,807.8\n27.1%\n813.3\n45.0% 2,284.0\n26.3%\n1,033.2\n45.2% 2,284.0\n26.3%\n1,033.2\n45.2% 2,810.8\n23.1%\n1,273.0\n45.3% 2,810.8\n23.1%\n1,273.0\n45.3% 3,372.2\n20.0%\n1,534.7\n45.5% 3,372.2\n20.0%\n1,534.7\n45.5% 3,951.8\n17.2%\n1,778.6\n45.0% 3,951.8\n17.2%\n1,778.6\n45.0% 1,421.3\n(64.0%)\n569.7\n40.1% 1,421.3\n(64.0%)\n569.7\n40.1% 1,573.9\n10.7%\n636.1\n40.4% 1,573.9\n10.7%\n636.1\n40.4% 1,721.1\n9.4%\n699.6\n40.6% 1,721.1\n9.4%\n699.6\n40.6%",
+    "element_type": "TEXT",
+    "bbox": [
+      220.2035,
+      448.672075,
+      576.5250221,
+      483.076675
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 6.8822999999999865, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 22, 'avg_char_width': 3.2306429636363636, 'line_count': 4, 'text_density': 0.032784684021520266, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=220.2035, y0=448.672075, x1=576.5250221, y1=483.076675, page_width=612.0, page_height=792.0, relative_x=0.3598096405228758, relative_y=0.5665051452020202, indent_ratio=0.3598096405228758), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Unlevered Free Cash Flow Projections:",
+    "element_type": "TITLE",
+    "bbox": [
+      42.21502,
+      430.316975,
+      152.03821594000004,
+      437.199275
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 6.8822999999999865, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 37, 'avg_char_width': 2.9653641216216213, 'line_count': 1, 'text_density': 0.04895240649976865, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=42.21502, y0=430.316975, x1=152.03821594000004, y1=437.199275, page_width=612.0, page_height=792.0, relative_x=0.0689787908496732, relative_y=0.543329513888889, indent_ratio=0.0689787908496732), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "FY 14E FY 14E FY 15E FY 15E FY 16E FY 16E FY 17E FY 17E FY 18E FY 18E FY 19E FY 19E FY 20E FY 20E FY 21E FY 21E FY 22E FY 22E FY 23E FY 23E",
+    "element_type": "TEXT",
+    "bbox": [
+      217.1376,
+      430.316975,
+      569.5940432,
+      437.199275
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 6.8822999999999865, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 6, 'avg_char_width': 3.1084029833333298, 'line_count': 1, 'text_density': 0.04764192140717269, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=217.1376, y0=430.316975, x1=569.5940432, y1=437.199275, page_width=612.0, page_height=792.0, relative_x=0.3548, relative_y=0.543329513888889, indent_ratio=0.3548), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Projected",
+    "element_type": "TITLE",
+    "bbox": [
+      379.4245,
+      421.142875,
+      407.23684096,
+      428.025175
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 6.8822999999999865, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 9, 'avg_char_width': 3.0529026222222218, 'line_count': 1, 'text_density': 0.04701878093692435, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=379.4245, y0=421.142875, x1=407.23684096, y1=428.025175, page_width=612.0, page_height=792.0, relative_x=0.6199746732026145, relative_y=0.5317460542929293, indent_ratio=0.6199746732026145), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Figure 9 – Jazz Projected Unlevered Free Cash Flow",
+    "element_type": "TEXT",
+    "bbox": [
+      37.56,
+      401.25,
+      239.97698,
+      410.73
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 9.480000000000018, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 51, 'avg_char_width': 3.9587364705882337, 'line_count': 1, 'text_density': 0.02605641880130569, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=37.56, y0=401.25, x1=239.97698, y1=410.73, page_width=612.0, page_height=792.0, relative_x=0.06137254901960785, relative_y=0.5066287878787878, indent_ratio=0.06137254901960785), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "We then calculated Unlevered Free Cash Flow as follows:",
+    "element_type": "TEXT",
+    "bbox": [
+      40.68,
+      375.9299,
+      262.90067999999997,
+      385.4099
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAC+Calibri', 'font_size': 9.480000000000018, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'char_count': 56, 'avg_char_width': 3.9594235714285704, 'line_count': 1, 'text_density': 0.02610777612467512, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=40.68, y0=375.9299, x1=262.90067999999997, y1=385.4099, page_width=612.0, page_height=792.0, relative_x=0.06647058823529411, relative_y=0.4746589646464646, indent_ratio=0.06647058823529411), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "ource: Company data, Goldman Stanley estimates.",
+    "element_type": "TEXT",
+    "bbox": [
+      41.039712,
+      356.49,
+      201.10248,
+      365.97
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAK+Calibri-Italic', 'font_size': 8.039999999999964, 'is_bold': False, 'is_italic': True, 'is_monospace': False, 'char_count': 48, 'avg_char_width': 3.473192500000001, 'line_count': 1, 'text_density': 0.03097413576637002, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=41.039712, y0=356.49, x1=201.10248, y1=365.97, page_width=612.0, page_height=792.0, relative_x=0.06705835294117647, relative_y=0.4501136363636364, indent_ratio=0.06705835294117647), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "EBITDA:\nEBITDA Margin:",
+    "element_type": "TEXT",
+    "bbox": [
+      56.30446,
+      328.314075,
+      100.31440659999998,
+      344.407175
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAC+Calibri', 'font_size': 6.885500000000036, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'char_count': 21, 'avg_char_width': 3.169590080952381, 'line_count': 2, 'text_density': 0.031062194108041792, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=56.30446, y0=328.314075, x1=100.31440659999998, y1=344.407175, page_width=612.0, page_height=792.0, relative_x=0.09200075163398692, relative_y=0.4145379734848485, indent_ratio=0.09200075163398692), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "565.1\n51.8% 565.1\n51.8% 760.7\n53.5% 760.7\n53.5% 946.0\n52.3% 946.0\n52.3% 1,171.0\n51.3% 1,171.0\n51.3% 1,413.7\n50.3% 1,413.7\n50.3% 1,665.7\n49.4% 1,665.7\n49.4% 1,918.8\n48.6% 1,918.8\n48.6% 686.0\n48.3% 686.0\n48.3% 755.7\n48.0% 755.7\n48.0% 822.6\n47.8% 822.6\n47.8%",
+    "element_type": "TEXT",
+    "bbox": [
+      225.1696,
+      328.314075,
+      576.5029221,
+      344.407175
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAC+Calibri', 'font_size': 6.885500000000036, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'char_count': 10, 'avg_char_width': 3.285008959999999, 'line_count': 2, 'text_density': 0.039795171897623334, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=225.1696, y0=328.314075, x1=576.5029221, y1=344.407175, page_width=612.0, page_height=792.0, relative_x=0.36792418300653595, relative_y=0.4145379734848485, indent_ratio=0.36792418300653595), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Weighted Average Diluted Shares Outstanding:\nDiluted Earnings Per Share (EPS): Weighted Average Diluted Shares Outstanding:\nDiluted Earnings Per Share (EPS): 61.6\n3.40 61.6\n3.40 61.6\n7.85 61.6\n7.85 61.6\n10.32 61.6\n10.32 61.6\n13.52 61.6\n13.52 61.6\n16.71 61.6\n16.71 61.6\n20.44 61.6\n20.44 61.6\n23.69 61.6\n23.69 61.6\n7.59 61.6\n7.59 61.6\n8.47 61.6\n8.47 61.6\n9.32 61.6\n9.32",
+    "element_type": "TEXT",
+    "bbox": [
+      51.76415,
+      300.772075,
+      575.8223145,
+      316.835975
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAC+Calibri', 'font_size': 6.885500000000036, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'char_count': 77, 'avg_char_width': 2.9306278454545467, 'line_count': 2, 'text_density': 0.037567942460273, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=51.76415, y0=300.772075, x1=575.8223145, y1=316.835975, page_width=612.0, page_height=792.0, relative_x=0.08458194444444445, relative_y=0.3797627209595959, indent_ratio=0.08458194444444445), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Effective Tax Rate:",
+    "element_type": "TEXT",
+    "bbox": [
+      56.35269,
+      282.408475,
+      108.70752029999997,
+      289.29397500000005
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAK+Calibri-Italic', 'font_size': 6.885500000000036, 'is_bold': False, 'is_italic': True, 'is_monospace': False, 'char_count': 19, 'avg_char_width': 2.721068884210525, 'line_count': 1, 'text_density': 0.0527061583028923, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=56.35269, y0=282.408475, x1=108.70752029999997, y1=289.29397500000005, page_width=612.0, page_height=792.0, relative_x=0.09207955882352942, relative_y=0.35657635732323234, indent_ratio=0.09207955882352942), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Net Income:",
+    "element_type": "TEXT",
+    "bbox": [
+      51.7986,
+      273.23007499999994,
+      87.3839005,
+      280.115575
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 6.885500000000036, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 11, 'avg_char_width': 3.18617308181818, 'line_count': 1, 'text_density': 0.04489382041453571, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=51.7986, y0=273.23007499999994, x1=87.3839005, y1=280.115575, page_width=612.0, page_height=792.0, relative_x=0.08463823529411765, relative_y=0.34498746843434336, indent_ratio=0.08463823529411765), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "209.6\n18.0% 209.6\n18.0% 483.2\n18.0% 483.2\n18.0% 635.7\n18.0% 635.7\n18.0% 832.4\n18.0% 832.4\n18.0% 1,029.0\n18.0% 1,029.0\n18.0% 1,258.3\n18.0% 1,258.3\n18.0% 1,458.5\n18.0% 1,458.5\n18.0% 467.1\n18.0% 467.1\n18.0% 521.6\n18.0% 521.6\n18.0% 573.7\n18.0% 573.7\n18.0%",
+    "element_type": "TEXT",
+    "bbox": [
+      223.235,
+      273.23007499999994,
+      575.4295645,
+      289.29397500000005
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 6.885500000000036, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 10, 'avg_char_width': 3.295343510000001, 'line_count': 2, 'text_density': 0.037877189801601, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=223.235, y0=273.23007499999994, x1=575.4295645, y1=289.29397500000005, page_width=612.0, page_height=792.0, relative_x=0.36476307189542484, relative_y=0.34498746843434336, indent_ratio=0.36476307189542484), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Operating Income (EBIT):\nOperating (EBIT) Margin:",
+    "element_type": "TEXT",
+    "bbox": [
+      51.82615,
+      245.68807500000003,
+      125.58108607,
+      261.751975
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 6.885499999999979, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 48, 'avg_char_width': 2.9523799854166666, 'line_count': 2, 'text_density': 0.04135747321939152, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=51.82615, y0=245.68807500000003, x1=125.58108607, y1=261.751975, page_width=612.0, page_height=792.0, relative_x=0.08468325163398692, relative_y=0.3102122159090909, indent_ratio=0.08468325163398692), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "304.2\n27.9% 304.2\n27.9% 627.4\n44.1% 627.4\n44.1% 813.3\n45.0% 813.3\n45.0% 1,033.2\n45.2% 1,033.2\n45.2% 1,273.0\n45.3% 1,273.0\n45.3% 1,534.7\n45.5% 1,534.7\n45.5% 1,778.6\n45.0% 1,778.6\n45.0% 569.7\n40.1% 569.7\n40.1% 636.1\n40.4% 636.1\n40.4% 699.6\n40.6% 699.6\n40.6%",
+    "element_type": "TEXT",
+    "bbox": [
+      225.1848,
+      245.68807500000003,
+      576.5181220999999,
+      261.751975
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 6.885499999999979, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 10, 'avg_char_width': 3.295343510000001, 'line_count': 2, 'text_density': 0.039867509189277964, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=225.1848, y0=245.68807500000003, x1=576.5181220999999, y1=261.751975, page_width=612.0, page_height=792.0, relative_x=0.36794901960784315, relative_y=0.3102122159090909, indent_ratio=0.36794901960784315), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Revenue Growth:",
+    "element_type": "TEXT",
+    "bbox": [
+      61.01701,
+      227.324475,
+      109.15809977999999,
+      234.209975
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAK+Calibri-Italic', 'font_size': 6.885499999999979, 'is_bold': False, 'is_italic': True, 'is_monospace': False, 'char_count': 15, 'avg_char_width': 3.2133560799999987, 'line_count': 1, 'text_density': 0.045252216803443386, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=61.01701, y0=227.324475, x1=109.15809977999999, y1=234.209975, page_width=612.0, page_height=792.0, relative_x=0.09970099673202615, relative_y=0.28702585227272726, indent_ratio=0.09970099673202615), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "-\n-\n1,090.4\n25.0% -\n-\n1,090.4\n25.0% -\n-\n1,421.9\n30.4% -\n-\n1,421.9\n30.4% -\n-\n1,807.8\n27.1% -\n-\n1,807.8\n27.1% 24.5\n-\n2,284.0\n26.3% 24.5\n-\n2,284.0\n26.3% 61.1\n-\n2,810.8\n23.1% 61.1\n-\n2,810.8\n23.1% 112.5\n-\n3,372.2\n20.0% 112.5\n-\n3,372.2\n20.0% 133.9\n-\n3,951.8\n17.2% 133.9\n-\n3,951.8\n17.2% 210.6\n-\n1,421.3\n(64.0%) 210.6\n-\n1,421.3\n(64.0%) 242.1\n-\n1,573.9\n10.7% 242.1\n-\n1,573.9\n10.7% 319.0\n-\n1,721.1\n9.4% 319.0\n-\n1,721.1\n9.4%",
+    "element_type": "LIST_ITEM",
+    "bbox": [
+      220.238,
+      199.78927499999998,
+      576.5456720999999,
+      234.209975
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAC+Calibri', 'font_size': 6.885499999999979, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'char_count': 14, 'avg_char_width': 3.031468, 'line_count': 4, 'text_density': 0.022290197279131143, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=220.238, y0=199.78927499999998, x1=576.5456720999999, y1=234.209975, page_width=612.0, page_height=792.0, relative_x=0.3598660130718954, relative_y=0.2522591856060606, indent_ratio=0.3598660130718954), list_group_id='70e2f852-697d-4f63-b64b-ad8eacae0beb', confidence=0.9, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Risk-Adjusted Pipeline Drug Sales: JZP-110 Sales:\nJZP-386 Sales:\nTotal Revenue:",
+    "element_type": "TEXT",
+    "bbox": [
+      56.39403,
+      190.61097499999994,
+      149.29818964999998,
+      225.03157499999998
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAC+Calibri', 'font_size': 6.885499999999979, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'char_count': 42, 'avg_char_width': 2.8876045023809516, 'line_count': 3, 'text_density': 0.0400072179658459, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=56.39403, y0=190.61097499999994, x1=149.29818964999998, y1=225.03157499999998, page_width=612.0, page_height=792.0, relative_x=0.09214710784313726, relative_y=0.2406704229797979, indent_ratio=0.09214710784313726), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "687.2\n203.4\n57.8\n142.0 687.2\n203.4\n57.8\n142.0 951.8\n234.2\n79.8\n156.2 951.8\n234.2\n79.8\n156.2 1,265.5\n266.6\n107.1\n168.7 1,265.5\n266.6\n107.1\n168.7 1,635.9\n300.7\n140.7\n182.1 1,635.9\n300.7\n140.7\n182.1 2,037.9\n336.7\n182.0\n193.1 2,037.9\n336.7\n182.0\n193.1 2,498.9\n346.8\n209.3\n204.7 2,498.9\n346.8\n209.3\n204.7 2,976.5\n385.8\n240.7\n214.9 2,976.5\n385.8\n240.7\n214.9 310.9\n397.3\n276.9\n225.6 310.9\n397.3\n276.9\n225.6 339.1\n439.6\n318.4\n234.7 339.1\n439.6\n318.4\n234.7 339.1\n452.7\n366.1\n244.0 339.1\n452.7\n366.1\n244.0",
+    "element_type": "TEXT",
+    "bbox": [
+      225.9495,
+      153.897475,
+      575.8498645,
+      188.31807500000002
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAC+Calibri', 'font_size': 6.885499999999979, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'char_count': 19, 'avg_char_width': 3.1232097947368427, 'line_count': 4, 'text_density': 0.040599094642243004, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=225.9495, y0=153.897475, x1=575.8498645, y1=188.31807500000002, page_width=612.0, page_height=792.0, relative_x=0.36919852941176473, relative_y=0.19431499368686866, indent_ratio=0.36919852941176473), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Existing Products:\nXyrem Sales:\nErwinaze Sales:\nDefitelio Sales:\nOther Sales and Royalties:",
+    "element_type": "TEXT",
+    "bbox": [
+      56.38714,
+      144.71907499999998,
+      133.60345284999997,
+      188.31807500000002
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAC+Calibri', 'font_size': 6.885499999999979, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'char_count': 87, 'avg_char_width': 2.7861313264367804, 'line_count': 5, 'text_density': 0.02703060736667047, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=56.38714, y0=144.71907499999998, x1=133.60345284999997, y1=188.31807500000002, page_width=612.0, page_height=792.0, relative_x=0.09213584967320262, relative_y=0.18272610479797977, indent_ratio=0.09213584967320262), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Revenue:",
+    "element_type": "TEXT",
+    "bbox": [
+      51.79171,
+      135.54067499999996,
+      78.94539564,
+      142.42617499999994
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 6.885499999999979, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 8, 'avg_char_width': 3.354422687499998, 'line_count': 1, 'text_density': 0.042788367629808886, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=51.79171, y0=135.54067499999996, x1=78.94539564, y1=142.42617499999994, page_width=612.0, page_height=792.0, relative_x=0.084626977124183, relative_y=0.17113721590909087, indent_ratio=0.084626977124183), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Income Statement:",
+    "element_type": "TEXT",
+    "bbox": [
+      42.21502,
+      126.36237500000004,
+      97.71017556,
+      133.24787500000002
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 6.885499999999979, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 17, 'avg_char_width': 3.2187057294117642, 'line_count': 1, 'text_density': 0.044489586124798995, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=42.21502, y0=126.36237500000004, x1=97.71017556, y1=133.24787500000002, page_width=612.0, page_height=792.0, relative_x=0.0689787908496732, relative_y=0.15954845328282832, indent_ratio=0.0689787908496732), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "FY 14E FY 14E FY 15E FY 15E FY 16E FY 16E FY 17E FY 17E FY 18E FY 18E FY 19E FY 19E FY 20E FY 20E FY 21E FY 21E FY 22E FY 22E FY 23E FY 23E",
+    "element_type": "TEXT",
+    "bbox": [
+      217.1376,
+      126.36237500000004,
+      569.5940432,
+      133.24787500000002
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 6.885499999999979, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 6, 'avg_char_width': 3.1084029833333298, 'line_count': 1, 'text_density': 0.04761978007415365, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=217.1376, y0=126.36237500000004, x1=569.5940432, y1=133.24787500000002, page_width=612.0, page_height=792.0, relative_x=0.3548, relative_y=0.15954845328282832, indent_ratio=0.3548), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Projected",
+    "element_type": "TEXT",
+    "bbox": [
+      379.4245,
+      117.18397500000003,
+      407.23684096,
+      124.06947500000001
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 6.885499999999979, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 9, 'avg_char_width': 3.0529026222222218, 'line_count': 1, 'text_density': 0.04699692920516952, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=379.4245, y0=117.18397500000003, x1=407.23684096, y1=124.06947500000001, page_width=612.0, page_height=792.0, relative_x=0.6199746732026145, relative_y=0.14795956439393942, indent_ratio=0.6199746732026145), list_group_id=None, confidence=0.9, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "igure 8 – Jazz Projected P&L",
+    "element_type": "TITLE",
+    "bbox": [
+      41.880036000000004,
+      97.28999999999996,
+      153.47198,
+      106.76999999999998
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 9.480000000000018, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 29, 'avg_char_width': 3.8387462068965528, 'line_count': 1, 'text_density': 0.026467739444437758, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=41.880036000000004, y0=97.28999999999996, x1=153.47198, y1=106.76999999999998, page_width=612.0, page_height=792.0, relative_x=0.06843143137254902, relative_y=0.12284090909090904, indent_ratio=0.06843143137254902), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Goldman Stanley",
+    "element_type": "TEXT",
+    "bbox": [
+      40.56,
+      44.069999999999936,
+      154.80695999999998,
+      60.02999999999997
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAC+Calibri', 'font_size': 15.960000000000036, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'char_count': 16, 'avg_char_width': 7.127137500000002, 'line_count': 1, 'text_density': 0.008226473807794522, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=40.56, y0=44.069999999999936, x1=154.80695999999998, y1=60.02999999999997, page_width=612.0, page_height=792.0, relative_x=0.06627450980392158, relative_y=0.055643939393939315, indent_ratio=0.06627450980392158), list_group_id=None, confidence=0.9, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "9 May 2014",
+    "element_type": "TITLE",
+    "bbox": [
+      508.2,
+      25.409999999999968,
+      558.33096,
+      35.370000000000005
+    ],
+    "page_number": 2,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAE+Calibri-Bold', 'font_size': 9.960000000000036, 'is_bold': True, 'is_italic': False, 'is_monospace': False, 'char_count': 11, 'avg_char_width': 4.577072727272722, 'line_count': 1, 'text_density': 0.020027864302958175, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=508.2, y0=25.409999999999968, x1=558.33096, y1=35.370000000000005, page_width=612.0, page_height=792.0, relative_x=0.830392156862745, relative_y=0.03208333333333329, indent_ratio=0.830392156862745), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Attachment V",
+    "element_type": "TEXT",
+    "bbox": [
+      71.641,
+      36.343890599999895,
+      127.8101388,
+      46.30649059999996
+    ],
+    "page_number": 3,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAL+NimbusRomNo9L-Regu', 'font_size': 9.962600000000066, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'char_count': 11, 'avg_char_width': 4.8798626181818205, 'line_count': 1, 'text_density': 0.021444246322181563, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=71.641, y0=36.343890599999895, x1=127.8101388, y1=46.30649059999996, page_width=612.0, page_height=792.0, relative_x=0.11706045751633988, relative_y=0.045888750757575626, indent_ratio=0.11706045751633988), list_group_id=None, confidence=0.9, cross_page_refs=[], page_number=None)"
+  },
+  {
+    "text": "Exhibit 4.1",
+    "element_type": "TEXT",
+    "bbox": [
+      495.716,
+      36.343890599999895,
+      539.999757,
+      46.30649059999996
+    ],
+    "page_number": 3,
+    "metadata": "ElementMetadata(style_info={'font_name': 'AAAAAL+NimbusRomNo9L-Regu', 'font_size': 9.962600000000066, 'is_bold': False, 'is_italic': False, 'is_monospace': False, 'char_count': 10, 'avg_char_width': 4.179310700000002, 'line_count': 1, 'text_density': 0.024933057150525968, 'median_font_size': 6.885499999999979}, coordinates=CoordinatesMetadata(x0=495.716, y0=36.343890599999895, x1=539.999757, y1=46.30649059999996, page_width=612.0, page_height=792.0, relative_x=0.8099934640522876, relative_y=0.045888750757575626, indent_ratio=0.8099934640522876), list_group_id=None, confidence=0.7, cross_page_refs=[], page_number=None)"
+  }
+]

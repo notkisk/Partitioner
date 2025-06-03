@@ -36,16 +36,26 @@ def identify_potential_list_items(text: str, style_info: Dict[str, Any], coords_
         
     return True
 
-def group_consecutive_list_items(elements: List[Element]) -> List[Element]:
+def group_consecutive_list_items(elements: List[Element], group_lists: bool = True, max_gap: float = 20.0, max_indent_diff: float = 10.0) -> List[Element]:
     """
     Group consecutive list items that belong to the same logical list.
     
     Args:
         elements: List of elements from a page
+        group_lists: Whether to group list items together
+        max_gap: Maximum vertical gap between list items in points
+        max_indent_diff: Maximum horizontal indentation difference for grouping
         
     Returns:
         List[Element]: Updated elements with list_group_id assigned to related items
     """
+    if not group_lists:
+        # If grouping is disabled, assign unique group IDs to each list item
+        for element in elements:
+            if element.element_type == ElementType.LIST_ITEM:
+                element.metadata.list_group_id = str(uuid.uuid4())
+        return elements
+        
     current_group_id = None
     prev_list_item = None
     
@@ -56,48 +66,58 @@ def group_consecutive_list_items(elements: List[Element]) -> List[Element]:
             
         if prev_list_item is None:
             # Start new list group
-            current_group_id = uuid.uuid4().hex
+            current_group_id = str(uuid.uuid4())
             element.metadata.list_group_id = current_group_id
         else:
             # Check if this item belongs to the same list as previous
-            if _are_list_items_related(prev_list_item, element):
+            if _are_list_items_related(prev_list_item, element, max_gap, max_indent_diff):
                 element.metadata.list_group_id = current_group_id
             else:
                 # Start new list group
-                current_group_id = uuid.uuid4().hex
+                current_group_id = str(uuid.uuid4())
                 element.metadata.list_group_id = current_group_id
                 
         prev_list_item = element
         
     return elements
 
-def _are_list_items_related(item1: Element, item2: Element) -> bool:
+def _are_list_items_related(
+    item1: Element, 
+    item2: Element, 
+    max_gap: float = 20.0, 
+    max_indent_diff: float = 10.0
+) -> bool:
     """
     Determine if two list items belong to the same logical list.
     
     Args:
         item1: First list item
         item2: Second list item
+        max_gap: Maximum allowed vertical gap between items in points
+        max_indent_diff: Maximum allowed horizontal indentation difference
         
     Returns:
         bool: True if items appear to belong to same list
     """
     # 1. Vertical proximity check
     y_diff = abs(item1.bbox[3] - item2.bbox[1])
-    if y_diff > 20:  # More than 20 points gap
+    if y_diff > max_gap:
         return False
         
     # 2. Horizontal alignment check
     x_diff = abs(item1.bbox[0] - item2.bbox[0])
-    if x_diff > 10:  # More than 10 points difference in indentation
+    if x_diff > max_indent_diff:
         return False
         
     # 3. Style consistency check
-    if item1.metadata.style_info.get('font_name') != item2.metadata.style_info.get('font_name'):
+    font1 = item1.metadata.style_info.get('font_name', '')
+    font2 = item2.metadata.style_info.get('font_name', '')
+    if font1 and font2 and font1 != font2:
         return False
         
-    if abs(item1.metadata.style_info.get('font_size', 0) - 
-           item2.metadata.style_info.get('font_size', 0)) > 0.1:
+    size1 = item1.metadata.style_info.get('font_size', 0)
+    size2 = item2.metadata.style_info.get('font_size', 0)
+    if size1 and size2 and abs(size1 - size2) > 0.1:
         return False
         
     return True

@@ -1,0 +1,1150 @@
+[
+  {
+    "text": "Table 1",
+    "element_type": "ElementType.TEXT",
+    "bbox": "(90.0, 185.78694000000007, 138.92687999999998, 196.7669400000001)",
+    "page_number": 1,
+    "metadata": {
+      "style_info": {
+        "font": "IRFKFD+Verdana,Bold",
+        "size": 10.980000000000018,
+        "is_bold": true,
+        "is_italic": false,
+        "median_font_size": 12
+      },
+      "coordinates": {
+        "x0": 90.0,
+        "y0": 185.78694000000007,
+        "x1": 138.92687999999998,
+        "y1": 196.7669400000001,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.14705882352941177,
+        "relative_y": 0.2345794696969698,
+        "indent_ratio": 0.14705882352941177
+      },
+      "confidence": 0.7,
+      "cross_page_refs": []
+    }
+  },
+  {
+    "text": "Data cell (TD)",
+    "element_type": "ElementType.TEXT",
+    "bbox": "(237.6, 224.00694, 318.74496, 234.98694)",
+    "page_number": 1,
+    "metadata": {
+      "style_info": {
+        "font": "Verdana",
+        "size": 10.980000000000018,
+        "is_bold": false,
+        "is_italic": false,
+        "median_font_size": 12
+      },
+      "coordinates": {
+        "x0": 237.6,
+        "y0": 224.00694,
+        "x1": 318.74496,
+        "y1": 234.98694,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.38823529411764707,
+        "relative_y": 0.2828370454545454,
+        "indent_ratio": 0.38823529411764707
+      },
+      "confidence": 0.7,
+      "cross_page_refs": []
+    }
+  },
+  {
+    "text": "Data cell (TD)",
+    "element_type": "ElementType.TEXT",
+    "bbox": "(385.2, 224.00694, 466.34496, 234.98694)",
+    "page_number": 1,
+    "metadata": {
+      "style_info": {
+        "font": "Verdana",
+        "size": 10.980000000000018,
+        "is_bold": false,
+        "is_italic": false,
+        "median_font_size": 12
+      },
+      "coordinates": {
+        "x0": 385.2,
+        "y0": 224.00694,
+        "x1": 466.34496,
+        "y1": 234.98694,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.6294117647058823,
+        "relative_y": 0.2828370454545454,
+        "indent_ratio": 0.6294117647058823
+      },
+      "confidence": 0.7,
+      "cross_page_refs": []
+    }
+  },
+  {
+    "text": "Data cell (TD)",
+    "element_type": "ElementType.TEXT",
+    "bbox": "(237.6, 240.98694, 318.74496, 251.96694000000002)",
+    "page_number": 1,
+    "metadata": {
+      "style_info": {
+        "font": "Verdana",
+        "size": 10.980000000000018,
+        "is_bold": false,
+        "is_italic": false,
+        "median_font_size": 12
+      },
+      "coordinates": {
+        "x0": 237.6,
+        "y0": 240.98694,
+        "x1": 318.74496,
+        "y1": 251.96694000000002,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.38823529411764707,
+        "relative_y": 0.3042764393939394,
+        "indent_ratio": 0.38823529411764707
+      },
+      "confidence": 0.7,
+      "cross_page_refs": []
+    }
+  },
+  {
+    "text": "Data cell (TD)",
+    "element_type": "ElementType.TEXT",
+    "bbox": "(385.2, 240.98694, 466.34496, 251.96694000000002)",
+    "page_number": 1,
+    "metadata": {
+      "style_info": {
+        "font": "Verdana",
+        "size": 10.980000000000018,
+        "is_bold": false,
+        "is_italic": false,
+        "median_font_size": 12
+      },
+      "coordinates": {
+        "x0": 385.2,
+        "y0": 240.98694,
+        "x1": 466.34496,
+        "y1": 251.96694000000002,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.6294117647058823,
+        "relative_y": 0.3042764393939394,
+        "indent_ratio": 0.6294117647058823
+      },
+      "confidence": 0.7,
+      "cross_page_refs": []
+    }
+  },
+  {
+    "text": "[Table 1]",
+    "element_type": "TABLE_BODY",
+    "bbox": [
+      84.24,
+      302.54831869130567,
+      528.0,
+      472.6567706755529
+    ],
+    "page_number": 1,
+    "metadata": {
+      "style_info": {},
+      "coordinates": {
+        "x0": 84.24,
+        "y0": 302.54831869130567,
+        "x1": 528.0,
+        "y1": 472.6567706755529,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.1376470588235294,
+        "relative_y": 0.3820054528930627,
+        "indent_ratio": 0.1376470588235294
+      },
+      "confidence": 0.0,
+      "cross_page_refs": [],
+      "table_data": {
+        "html": "<table><thead><tr><th>0</th><th>1</th><th>2</th><th>3</th></tr></thead><tbody><tr><td>Expenditure by function £ million</td><td></td><td>2009/10</td><td>2010/11 1</td></tr><tr><td>Policy functions</td><td>Financial</td><td>22.5</td><td>30.57</td></tr><tr><td></td><td>Information 2</td><td>10.2</td><td>14.8</td></tr><tr><td></td><td>Contingency</td><td>2.6</td><td>1.2</td></tr><tr><td>Remunerated functions</td><td>Agency services 3</td><td>44.7</td><td>35.91</td></tr><tr><td></td><td>Payments</td><td>22.41</td><td>19.88</td></tr><tr><td></td><td>Banking</td><td>22.90</td><td>44.23</td></tr><tr><td></td><td>Other</td><td>12.69</td><td>10.32</td></tr></tbody></table>",
+        "accuracy": 99.02,
+        "flavor": "lattice",
+        "order": 1,
+        "caption": ""
+      }
+    }
+  },
+  {
+    "text": "1) Provisional total as of publication date. \n(2) Costs associated with on-going information programmes. \n(3) From the management accounts, net of recoveries, including interest charges.",
+    "element_type": "ElementType.TEXT",
+    "bbox": "(89.97996000000006, 485.79605999999995, 507.37308, 520.1245799999999)",
+    "page_number": 1,
+    "metadata": {
+      "style_info": {
+        "font": "Verdana",
+        "size": 10.020000000000039,
+        "is_bold": false,
+        "is_italic": false,
+        "median_font_size": 12
+      },
+      "coordinates": {
+        "x0": 89.97996000000006,
+        "y0": 485.79605999999995,
+        "x1": 507.37308,
+        "y1": 520.1245799999999,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.14702607843137266,
+        "relative_y": 0.6133788636363636,
+        "indent_ratio": 0.14702607843137266
+      },
+      "confidence": 0.7,
+      "cross_page_refs": []
+    }
+  },
+  {
+    "text": "[Table 2]",
+    "element_type": "TABLE_BODY",
+    "bbox": [
+      168.23999999999998,
+      567.1881248106635,
+      444.0,
+      670.1169342623448
+    ],
+    "page_number": 1,
+    "metadata": {
+      "style_info": {},
+      "coordinates": {
+        "x0": 168.23999999999998,
+        "y0": 567.1881248106635,
+        "x1": 444.0,
+        "y1": 670.1169342623448,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.27490196078431367,
+        "relative_y": 0.7161466222356861,
+        "indent_ratio": 0.27490196078431367
+      },
+      "confidence": 0.0,
+      "cross_page_refs": [],
+      "table_data": {
+        "html": "<table><thead><tr><th>0</th><th>1</th></tr></thead><tbody><tr><td>Main character  Daniel Radcliffe</td><td></td></tr><tr><td>Sidekick 1</td><td>Rupert Grint</td></tr><tr><td>Sidekick 2</td><td>Emma Watson</td></tr><tr><td>Lovable ogre</td><td>Robbie Coltrane</td></tr><tr><td></td><td>Professor  Maggie Smith</td></tr><tr><td>Headmaster</td><td>Richard Harris</td></tr></tbody></table>",
+        "accuracy": 90.74,
+        "flavor": "lattice",
+        "order": 2,
+        "caption": ""
+      }
+    }
+  },
+  {
+    "text": "[Table 3]",
+    "element_type": "TABLE_BODY",
+    "bbox": [
+      168.23999999999998,
+      113.96546501060288,
+      444.0,
+      233.92911239018486
+    ],
+    "page_number": 2,
+    "metadata": {
+      "style_info": {},
+      "coordinates": {
+        "x0": 168.23999999999998,
+        "y0": 113.96546501060288,
+        "x1": 444.0,
+        "y1": 233.92911239018486,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.27490196078431367,
+        "relative_y": 0.1438957891548016,
+        "indent_ratio": 0.27490196078431367
+      },
+      "confidence": 0.0,
+      "cross_page_refs": [],
+      "table_data": {
+        "html": "<table><thead><tr><th>0</th><th>1</th></tr></thead><tbody><tr><td></td><td>Role    Actor</td></tr><tr><td>Main character  Daniel Radcliffe</td><td></td></tr><tr><td>Sidekick 1</td><td>Rupert Grint</td></tr><tr><td>Sidekick 2</td><td>Emma Watson</td></tr><tr><td>Lovable ogre</td><td>Robbie Coltrane</td></tr><tr><td></td><td>Professor  Maggie Smith</td></tr><tr><td>Headmaster</td><td>Richard Harris</td></tr></tbody></table>",
+        "accuracy": 87.29,
+        "flavor": "lattice",
+        "order": 3,
+        "caption": ""
+      }
+    }
+  },
+  {
+    "text": "[Table 4]",
+    "element_type": "TABLE_BODY",
+    "bbox": [
+      84.24,
+      303.26810057558316,
+      528.0,
+      456.34171463192973
+    ],
+    "page_number": 2,
+    "metadata": {
+      "style_info": {},
+      "coordinates": {
+        "x0": 84.24,
+        "y0": 303.26810057558316,
+        "x1": 528.0,
+        "y1": 456.34171463192973,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.1376470588235294,
+        "relative_y": 0.3829142684035141,
+        "indent_ratio": 0.1376470588235294
+      },
+      "confidence": 0.0,
+      "cross_page_refs": [],
+      "table_data": {
+        "html": "<table><thead><tr><th>0</th></tr></thead><tbody><tr><td>2010 2009 2008</td></tr><tr><td>Non-current assets</td></tr><tr><td>Property 345 445 222</td></tr><tr><td>Investment 567 654 423</td></tr><tr><td>Intangibles 423 123 453</td></tr><tr><td>Current assets</td></tr><tr><td>Trade and other receivables 435 634 231</td></tr><tr><td>Cash and cash equivalents 524 123 482</td></tr><tr><td>Other 223 211 254</td></tr></tbody></table>",
+        "accuracy": 100.0,
+        "flavor": "lattice",
+        "order": 4,
+        "caption": ""
+      }
+    }
+  },
+  {
+    "text": "[Table 5]",
+    "element_type": "TABLE_BODY",
+    "bbox": [
+      84.24,
+      517.7631020902757,
+      528.0,
+      683.552862768858
+    ],
+    "page_number": 2,
+    "metadata": {
+      "style_info": {},
+      "coordinates": {
+        "x0": 84.24,
+        "y0": 517.7631020902757,
+        "x1": 528.0,
+        "y1": 683.552862768858,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.1376470588235294,
+        "relative_y": 0.6537412905180248,
+        "indent_ratio": 0.1376470588235294
+      },
+      "confidence": 0.0,
+      "cross_page_refs": [],
+      "table_data": {
+        "html": "<table><thead><tr><th>0</th></tr></thead><tbody><tr><td>Rainfall Americas Asia Europe Africa (inches)</td></tr><tr><td>2010</td></tr><tr><td>Average 104 201 193 144</td></tr><tr><td>24 hour high 15 26 27 18</td></tr><tr><td>12 hour high 9 10 11 12</td></tr><tr><td>2009</td></tr><tr><td>Average 133 244 155 166</td></tr><tr><td>24 hour high 27 28 29 20</td></tr><tr><td>12 hour high 11 12 13 16</td></tr></tbody></table>",
+        "accuracy": 100.0,
+        "flavor": "lattice",
+        "order": 5,
+        "caption": ""
+      }
+    }
+  },
+  {
+    "text": "[Table 6]",
+    "element_type": "TABLE_BODY",
+    "bbox": [
+      84.24,
+      95.97091790366562,
+      528.0,
+      166.74946985761892
+    ],
+    "page_number": 3,
+    "metadata": {
+      "style_info": {},
+      "coordinates": {
+        "x0": 84.24,
+        "y0": 95.97091790366562,
+        "x1": 528.0,
+        "y1": 166.74946985761892,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.1376470588235294,
+        "relative_y": 0.1211754013935172,
+        "indent_ratio": 0.1376470588235294
+      },
+      "confidence": 0.0,
+      "cross_page_refs": [],
+      "table_data": {
+        "html": "<table><thead><tr><th>0</th><th>1</th><th>2</th><th>3</th></tr></thead><tbody><tr><td>Non-current assets</td><td>2010</td><td>2009</td><td>2008</td></tr><tr><td>Property</td><td>345</td><td>445</td><td>222</td></tr><tr><td>Investment</td><td>567</td><td>654</td><td>423</td></tr><tr><td>Intangibles</td><td>423</td><td>123</td><td>453</td></tr></tbody></table>",
+        "accuracy": 100.0,
+        "flavor": "lattice",
+        "order": 6,
+        "caption": ""
+      }
+    }
+  },
+  {
+    "text": "[Table 7]",
+    "element_type": "TABLE_BODY",
+    "bbox": [
+      84.24,
+      214.25507421993336,
+      528.0,
+      288.1526810057558
+    ],
+    "page_number": 3,
+    "metadata": {
+      "style_info": {},
+      "coordinates": {
+        "x0": 84.24,
+        "y0": 214.25507421993336,
+        "x1": 528.0,
+        "y1": 288.1526810057558,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.1376470588235294,
+        "relative_y": 0.270524083611027,
+        "indent_ratio": 0.1376470588235294
+      },
+      "confidence": 0.0,
+      "cross_page_refs": [],
+      "table_data": {
+        "html": "<table><thead><tr><th>0</th><th>1</th><th>2</th><th>3</th></tr></thead><tbody><tr><td>Current assets</td><td>2010</td><td>2009</td><td>2008</td></tr><tr><td>Trade and other receivables</td><td>435</td><td>634</td><td>231</td></tr><tr><td>Cash and cash equivalents</td><td>524</td><td>123</td><td>482</td></tr><tr><td>Other</td><td>223</td><td>211</td><td>254</td></tr></tbody></table>",
+        "accuracy": 100.0,
+        "flavor": "lattice",
+        "order": 7,
+        "caption": ""
+      }
+    }
+  },
+  {
+    "text": "[Table 8]",
+    "element_type": "TABLE_BODY",
+    "bbox": [
+      84.24,
+      335.65828536807027,
+      528.0,
+      404.7573462587095
+    ],
+    "page_number": 3,
+    "metadata": {
+      "style_info": {},
+      "coordinates": {
+        "x0": 84.24,
+        "y0": 335.65828536807027,
+        "x1": 528.0,
+        "y1": 404.7573462587095,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.1376470588235294,
+        "relative_y": 0.4238109663738261,
+        "indent_ratio": 0.1376470588235294
+      },
+      "confidence": 0.0,
+      "cross_page_refs": [],
+      "table_data": {
+        "html": "<table><thead><tr><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th></tr></thead><tbody><tr><td>Rainfall (inches)</td><td>Americas</td><td>Asia</td><td>Europe</td><td>Africa</td></tr><tr><td>Average</td><td>133</td><td>244</td><td>155</td><td>166</td></tr><tr><td>24 hour high</td><td>27</td><td>28</td><td>29</td><td>20</td></tr><tr><td>12 hour high</td><td>11</td><td>12</td><td>13</td><td>16</td></tr></tbody></table>",
+        "accuracy": 100.0,
+        "flavor": "lattice",
+        "order": 8,
+        "caption": ""
+      }
+    }
+  },
+  {
+    "text": "[Table 9]",
+    "element_type": "TABLE_BODY",
+    "bbox": [
+      84.24,
+      113.96546501060288,
+      528.0,
+      357.73159648591337
+    ],
+    "page_number": 4,
+    "metadata": {
+      "style_info": {},
+      "coordinates": {
+        "x0": 84.24,
+        "y0": 113.96546501060288,
+        "x1": 528.0,
+        "y1": 357.73159648591337,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.1376470588235294,
+        "relative_y": 0.1438957891548016,
+        "indent_ratio": 0.1376470588235294
+      },
+      "confidence": 0.0,
+      "cross_page_refs": [],
+      "table_data": {
+        "html": "<table><thead><tr><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th></tr></thead><tbody><tr><td></td><td>2011</td><td></td><td>2010 restated</td><td></td></tr><tr><td>General income</td><td>250,000</td><td></td><td>200,000</td><td></td></tr><tr><td>Increase in value, WIP</td><td>15,000</td><td></td><td>30,000</td><td></td></tr><tr><td></td><td>265,000</td><td></td><td>230,000</td><td></td></tr><tr><td>Administrative costs</td><td></td><td></td><td></td><td></td></tr><tr><td>Staff costs</td><td>(200,000)</td><td></td><td>(150,000)</td><td></td></tr><tr><td>Early departures</td><td>(10,000)</td><td></td><td>(20,000)</td><td></td></tr><tr><td>Other</td><td>(25,000)</td><td></td><td>(10,000)</td><td></td></tr><tr><td>Depreciation</td><td>(10,000)</td><td></td><td>(10,000)</td><td></td></tr><tr><td>Programme costs</td><td></td><td></td><td></td><td></td></tr><tr><td>Impairment loss</td><td>(10,000)</td><td></td><td>(5,000)</td><td></td></tr><tr><td>Other</td><td>(5,000)</td><td></td><td>(5,000)</td><td></td></tr><tr><td></td><td>(260,000)</td><td></td><td>(200,000)</td><td></td></tr><tr><td>Surplus</td><td></td><td>5,000</td><td></td><td>30,000</td></tr></tbody></table>",
+        "accuracy": 98.52,
+        "flavor": "lattice",
+        "order": 9,
+        "caption": ""
+      }
+    }
+  },
+  {
+    "text": "[Table 10]",
+    "element_type": "TABLE_BODY",
+    "bbox": [
+      84.24,
+      423.23174795516513,
+      528.0,
+      640.1260224174492
+    ],
+    "page_number": 4,
+    "metadata": {
+      "style_info": {},
+      "coordinates": {
+        "x0": 84.24,
+        "y0": 423.23174795516513,
+        "x1": 528.0,
+        "y1": 640.1260224174492,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.1376470588235294,
+        "relative_y": 0.5343835201454106,
+        "indent_ratio": 0.1376470588235294
+      },
+      "confidence": 0.0,
+      "cross_page_refs": [],
+      "table_data": {
+        "html": "<table><thead><tr><th>0</th><th>1</th><th>2</th><th>3</th></tr></thead><tbody><tr><td></td><td></td><td>2011</td><td>2010 restated</td></tr><tr><td>Income</td><td>General income</td><td>250,000</td><td>200,000</td></tr><tr><td></td><td>Increase in value</td><td>15,000</td><td>30,000</td></tr><tr><td></td><td>Total income</td><td>265,000</td><td>230,000</td></tr><tr><td>Administrative costs</td><td>Staff costs</td><td>(200,000)</td><td>(150,000)</td></tr><tr><td></td><td>Early departures</td><td>(10,000)</td><td>(20,000)</td></tr><tr><td></td><td>Other operating costs</td><td>(25,000)</td><td>(10,000)</td></tr><tr><td></td><td>Depreciation</td><td>(10,000)</td><td>(10,000)</td></tr><tr><td>Programme costs</td><td>Impairment loss</td><td>(10,000)</td><td>(5,000)</td></tr><tr><td></td><td>Other</td><td>(5,000)</td><td>(5,000)</td></tr><tr><td></td><td>Total costs</td><td>(260,000)</td><td>(200,000)</td></tr><tr><td>Surplus</td><td></td><td>5,000</td><td>30,000</td></tr></tbody></table>",
+        "accuracy": 100.0,
+        "flavor": "lattice",
+        "order": 10,
+        "caption": ""
+      }
+    }
+  },
+  {
+    "text": "[Table 11]",
+    "element_type": "TABLE_BODY",
+    "bbox": [
+      84.24,
+      95.97091790366562,
+      528.0,
+      194.8209633444411
+    ],
+    "page_number": 5,
+    "metadata": {
+      "style_info": {},
+      "coordinates": {
+        "x0": 84.24,
+        "y0": 95.97091790366562,
+        "x1": 528.0,
+        "y1": 194.8209633444411,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.1376470588235294,
+        "relative_y": 0.1211754013935172,
+        "indent_ratio": 0.1376470588235294
+      },
+      "confidence": 0.0,
+      "cross_page_refs": [],
+      "table_data": {
+        "html": "<table><thead><tr><th>0</th><th>1</th><th>2</th></tr></thead><tbody><tr><td></td><td>2008</td><td>2009</td></tr><tr><td>Name</td><td>Yes No</td><td>Yes No</td></tr><tr><td>Bob</td><td>2 5</td><td>6 7</td></tr><tr><td>Sue</td><td>3 8</td><td>4 7</td></tr><tr><td>Sam</td><td>[data relating to both columns in a single cell spanning both]</td><td>[data relating to both columns in a single cell spanning both]</td></tr></tbody></table>",
+        "accuracy": 100.0,
+        "flavor": "lattice",
+        "order": 11,
+        "caption": ""
+      }
+    }
+  },
+  {
+    "text": "[Table 12]",
+    "element_type": "TABLE_BODY",
+    "bbox": [
+      84.24,
+      242.56649500151468,
+      528.0,
+      311.42562859739473
+    ],
+    "page_number": 5,
+    "metadata": {
+      "style_info": {},
+      "coordinates": {
+        "x0": 84.24,
+        "y0": 242.56649500151468,
+        "x1": 528.0,
+        "y1": 311.42562859739473,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.1376470588235294,
+        "relative_y": 0.3062708270221145,
+        "indent_ratio": 0.1376470588235294
+      },
+      "confidence": 0.0,
+      "cross_page_refs": [],
+      "table_data": {
+        "html": "<table><thead><tr><th>0</th><th>1</th><th>2</th><th>3</th></tr></thead><tbody><tr><td>Question</td><td>Respondent A</td><td>Respondent B</td><td>Respondent C</td></tr><tr><td>Are you a UK citizen?</td><td></td><td></td><td></td></tr><tr><td>Are you currently employed?</td><td></td><td></td><td></td></tr><tr><td>Do you have a driving licence?</td><td></td><td></td><td></td></tr></tbody></table>",
+        "accuracy": 100.0,
+        "flavor": "lattice",
+        "order": 12,
+        "caption": ""
+      }
+    }
+  },
+  {
+    "text": "[Table 13]",
+    "element_type": "TABLE_BODY",
+    "bbox": [
+      84.24,
+      358.9312329597092,
+      528.0,
+      428.0302938503484
+    ],
+    "page_number": 5,
+    "metadata": {
+      "style_info": {},
+      "coordinates": {
+        "x0": 84.24,
+        "y0": 358.9312329597092,
+        "x1": 528.0,
+        "y1": 428.0302938503484,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.1376470588235294,
+        "relative_y": 0.453196001211754,
+        "indent_ratio": 0.1376470588235294
+      },
+      "confidence": 0.0,
+      "cross_page_refs": [],
+      "table_data": {
+        "html": "<table><thead><tr><th>0</th><th>1</th><th>2</th><th>3</th></tr></thead><tbody><tr><td>Question</td><td>Respondent A</td><td>Respondent B</td><td>Respondent C</td></tr><tr><td>Are you a UK citizen?</td><td>No</td><td>Yes</td><td>No</td></tr><tr><td>Are you currently employed?</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Do you have a driving licence?</td><td>No</td><td>No</td><td>Yes</td></tr></tbody></table>",
+        "accuracy": 100.0,
+        "flavor": "lattice",
+        "order": 13,
+        "caption": ""
+      }
+    }
+  },
+  {
+    "text": "[Table 14]",
+    "element_type": "TABLE_BODY",
+    "bbox": [
+      84.24,
+      493.5304453196001,
+      529.92,
+      622.131475310512
+    ],
+    "page_number": 5,
+    "metadata": {
+      "style_info": {},
+      "coordinates": {
+        "x0": 84.24,
+        "y0": 493.5304453196001,
+        "x1": 529.92,
+        "y1": 622.131475310512,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.1376470588235294,
+        "relative_y": 0.6231445016661618,
+        "indent_ratio": 0.1376470588235294
+      },
+      "confidence": 0.0,
+      "cross_page_refs": [],
+      "table_data": {
+        "html": "<table><thead><tr><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th></tr></thead><tbody><tr><td></td><td>2006</td><td>2007</td><td>2008</td><td>2009</td></tr><tr><td>Economics</td><td>A, B</td><td>A, C</td><td>A, B</td><td>A, C</td></tr><tr><td>International relations</td><td>A, E</td><td>A, E</td><td>A, B</td><td>A, E</td></tr><tr><td>Philosophy</td><td>A</td><td>A</td><td>A</td><td>A, D</td></tr><tr><td>Politics</td><td>A, D</td><td>A, D</td><td>A, D</td><td>A</td></tr><tr><td>Mathematics</td><td>B, C</td><td>B</td><td>A, E</td><td>A, B</td></tr><tr><td>English</td><td>A, C</td><td>A, B</td><td>A,B</td><td>C</td></tr></tbody></table>",
+        "accuracy": 100.0,
+        "flavor": "lattice",
+        "order": 14,
+        "caption": ""
+      }
+    }
+  },
+  {
+    "text": "[Table 15]",
+    "element_type": "TABLE_BODY",
+    "bbox": [
+      84.24,
+      107.9672826416238,
+      529.92,
+      231.76976673735237
+    ],
+    "page_number": 6,
+    "metadata": {
+      "style_info": {},
+      "coordinates": {
+        "x0": 84.24,
+        "y0": 107.9672826416238,
+        "x1": 529.92,
+        "y1": 231.76976673735237,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.1376470588235294,
+        "relative_y": 0.13632232656770682,
+        "indent_ratio": 0.1376470588235294
+      },
+      "confidence": 0.0,
+      "cross_page_refs": [],
+      "table_data": {
+        "html": "<table><thead><tr><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th></tr></thead><tbody><tr><td></td><td>2006</td><td>2007</td><td>2008</td><td>2009</td></tr><tr><td>Economics</td><td>No</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>International relations</td><td>No</td><td>No</td><td>No</td><td>No</td></tr><tr><td>Philosophy</td><td>No</td><td>No</td><td>No</td><td>No</td></tr><tr><td>Politics</td><td>No</td><td>No</td><td>No</td><td>No</td></tr><tr><td>Mathematics</td><td>Yes</td><td>No</td><td>No</td><td>No</td></tr><tr><td>English</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr></tbody></table>",
+        "accuracy": 100.0,
+        "flavor": "lattice",
+        "order": 15,
+        "caption": ""
+      }
+    }
+  },
+  {
+    "text": "[Table 16]",
+    "element_type": "TABLE_BODY",
+    "bbox": [
+      84.24,
+      279.2753710996668,
+      494.4,
+      468.5780066646471
+    ],
+    "page_number": 6,
+    "metadata": {
+      "style_info": {},
+      "coordinates": {
+        "x0": 84.24,
+        "y0": 279.2753710996668,
+        "x1": 494.4,
+        "y1": 468.5780066646471,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.1376470588235294,
+        "relative_y": 0.3526204180551349,
+        "indent_ratio": 0.1376470588235294
+      },
+      "confidence": 0.0,
+      "cross_page_refs": [],
+      "table_data": {
+        "html": "<table><thead><tr><th>0</th><th>1</th><th>2</th></tr></thead><tbody><tr><td>Accounting item</td><td></td><td>2011</td></tr><tr><td></td><td>Income  General income</td><td>200,000</td></tr><tr><td></td><td>Increase in value, WIP</td><td>30,000</td></tr><tr><td></td><td>Income subtotal</td><td>230,000</td></tr><tr><td>Administrative costs</td><td>Staff</td><td>150,000</td></tr><tr><td></td><td>Early departures</td><td>20,000</td></tr><tr><td></td><td>Other operating costs</td><td>10,000</td></tr><tr><td></td><td>Depreciation</td><td>10,000</td></tr><tr><td>Programme costs</td><td>Impairment loss</td><td>10,000</td></tr><tr><td></td><td>Costs subtotal</td><td>200,000</td></tr><tr><td>Balance</td><td></td><td>30,000</td></tr></tbody></table>",
+        "accuracy": 98.61,
+        "flavor": "lattice",
+        "order": 16,
+        "caption": ""
+      }
+    }
+  },
+  {
+    "text": "[Table 17]",
+    "element_type": "TABLE_BODY",
+    "bbox": [
+      84.24,
+      516.0836110269615,
+      494.4,
+      715.9430475613451
+    ],
+    "page_number": 6,
+    "metadata": {
+      "style_info": {},
+      "coordinates": {
+        "x0": 84.24,
+        "y0": 516.0836110269615,
+        "x1": 494.4,
+        "y1": 715.9430475613451,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.1376470588235294,
+        "relative_y": 0.6516207209936383,
+        "indent_ratio": 0.1376470588235294
+      },
+      "confidence": 0.0,
+      "cross_page_refs": [],
+      "table_data": {
+        "html": "<table><thead><tr><th>0</th><th>1</th><th>2</th></tr></thead><tbody><tr><td>Accounting item</td><td></td><td>2011</td></tr><tr><td></td><td>Income  General income</td><td>200,000</td></tr><tr><td></td><td>Increase in value, WIP</td><td>30,000</td></tr><tr><td></td><td>Income subtotal</td><td>230,000</td></tr><tr><td>Administrative costs</td><td>Staff</td><td>(150,000)</td></tr><tr><td></td><td>Early departures</td><td>(20,000)</td></tr><tr><td></td><td>Other operating costs</td><td>(10,000)</td></tr><tr><td></td><td>Depreciation</td><td>(10,000)</td></tr><tr><td>Programme costs</td><td>Impairment loss</td><td>(10,000)</td></tr><tr><td></td><td>Costs subtotal</td><td>(200,000)</td></tr><tr><td>Balance</td><td></td><td>30,000</td></tr></tbody></table>",
+        "accuracy": 98.61,
+        "flavor": "lattice",
+        "order": 17,
+        "caption": ""
+      }
+    }
+  },
+  {
+    "text": "[Table 18]",
+    "element_type": "TABLE_BODY",
+    "bbox": [
+      84.24,
+      113.96546501060288,
+      430.8,
+      256.9621326870646
+    ],
+    "page_number": 7,
+    "metadata": {
+      "style_info": {},
+      "coordinates": {
+        "x0": 84.24,
+        "y0": 113.96546501060288,
+        "x1": 430.8,
+        "y1": 256.9621326870646,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.1376470588235294,
+        "relative_y": 0.1438957891548016,
+        "indent_ratio": 0.1376470588235294
+      },
+      "confidence": 0.0,
+      "cross_page_refs": [],
+      "table_data": {
+        "html": "<table><thead><tr><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th></tr></thead><tbody><tr><td>Country</td><td>1980</td><td>1990</td><td>2000</td><td>2010</td></tr><tr><td>Afghanistan</td><td>0.78</td><td>1.48</td><td>2.16</td><td>3.33</td></tr><tr><td>Albania</td><td>8.89</td><td>9.67</td><td>9.89</td><td>10.38</td></tr><tr><td>Algeria</td><td>4.74</td><td>3.33</td><td>5.50</td><td>7.24</td></tr><tr><td>Andorra</td><td>4.98</td><td>5.63</td><td>9.09</td><td>10.35</td></tr><tr><td>Angola</td><td>-</td><td>-</td><td>4.42</td><td>4.42</td></tr></tbody></table>",
+        "accuracy": 100.0,
+        "flavor": "lattice",
+        "order": 18,
+        "caption": ""
+      }
+    }
+  },
+  {
+    "text": "[Table 19]",
+    "element_type": "TABLE_BODY",
+    "bbox": [
+      84.24,
+      304.46773704937897,
+      528.0,
+      474.81611632838536
+    ],
+    "page_number": 7,
+    "metadata": {
+      "style_info": {},
+      "coordinates": {
+        "x0": 84.24,
+        "y0": 304.46773704937897,
+        "x1": 528.0,
+        "y1": 474.81611632838536,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.1376470588235294,
+        "relative_y": 0.38442896092093304,
+        "indent_ratio": 0.1376470588235294
+      },
+      "confidence": 0.0,
+      "cross_page_refs": [],
+      "table_data": {
+        "html": "<table><thead><tr><th>0</th><th>1</th><th>2</th><th>3</th></tr></thead><tbody><tr><td>Expenditure by function £million</td><td></td><td>2009/10</td><td>1 2010/11</td></tr><tr><td>Policy functions</td><td>Financial</td><td>22.5</td><td>30.57</td></tr><tr><td></td><td>2 Information</td><td>10.2</td><td>14.8</td></tr><tr><td></td><td>Contingency</td><td>2.6</td><td>1.2</td></tr><tr><td>Remunerated functions</td><td>Agency services 3</td><td>44.7</td><td>35.91</td></tr><tr><td></td><td>Payments</td><td>22.41</td><td>19.88</td></tr><tr><td></td><td>Banking</td><td>22.90</td><td>44.23</td></tr><tr><td></td><td>Other</td><td>12.69</td><td>10.32</td></tr></tbody></table>",
+        "accuracy": 99.14,
+        "flavor": "lattice",
+        "order": 19,
+        "caption": ""
+      }
+    }
+  },
+  {
+    "text": "1) Provisional total as of publication date. \n(2) Costs associated with on-going information programmes. \n(3) From the management accounts, net of recoveries and including interest charges",
+    "element_type": "ElementType.TEXT",
+    "bbox": "(89.97996000000006, 487.95606, 522.2026800000001, 522.28458)",
+    "page_number": 7,
+    "metadata": {
+      "style_info": {
+        "font": "Verdana",
+        "size": 10.020000000000039,
+        "is_bold": false,
+        "is_italic": false,
+        "median_font_size": 12
+      },
+      "coordinates": {
+        "x0": 89.97996000000006,
+        "y0": 487.95606,
+        "x1": 522.2026800000001,
+        "y1": 522.28458,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.14702607843137266,
+        "relative_y": 0.6161061363636363,
+        "indent_ratio": 0.14702607843137266
+      },
+      "confidence": 0.7,
+      "cross_page_refs": []
+    }
+  },
+  {
+    "text": "[Table 20]",
+    "element_type": "TABLE_BODY",
+    "bbox": [
+      84.24,
+      95.97091790366562,
+      528.0,
+      266.3192971826719
+    ],
+    "page_number": 8,
+    "metadata": {
+      "style_info": {},
+      "coordinates": {
+        "x0": 84.24,
+        "y0": 95.97091790366562,
+        "x1": 528.0,
+        "y1": 266.3192971826719,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.1376470588235294,
+        "relative_y": 0.1211754013935172,
+        "indent_ratio": 0.1376470588235294
+      },
+      "confidence": 0.0,
+      "cross_page_refs": [],
+      "table_data": {
+        "html": "<table><thead><tr><th>0</th><th>1</th><th>2</th><th>3</th></tr></thead><tbody><tr><td>Expenditure by function £million</td><td></td><td>2009/10</td><td>2010/11</td></tr><tr><td>Policy functions</td><td>Financial</td><td>22.5</td><td>30.57</td></tr><tr><td></td><td>Information</td><td>10.2</td><td>14.8</td></tr><tr><td></td><td>Contingency</td><td>2.6</td><td>1.2</td></tr><tr><td>Remunerated functions</td><td>Agency services</td><td>44.7</td><td>35.91</td></tr><tr><td></td><td>Payments</td><td>22.41</td><td>19.88</td></tr><tr><td></td><td>Banking</td><td>22.90</td><td>44.23</td></tr><tr><td></td><td>Other</td><td>12.69</td><td>10.32</td></tr></tbody></table>",
+        "accuracy": 99.07,
+        "flavor": "lattice",
+        "order": 20,
+        "caption": ""
+      }
+    }
+  },
+  {
+    "text": "[Table 21]",
+    "element_type": "TABLE_BODY",
+    "bbox": [
+      84.24,
+      313.8249015449864,
+      528.0,
+      490.1714631929718
+    ],
+    "page_number": 8,
+    "metadata": {
+      "style_info": {},
+      "coordinates": {
+        "x0": 84.24,
+        "y0": 313.8249015449864,
+        "x1": 528.0,
+        "y1": 490.1714631929718,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.1376470588235294,
+        "relative_y": 0.396243562556801,
+        "indent_ratio": 0.1376470588235294
+      },
+      "confidence": 0.0,
+      "cross_page_refs": [],
+      "table_data": {
+        "html": "<table><thead><tr><th>0</th><th>1</th><th>2</th><th>3</th></tr></thead><tbody><tr><td>Expenditure £m</td><td>Notes  (Notes located on  page [n])</td><td>2010</td><td>2011</td></tr><tr><td>Information</td><td>1</td><td>10.2</td><td>14.8</td></tr><tr><td>Contingency</td><td></td><td>2.6</td><td>1.2</td></tr><tr><td>Payments</td><td>3</td><td>22.41</td><td>19.88</td></tr><tr><td>Banking services</td><td>4</td><td>22.90</td><td>44.23</td></tr><tr><td>Interest</td><td></td><td>0.23</td><td>0.10</td></tr><tr><td>Dividends</td><td>23</td><td>2.5</td><td>3.68</td></tr><tr><td>Other</td><td>9</td><td>12.69</td><td>10.32</td></tr></tbody></table>",
+        "accuracy": 100.0,
+        "flavor": "lattice",
+        "order": 21,
+        "caption": ""
+      }
+    }
+  },
+  {
+    "text": "[Table 22]",
+    "element_type": "TABLE_BODY",
+    "bbox": [
+      84.47999999999999,
+      555.6716146622235,
+      527.76,
+      635.5674038170251
+    ],
+    "page_number": 8,
+    "metadata": {
+      "style_info": {},
+      "coordinates": {
+        "x0": 84.47999999999999,
+        "y0": 555.6716146622235,
+        "x1": 527.76,
+        "y1": 635.5674038170251,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.1380392156862745,
+        "relative_y": 0.701605574068464,
+        "indent_ratio": 0.1380392156862745
+      },
+      "confidence": 0.0,
+      "cross_page_refs": [],
+      "table_data": {
+        "html": "<table><thead><tr><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th></tr></thead><tbody><tr><td></td><td>2008</td><td></td><td>2009</td><td></td></tr><tr><td>Name</td><td>Entered</td><td>Completed</td><td>Entered</td><td>Completed</td></tr><tr><td>Bob</td><td>22</td><td>21</td><td>20</td><td>19</td></tr><tr><td>Sue</td><td>44</td><td>12</td><td>12</td><td>10</td></tr></tbody></table>",
+        "accuracy": 95.35,
+        "flavor": "lattice",
+        "order": 22,
+        "caption": ""
+      }
+    }
+  },
+  {
+    "text": "[Table 23]",
+    "element_type": "TABLE_BODY",
+    "bbox": [
+      84.24,
+      95.97091790366562,
+      528.0,
+      318.8633747349288
+    ],
+    "page_number": 9,
+    "metadata": {
+      "style_info": {},
+      "coordinates": {
+        "x0": 84.24,
+        "y0": 95.97091790366562,
+        "x1": 528.0,
+        "y1": 318.8633747349288,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.1376470588235294,
+        "relative_y": 0.1211754013935172,
+        "indent_ratio": 0.1376470588235294
+      },
+      "confidence": 0.0,
+      "cross_page_refs": [],
+      "table_data": {
+        "html": "<table><thead><tr><th>0</th></tr></thead><tbody><tr><td>2010 2009 2008</td></tr><tr><td>Non-current assets</td></tr><tr><td>Buildings 345 445 222</td></tr><tr><td>Investment 567 654 423</td></tr><tr><td>Intangibles 423 123 453</td></tr><tr><td>Current assets</td></tr><tr><td>Trade 435 634 231</td></tr><tr><td>Cash 524 123 482</td></tr><tr><td>Other 223 211 254</td></tr><tr><td>Current liabilities</td></tr><tr><td>Trade liabilities 154 125 421</td></tr><tr><td>Financial debt 231 474 572</td></tr><tr><td>Provisions 111 312 347</td></tr></tbody></table>",
+        "accuracy": 100.0,
+        "flavor": "lattice",
+        "order": 23,
+        "caption": ""
+      }
+    }
+  },
+  {
+    "text": "[Table 24]",
+    "element_type": "TABLE_BODY",
+    "bbox": [
+      84.24,
+      366.36897909724325,
+      528.0,
+      464.4992426537413
+    ],
+    "page_number": 9,
+    "metadata": {
+      "style_info": {},
+      "coordinates": {
+        "x0": 84.24,
+        "y0": 366.36897909724325,
+        "x1": 528.0,
+        "y1": 464.4992426537413,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.1376470588235294,
+        "relative_y": 0.4625870948197516,
+        "indent_ratio": 0.1376470588235294
+      },
+      "confidence": 0.0,
+      "cross_page_refs": [],
+      "table_data": {
+        "html": "<table><thead><tr><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th></tr></thead><tbody><tr><td></td><td>2008</td><td></td><td>2009</td><td></td></tr><tr><td>Name</td><td>Entered</td><td>Won</td><td>Entered</td><td>Won</td></tr><tr><td>Bob</td><td>22</td><td>21</td><td>20</td><td>19</td></tr><tr><td>Sue</td><td>44</td><td>12</td><td>12</td><td>10</td></tr><tr><td>Sam</td><td>16</td><td>4</td><td>45</td><td>30</td></tr></tbody></table>",
+        "accuracy": 96.31,
+        "flavor": "lattice",
+        "order": 24,
+        "caption": ""
+      }
+    }
+  },
+  {
+    "text": "[Table 25]",
+    "element_type": "TABLE_BODY",
+    "bbox": [
+      84.24,
+      529.9993941229931,
+      501.84,
+      650.6828233868525
+    ],
+    "page_number": 9,
+    "metadata": {
+      "style_info": {},
+      "coordinates": {
+        "x0": 84.24,
+        "y0": 529.9993941229931,
+        "x1": 501.84,
+        "y1": 650.6828233868525,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.1376470588235294,
+        "relative_y": 0.6691911541956983,
+        "indent_ratio": 0.1376470588235294
+      },
+      "confidence": 0.0,
+      "cross_page_refs": [],
+      "table_data": {
+        "html": "<table><thead><tr><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th></tr></thead><tbody><tr><td></td><td>2006</td><td>2007</td><td>2008</td><td>2009</td></tr><tr><td>Economics</td><td>A, B</td><td>A, C</td><td>A, C</td><td>A, C</td></tr><tr><td>International relations</td><td>A, E</td><td>A, E</td><td>A, B</td><td>A, B</td></tr><tr><td>Philosophy</td><td>A</td><td>A</td><td>A</td><td>A</td></tr><tr><td>Politics</td><td>A, D</td><td>A, D</td><td>A, B</td><td>A</td></tr><tr><td>Mathematics</td><td>B, C</td><td>B</td><td>A, B</td><td>A, B</td></tr><tr><td>English</td><td>A, C</td><td>A, B</td><td>A,B</td><td>A, C</td></tr></tbody></table>",
+        "accuracy": 100.0,
+        "flavor": "lattice",
+        "order": 25,
+        "caption": ""
+      }
+    }
+  },
+  {
+    "text": "[Table 26]",
+    "element_type": "TABLE_BODY",
+    "bbox": [
+      84.24,
+      95.97091790366562,
+      528.0,
+      164.83005149954556
+    ],
+    "page_number": 10,
+    "metadata": {
+      "style_info": {},
+      "coordinates": {
+        "x0": 84.24,
+        "y0": 95.97091790366562,
+        "x1": 528.0,
+        "y1": 164.83005149954556,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.1376470588235294,
+        "relative_y": 0.1211754013935172,
+        "indent_ratio": 0.1376470588235294
+      },
+      "confidence": 0.0,
+      "cross_page_refs": [],
+      "table_data": {
+        "html": "<table><thead><tr><th>0</th><th>1</th><th>2</th></tr></thead><tbody><tr><td>Name</td><td>Apples</td><td>Pears</td></tr><tr><td>Bob Scott</td><td>20</td><td>25</td></tr><tr><td>Susan. P. Arnold-Jones, BA, FRSA, MD</td><td>24</td><td>15</td></tr><tr><td>Sam Holder-Dickinson</td><td>14</td><td>10</td></tr></tbody></table>",
+        "accuracy": 100.0,
+        "flavor": "lattice",
+        "order": 26,
+        "caption": ""
+      }
+    }
+  },
+  {
+    "text": "[Table 27]",
+    "element_type": "TABLE_BODY",
+    "bbox": [
+      84.24,
+      230.33020296879738,
+      528.0,
+      454.66222356861556
+    ],
+    "page_number": 10,
+    "metadata": {
+      "style_info": {},
+      "coordinates": {
+        "x0": 84.24,
+        "y0": 230.33020296879738,
+        "x1": 528.0,
+        "y1": 454.66222356861556,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.1376470588235294,
+        "relative_y": 0.29082096334444113,
+        "indent_ratio": 0.1376470588235294
+      },
+      "confidence": 0.0,
+      "cross_page_refs": [],
+      "table_data": {
+        "html": "<table><thead><tr><th>0</th></tr></thead><tbody><tr><td>2010 2009 2008</td></tr><tr><td>Non-current assets</td></tr><tr><td>Buildings 345 445 222</td></tr><tr><td>Investment 567 654 423</td></tr><tr><td>Intangibles 423 123 453</td></tr><tr><td>Current assets</td></tr><tr><td>Trade 435 634 231</td></tr><tr><td>Cash 524 123 482</td></tr><tr><td>Other 223 211 254</td></tr><tr><td>Current liabilities</td></tr><tr><td>Trade liabilities 154 125 421</td></tr><tr><td>Financial debt 231 474 572</td></tr><tr><td>Provisions 111 312 347</td></tr></tbody></table>",
+        "accuracy": 100.0,
+        "flavor": "lattice",
+        "order": 27,
+        "caption": ""
+      }
+    }
+  },
+  {
+    "text": "[Table 28]",
+    "element_type": "TABLE_BODY",
+    "bbox": [
+      84.24,
+      95.97091790366562,
+      528.0,
+      329.90003029385036
+    ],
+    "page_number": 11,
+    "metadata": {
+      "style_info": {},
+      "coordinates": {
+        "x0": 84.24,
+        "y0": 95.97091790366562,
+        "x1": 528.0,
+        "y1": 329.90003029385036,
+        "page_width": 612.0,
+        "page_height": 792.0,
+        "relative_x": 0.1376470588235294,
+        "relative_y": 0.1211754013935172,
+        "indent_ratio": 0.1376470588235294
+      },
+      "confidence": 0.0,
+      "cross_page_refs": [],
+      "table_data": {
+        "html": "<table><thead><tr><th>0</th></tr></thead><tbody><tr><td>South America Asia Africa Australia</td></tr><tr><td>2010</td></tr><tr><td>Highest average 523.6 467.4 405.0 340.5</td></tr><tr><td>Highest in 24 hours 73.1 54.1 27.2 66.3</td></tr><tr><td>Highest in 12 hours 42.4 30.1 15.9 40.3</td></tr><tr><td>2009</td></tr><tr><td>Highest average 487.7 453.6 398.7 356</td></tr><tr><td>Highest in 24 hours 67.2 53.2 44.3 53.8</td></tr><tr><td>Highest in 12 hours 34.7 34.1 29.8 31.0</td></tr><tr><td>2008</td></tr><tr><td>Highest average 496.7 444.3 502.1 399.6</td></tr><tr><td>Highest in 24 hours 44.2 56.7 32.1 63.2</td></tr><tr><td>Highest in 12 hours 30.1 32.7 21.9 40.2</td></tr></tbody></table>",
+        "accuracy": 100.0,
+        "flavor": "lattice",
+        "order": 28,
+        "caption": ""
+      }
+    }
+  }
+]

@@ -5,18 +5,40 @@ import uuid
 
 class ElementType(Enum):
     """Types of text elements that can be identified."""
-    NARRATIVE_TEXT = "narrative_text"
-    TITLE = "title"
-    LIST_ITEM = "list_item"
-    HEADER = "header"
-    FOOTER = "footer"
-    PAGE_NUMBER = "page_number"
-    FOOTNOTE = "footnote"
-    CONTACT_INFO = "contact_info"
-    TABLE_CELL = "table_cell"
-    CAPTION = "caption"
-    UNKNOWN = "unknown"
-    ANNOTATION = "annotation"
+    # Text elements
+    TITLE = "TITLE"
+    TEXT = "TEXT"
+    BLOCK_EQUATION = "BLOCK_EQUATION"
+    
+    # List elements
+    LIST_ITEM = "LIST_ITEM"
+    LIST = "LIST"
+    INDEX = "INDEX"
+    
+    # Table elements
+    TABLE_BODY = "TABLE_BODY"
+    TABLE_CAPTION = "TABLE_CAPTION"
+    TABLE_FOOTNOTE = "TABLE_FOOTNOTE"
+    
+    # Figure elements (formerly Image)
+    FIGURE = "FIGURE"
+    FIGURE_CAPTION = "FIGURE_CAPTION"
+    FIGURE_FOOTNOTE = "FIGURE_FOOTNOTE"
+    
+    # Other
+    DISCARDED = "DISCARDED"
+    
+    # Legacy types (for backward compatibility)
+    NARRATIVE_TEXT = "TEXT"
+    HEADER = "TITLE"
+    FOOTER = "TEXT"
+    PAGE_NUMBER = "TEXT"
+    FOOTNOTE = "TEXT"
+    CONTACT_INFO = "TEXT"
+    TABLE_CELL = "TABLE_BODY"
+    CAPTION = "TEXT"
+    UNKNOWN = "DISCARDED"
+    ANNOTATION = "TEXT"
 
 @dataclass
 class CoordinatesMetadata:
@@ -49,6 +71,7 @@ class ElementMetadata:
     confidence: float = 0.0
     cross_page_refs: List[int] = field(default_factory=list)
     page_number: Optional[int] = None
+    table_data: Optional[Dict[str, Any]] = None
 
 @dataclass
 class Element:
