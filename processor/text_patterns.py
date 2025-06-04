@@ -88,11 +88,15 @@ NUMBERED_LIST_RE = re.compile(NUMBERED_LIST_PATTERN)
 
 # Caption patterns
 CAPTION_PATTERNS = [
-    r'^(?:Figure|Fig\.?|Table|Chart|Diagram|Image|Photo|Illustration|Fig\.?\s*\d+)[:.]?\s*',
-    r'^\s*\(?\s*(?:Figure|Fig\.?|Table|Chart|Diagram|Image|Photo|Illustration)\s*\d+\s*\)?\s*[:.-]?\s*',
-    r'^\s*\[?\s*(?:Figure|Fig\.?|Table|Chart|Diagram|Image|Photo|Illustration)\s*\d+\s*\]?\s*[:.-]?\s*',
-    r'^\s*\d+\s*[:.-]?\s*[A-Z]',  # Number followed by capital letter (e.g., "1. A diagram showing...")
-]
+    # Figure/Table captions with numbering, allow decimals
+    r'^(?:Figure|Fig\.?|Table|Tbl\.?|Tab\.?)\s*\d+(?:\.\d+)*[:.)]?\s*',
+    # Other visuals
+    r'^(?:Chart|Diagram|Image|Photo|Illustration|Equation|Eq\.?|Eqn\.?)[:.]?\s*',
+    # Source or Note prefixes
+    r'^(?:Source|Note|Caption)[:.]?\s*',
+    # Numbered list-like captions
+    r'^\s*\d+(?:[\.\-]\d+)*(?:[\.\-][A-Z])?[:.-]?\s*[A-Z]',
+]  # E.g., "1. A diagram showing..."
 
 # Compiled regex for caption patterns
 CAPTION_RE = [re.compile(pattern, re.IGNORECASE) for pattern in CAPTION_PATTERNS]

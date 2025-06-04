@@ -2,6 +2,7 @@ from typing import List, Dict, Any, Tuple, Optional, Union, Set
 import numpy as np
 import re
 import logging
+logger = logging.getLogger(__name__)
 import json
 from pathlib import Path
 from pdfminer.high_level import extract_pages
@@ -9,11 +10,6 @@ from pdfminer.layout import LAParams, LTTextBoxHorizontal, LTChar, LTPage, LTFig
 from core.pdf_text_extractor import PDFTextExtractor
 from utils.coordinate_system import CoordinateSystem
 from .table_utils import is_inside_table
-
-# Set up logging
-logger = logging.getLogger(__name__)
-
-from utils.coordinate_system import CoordinateSystem
 from .spatial_grouper import merge_text_blocks, merge_blocks
 from .element_classifier import classify_element
 from .list_handler import group_consecutive_list_items
@@ -65,7 +61,8 @@ def rect_to_bbox(rect: tuple, height: float) -> tuple:
     return (x0, height - y1, x1, height - y0)
 
 def process_pdf(
-    pdf_path: str, 
+    pdf_path: str,
+    image_output_dir: Optional[str] = None,
     la_params: Dict[str, Any] = None,
     group_lists: bool = True,
     max_list_gap: float = 20.0,
@@ -82,6 +79,7 @@ def process_pdf(
     
     Args:
         pdf_path: Path to the PDF file
+        image_output_dir: Directory to save extracted images
         la_params: Optional LAParams configuration
         group_lists: Whether to group list items together
         max_list_gap: Maximum vertical gap between list items in points
@@ -96,6 +94,7 @@ def process_pdf(
         - Dict: Document structure information including split markers and tables
     """
     from utils.coordinate_system import CoordinateSystem
+    from utils.image_utils import extract_images_from_pdf
     
     # Set default layout analysis parameters if none provided
     if isinstance(la_params, LAParams):
@@ -114,6 +113,13 @@ def process_pdf(
     
     # Initialize document structure
     all_elements = []
+    # early image extraction for proper caption detection
+    if image_output_dir:
+        img_dicts = extract_images_from_pdf(pdf_path, image_output_dir)
+        # incorporate extracted image dicts directly
+        for img in img_dicts:
+            all_elements.append(img)
+    
     page_stats = {}
     page_data = []
     table_areas = set()
@@ -191,7 +197,9 @@ def process_pdf(
         except Exception as e:
             logger.error(f"Error during table extraction phase: {str(e)}", exc_info=True)
     
-    logger.debug(f"Starting page processing for text and other elements after processing {len([e for e in all_elements if e.element_type == ElementType.TABLE_BODY])} tables")
+    # count table elements (Element objects only)
+    num_tables = sum(1 for e in all_elements if hasattr(e, 'element_type') and e.element_type == ElementType.TABLE_BODY)
+    logger.debug(f"Starting page processing for text and other elements after processing {num_tables} tables")
     
     # First pass: collect statistics and raw page data
     try:

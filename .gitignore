@@ -42,3 +42,7 @@ sample_elements.json
 
 /pdf_documents_fast/
 /example-docs/
+
+/partitioner/output/
+/partitioner/output_dir/
+/Partitioner\output\

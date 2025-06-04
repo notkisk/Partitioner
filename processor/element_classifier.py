@@ -1,5 +1,10 @@
+import logging
 import re
+from dataclasses import asdict
 from typing import Dict, Any, List, Tuple
+import math
+
+logger = logging.getLogger(__name__)
 from .data_models import Element, ElementType, ElementMetadata, CoordinatesMetadata
 from .text_analysis import (
     is_possible_title,
@@ -15,50 +20,31 @@ from .text_analysis import (
 from .caption_detector import is_likely_caption
 
 def classify_element(
-    text: str, 
-    bbox: Tuple[float, float, float, float], 
-    style_info: Dict[str, Any], 
-    page_info: Dict[str, float], 
-    page_number: int, 
-    context: Dict[str, Any],
-    elements_before: List[Dict] = None,
-    elements_after: List[Dict] = None
-) -> Element:
-    """Classify a text block into its appropriate element type.
-    
-    Args:
-        text: The text content to classify
-        bbox: Bounding box coordinates (x0, y0, x1, y1)
-        style_info: Font and style information
-        page_info: Page dimensions and metrics
-        page_number: Current page number
-        context: Additional contextual information
-        
-    Returns:
-        Element: Classified element with metadata
-    """
-    # Create coordinate metadata
+    text,
+    bbox,
+    style_info,
+    page_info,
+    page_number,
+    context,
+    elements_before=None,
+    elements_after=None
+):
+    from .data_models import CoordinatesMetadata, ElementMetadata, ElementType, Element
+    from dataclasses import asdict
     coords = CoordinatesMetadata(
         x0=bbox[0], y0=bbox[1], x1=bbox[2], y1=bbox[3],
         page_width=page_info['width'],
         page_height=page_info['height']
     )
-    
-    # Initialize metadata
     metadata = ElementMetadata(
         style_info=style_info,
         coordinates=coords
     )
-    
-    # Prepare style info with median font size
     style_info['median_font_size'] = context.get('median_font_size', 12)
-    
-    # Start classification process with default values
     element_type = ElementType.TEXT
-    confidence = 0.7  # Default confidence for regular text
-    
-    # Clean and prepare text
+    confidence = 0.7
     text = text.strip()
+    text = ' '.join(text.splitlines())
     if not text:
         return Element(
             text="",
@@ -71,271 +57,247 @@ def classify_element(
                 confidence=1.0
             )
         )
-    
-    # Initialize variables
-    is_title, title_confidence = is_possible_title(text, style_info)
-    is_list = False  # Initialize is_list to avoid UnboundLocalError
-    
-    # 1. First check for section headers (highest priority)
-    if is_title and title_confidence > 0.6:  # Only consider high-confidence titles
-        # Check for section number patterns (e.g., "1.2.3 Section Title")
-        section_pattern = r'^(\d+(?:\.\d+)+)\s+[A-Z]'
-        if re.match(section_pattern, text):
-            element_type = ElementType.TITLE
-            confidence = max(0.9, title_confidence)  # High confidence for section headers
-    
-    # 2. Check for list items (high priority, but lower than section headers)
-    if element_type != ElementType.TITLE:  # Only check for lists if not already identified as title
-        is_list = is_list_item(text)
-        if is_list:
-            element_type = ElementType.LIST_ITEM
-            confidence = 0.9
-    
-    # 3. Check for other types of titles (lower priority than list items)
-    if element_type == ElementType.TEXT and is_title and title_confidence > 0.4:
-        element_type = ElementType.TITLE
-        confidence = max(confidence, title_confidence)
-    
-    # 3. Check for block equations (medium priority)
-    # This is a simplified check - you might want to enhance this
-    if '=' in text and ('\\' in text or '$' in text):
-        element_type = ElementType.BLOCK_EQUATION
-        confidence = 0.9
-    
-    # 4. Check for captions (only if we have elements before to check against)
-    if not is_list and element_type == ElementType.TEXT and elements_before:
+    # early caption detection override
+    if elements_before:
         try:
-            # First check if this is likely a caption based on text patterns
             is_caption, caption_confidence = is_likely_caption(
-                text, 
-                bbox, 
-                style_info, 
-                page_info, 
-                elements_before, 
+                text,
+                bbox,
+                style_info,
+                page_info,
+                elements_before,
                 elements_after or []
             )
-            
-            if is_caption and caption_confidence > 0.6:  # Higher threshold to reduce false positives
-                is_image_caption = False
-                figure_found = False
-                
-                # Look at previous elements to find a potential figure/table
-                for i in range(1, min(5, len(elements_before) + 1)):  # Check up to 4 previous elements
-                    prev_element = elements_before[-i]
-                    prev_bbox = getattr(prev_element, 'bbox', None) or (prev_element.get('bbox') if isinstance(prev_element, dict) else None)
-                    if not prev_bbox or len(prev_bbox) < 4:
-                        continue
-                    
-                    # Skip text elements that are likely not figures
-                    if hasattr(prev_element, 'element_type') and 'text' in str(prev_element.element_type).lower():
-                        continue
-                        
-                    # Calculate element dimensions and position
-                    width = prev_bbox[2] - prev_bbox[0]
-                    height = prev_bbox[3] - prev_bbox[1]
-                    
-                    # Skip very small elements
-                    if width < 80 or height < 60:  # Increased minimum size
-                        continue
-                    
-                    # Check vertical gap (caption should be below figure)
-                    vertical_gap = bbox[1] - prev_bbox[3]
-                    if vertical_gap < 0 or vertical_gap > 60:  # Caption should be below with reasonable gap
-                        continue
-                    
-                    # Calculate horizontal overlap
-                    overlap_start = max(bbox[0], prev_bbox[0])
-                    overlap_end = min(bbox[2], prev_bbox[2])
-                    overlap_width = max(0, overlap_end - overlap_start)
-                    
-                    # Require significant horizontal overlap (60% of caption width)
-                    caption_width = bbox[2] - bbox[0]
-                    if caption_width > 0:
-                        overlap_pct = overlap_width / caption_width
-                        if overlap_pct < 0.6:  # Require at least 60% overlap
-                            continue
-                    
-                    # Check if the element above is figure-like
-                    prev_type = getattr(prev_element, 'element_type', None) or (prev_element.get('element_type') if isinstance(prev_element, dict) else None)
-                    
-                    # If we have a type, use it to determine if it's a figure/table
-                    if prev_type:
-                        prev_type_str = str(prev_type).lower()
-                        if any(t in prev_type_str for t in ['image', 'figure', 'table', 'chart']):
-                            is_image_caption = True
-                            figure_found = True
-                            break
-                    
-                    # If no type, check size and aspect ratio
-                    aspect_ratio = width / height if height > 0 else 0
-                    if 0.4 < aspect_ratio < 2.5:  # Reasonable aspect ratio for figures/tables
-                        is_image_caption = True
-                        figure_found = True
-                        break
-                
-                # Only classify as caption if we found a matching figure/table
-                if figure_found:
-                    if is_image_caption:
-                        element_type = ElementType.FIGURE_CAPTION
-                        confidence = min(0.95, caption_confidence * 1.1)  # Cap confidence
-                    else:
-                        element_type = ElementType.TABLE_CAPTION
-                        confidence = min(0.9, caption_confidence)
-                    
-                    # Return early if we're confident this is a caption
-                    if confidence > 0.75:
-                        return Element(
-                            text=text,
-                            element_type=element_type,
-                            bbox=bbox,
-                            page_number=page_number,
-                            metadata=ElementMetadata(
-                                style_info=style_info,
-                                coordinates=coords,
-                                confidence=confidence
-                            )
+            if is_caption and caption_confidence > 0.7:
+                lower_text = text.lower()
+                if lower_text.startswith('figure') or lower_text.startswith('table'):
+                    try:
+                        is_caption, cap_conf = is_likely_caption(
+                            text, bbox, style_info, page_info,
+                            elements_before or [], elements_after or []
                         )
-        except Exception as e:
-            import logging
-            logging.debug(f"Caption detection warning: {e}", exc_info=True)
-    
-    # 5. Check for page numbers (high confidence when detected)
-    if is_page_number(text) and coords.relative_y > 0.85:
-        element_type = ElementType.TEXT  # Page numbers are just regular text
-        confidence = 0.98
-    
-    # 6. Check for footers/headers (treated as regular text but with position info)
-    elif (is_footer(text) or is_header_footer(text)) and (coords.relative_y > 0.85 or coords.relative_y < 0.15):
-        element_type = ElementType.TEXT
-        confidence = 0.9
-    
-    # 7. Check for footnotes (treated as regular text)
-    elif is_footnote(text) and coords.relative_y < 0.15:
-        element_type = ElementType.TEXT
-        confidence = 0.9
-    
-    # 8. Check for contact information (treated as regular text)
-    elif is_contact_info(text):
-        element_type = ElementType.TEXT
-        confidence = 0.9
-    
-    # Set the final confidence
+                        if is_caption and cap_conf > 0.7:
+                            if lower_text.startswith('figure'):
+                                element_type = ElementType.FIGURE_CAPTION
+                                confidence = min(0.95, cap_conf * 1.1)
+                            else:
+                                element_type = ElementType.TABLE_CAPTION
+                                confidence = min(0.9, cap_conf)
+                            metadata.confidence = confidence
+                            return Element(
+                                text=text,
+                                element_type=element_type,
+                                bbox=bbox,
+                                page_number=page_number,
+                                metadata=metadata
+                            )
+                    except:
+                        pass
+                if lower_text.startswith('figure'):
+                    element_type = ElementType.FIGURE_CAPTION
+                    confidence = min(0.95, caption_confidence * 1.1)
+                elif lower_text.startswith('table'):
+                    element_type = ElementType.TABLE_CAPTION
+                    confidence = min(0.9, caption_confidence)
+                else:
+                    element_type = ElementType.CAPTION
+                    confidence = caption_confidence
+                metadata.confidence = confidence
+                
+                # ensure caption is near an image or table
+                max_gap = style_info.get('median_font_size', 12) * 2
+                for el in (elements_before or []) + (elements_after or []):
+                    if el.page_number == page_number and el.element_type in (ElementType.FIGURE, ElementType.TABLE_BODY):
+                        top, bottom = el.bbox[3], el.bbox[1]
+                        dist = min(abs(top - bbox[1]), abs(bbox[3] - bottom))
+                        if dist <= max_gap and bbox_overlap(el.bbox, bbox) > 0:
+                            return Element(
+                                text=text,
+                                element_type=element_type,
+                                bbox=bbox,
+                                page_number=page_number,
+                                metadata=metadata
+                            )
+        except Exception:
+            pass
+    is_title, title_confidence, title_level = is_possible_title(text, style_info, asdict(coords))
+    if is_title:
+        element_type = ElementType.TITLE
+        confidence = max(0.7, title_confidence)
+        if title_level is not None:
+            confidence = min(1.0, confidence + (0.1 * (4 - title_level)))
+        if confidence > 0.85:
+            metadata.title_level = title_level
+        metadata.confidence = confidence
+        return Element(
+            text=text,
+            element_type=element_type,
+            bbox=bbox,
+            page_number=page_number,
+            metadata=metadata
+        )
+    # refined fallback for missing titles: concise, single sentence, no verb, noun-rich, uppercase heavy, no trailing punctuation, larger font
+    stats = get_text_stats(text)
+    median_fs = style_info.get('median_font_size', 12)
+    font_size = style_info.get('font_size', median_fs)
+    # spatial isolation: compute gaps above and below
+    page_h = coords.page_height
+    # find highest bottom of blocks above current
+    above_y = max((el.bbox[3] for el in (elements_before or []) if el.page_number == page_number and el.bbox[3] < bbox[1]), default=0)
+    below_y = min((el.bbox[1] for el in (elements_after or []) if el.page_number == page_number and el.bbox[1] > bbox[3]), default=page_h)
+    gap_above = bbox[1] - above_y
+    gap_below = below_y - bbox[3]
+    # relaxed spatial isolation and noun-rich check for refined title fallback
+    is_isolated = (gap_above > median_fs * 1.5 and gap_below > median_fs * 1.5) or (gap_above > median_fs * 2 or gap_below > median_fs * 2)
+    if (
+        stats.sentence_count == 1 and
+        not stats.has_verb and
+        stats.word_count <= 8 and
+        font_size > median_fs * 1.1 and
+        stats.cap_ratio >= 0.6 and
+        stats.noun_ratio > 0.5 and
+        not text.endswith(('.', ':', ';', '!', '?')) and
+        is_isolated
+    ):
+        element_type = ElementType.TITLE
+        confidence = 0.85
+        metadata.confidence = confidence
+        return Element(
+            text=text,
+            element_type=element_type,
+            bbox=bbox,
+            page_number=page_number,
+            metadata=metadata
+        )
+    # skip list detection for bold or large-font (likely titles)
+    if element_type == ElementType.TEXT:
+        median_fs = style_info.get('median_font_size', style_info.get('font_size', 12))
+        fs = style_info.get('font_size', median_fs)
+        if fs <= median_fs * 1.1 and not style_info.get('is_bold', False):
+            if is_list_item(text):
+                element_type = ElementType.LIST_ITEM
+                confidence = 0.9
+                metadata.confidence = confidence
+                return Element(text=text, element_type=element_type, bbox=bbox, page_number=page_number, metadata=metadata)
+    if element_type == ElementType.TEXT:
+        if '=' in text and ('\\' in text or '$' in text):
+            element_type = ElementType.BLOCK_EQUATION
+            confidence = 0.9
+            metadata.confidence = confidence
+            return Element(
+                text=text,
+                element_type=element_type,
+                bbox=bbox,
+                page_number=page_number,
+                metadata=metadata
+            )
+    # additional title fallback for bold/large/isolated single-line text
+    stats = get_text_stats(text)
+    median_fs = style_info.get('median_font_size', style_info.get('font_size', 12))
+    if (
+        element_type == ElementType.TEXT and
+        stats.sentence_count == 1 and
+        not stats.has_verb and
+        stats.word_count <= 8 and
+        style_info.get('font_size', median_fs) > median_fs * 1.1 and
+        style_info.get('is_bold', False)
+    ):
+        element_type = ElementType.TITLE
+        metadata.confidence = max(metadata.confidence, 0.75)
+        return Element(text=text, element_type=element_type, bbox=bbox, page_number=page_number, metadata=metadata)
     metadata.confidence = confidence
-    
-    return Element(
-        text=text,
-        element_type=element_type,
-        bbox=bbox,
-        page_number=page_number,
-        metadata=metadata
-    )
+    return Element(text=text, element_type=element_type, bbox=bbox, page_number=page_number, metadata=metadata)
+
+def bbox_overlap(bbox1, bbox2):
+    x0 = max(bbox1[0], bbox2[0])
+    y0 = max(bbox1[1], bbox2[1])
+    x1 = min(bbox1[2], bbox2[2])
+    y1 = min(bbox1[3], bbox2[3])
+    if x0 >= x1 or y0 >= y1:
+        return 0.0
+    inter = (x1 - x0) * (y1 - y0)
+    area1 = (bbox1[2] - bbox1[0]) * (bbox1[3] - bbox1[1])
+    area2 = (bbox2[2] - bbox2[0]) * (bbox2[3] - bbox2[1])
+    return inter / (area1 + area2 - inter)
 
 def _is_likely_title(text: str, style_info: Dict[str, Any], median_font: float) -> Tuple[bool, float]:
-    """Determines if a text block is likely a title using improved heuristics.
-    
-    Args:
-        text: The text content to analyze
-        style_info: Font and style information
-        median_font: Median font size for comparison
-        
-    Returns:
-        Tuple[bool, float]: (is_title, confidence_score)
-    """
-    # Clean and normalize text
+
     text = text.strip()
     
-    # Very short texts can't be titles
     if len(text) < 2:
         return False, 0.0
         
-    # Initialize confidence score
     confidence = 0.0
     
-    # Check text case properties
     is_all_uppercase = text.isupper()
     is_title_case = text == text.title() and not text.isupper()
     
-    # Font size comparison (weighted heavily)
     font_size = style_info.get('font_size', median_font)
     if font_size > median_font * 1.2:
         confidence += 0.3
     
-    # Font style (bold/italic)
     if style_info.get('is_bold', False):
         confidence += 0.2
     if style_info.get('is_italic', False):
         confidence += 0.1
         
-    # Text case analysis
     if is_all_uppercase:
         confidence += 0.15
     elif is_title_case:
         confidence += 0.1
         
-    # Length checks
     word_count = len(text.split())
-    if word_count <= 15:  # Titles are usually short
+    if word_count <= 15:
         confidence += 0.1
-    elif word_count > 25:  # Too long for a title
+    elif word_count > 25:
         return False, 0.0
         
-    # Sentence structure
     sentence_count = len(re.split(r'[.!?]+', text))
-    if sentence_count > 2:  # Titles rarely have multiple sentences
+    if sentence_count > 2:
         return False, 0.0
     
-    # Punctuation analysis
-    if text.endswith(('.', ':', ';')):  # Titles usually don't end with these
+    if text.endswith(('.', ':', ';')):
         confidence -= 0.2
     
-    # Section numbering patterns
-    if re.match(r'^\d+\.?\d*\s+\w+', text):  # "1.2 Section Title"
+    if re.match(r'^\d+\.?\d*\s+\w+', text):
         confidence += 0.3
-    elif re.match(r'^[A-Z]\.\s+\w+', text):   # "A. Section Title"
+    elif re.match(r'^[A-Z]\.\s+\w+', text):
         confidence += 0.25
         
-    # Common title keywords
-    title_keywords = r'^(chapter|section|appendix|figure|table|introduction|conclusion|abstract|summary)\s+\d*'
+    title_keywords = r'^(chapter|section|appendix|introduction|conclusion|abstract|summary)\s+\d*'
     if re.match(title_keywords, text.lower()):
         confidence += 0.25
         
-    # Content analysis
-    if contains_verb(text):  # Titles often don't contain verbs
+    if contains_verb(text):
         confidence -= 0.1
     
-    # Position on page (if available)
-    y_pos = style_info.get('y_position', 0.5)  # Normalized 0-1
-    if y_pos > 0.8 or y_pos < 0.1:  # Titles are rarely at very top/bottom
+    y_pos = style_info.get('y_position', 0.5)
+    if y_pos > 0.8 or y_pos < 0.1:
         confidence -= 0.15
         
-    # Final decision
-    is_title = confidence > 0.4  # Threshold for title classification
+    is_title = confidence > 0.4
     
     return is_title, min(1.0, max(0.0, confidence))
 
 def _is_header_footer(text: str, coords: CoordinatesMetadata, page_info: Dict[str, float]) -> bool:
-    """Determine if text block is a header or footer."""
-    # Position check
-    margin_threshold = 0.1  # 10% of page height
+
+    margin_threshold = 0.1
     if coords.relative_y > margin_threshold and coords.relative_y < (1 - margin_threshold):
         return False
         
     return is_header_footer(text)
 
 def _is_page_number(text: str, coords: CoordinatesMetadata, page_info: Dict[str, float]) -> bool:
-    """Determine if text block is a page number."""
-    # Must be short
+
     if len(text) > 10:
         return False
         
-    # Try to convert to number
     try:
         int(text.strip())
         return True
     except ValueError:
         pass
         
-    # Check for common page number formats
     import re
     page_patterns = [
         r'^\d+$',
@@ -347,10 +309,8 @@ def _is_page_number(text: str, coords: CoordinatesMetadata, page_info: Dict[str,
     return any(re.match(pattern, text.strip()) for pattern in page_patterns)
 
 def _is_footnote(text: str, coords: CoordinatesMetadata, page_info: Dict[str, float]) -> bool:
-    """Determine if text block is a footnote."""
-    # Check if text starts with a footnote marker
+
     if re.match(r'^\d+\.\s+|^\*+\s+', text):
-        # Check if text is at the bottom of the page
         if coords.y0 < page_info['height'] * 0.2:
             return True
     return False

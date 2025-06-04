@@ -10,13 +10,17 @@ from dataclasses import dataclass
 import logging
 import shutil
 from utils.image_utils import extract_images_from_pdf
+from processor.caption_detector import find_caption_for_figure
 
 # Configure logging
 logging.basicConfig(
-    level=logging.INFO,
+    level=logging.DEBUG,
     format='[%(asctime)s] %(levelname)s [%(name)s] %(message)s',
     handlers=[logging.StreamHandler(sys.stdout)]
 )
+
+# Set pdfminer log level to WARNING to reduce verbosity
+logging.getLogger("pdfminer").setLevel(logging.WARNING)
 
 # Import after basic config to ensure logging is configured
 from processor import process_pdf
@@ -325,6 +329,7 @@ def process_single_pdf(pdf_path: str, output_dir: str, config: Dict[str, Any] = 
         # Process the PDF with document structure analysis first to get table areas
         elements, structure_info = process_pdf(
             pdf_path=pdf_path,
+            image_output_dir=doc_output_dir,
             la_params=config if config and isinstance(config, dict) else None,
             handle_splits=True
         )
@@ -363,6 +368,9 @@ def process_single_pdf(pdf_path: str, output_dir: str, config: Dict[str, Any] = 
                 logger.warning(f"image_elements is not a non-empty list (type: {type(image_elements)}, len: {num_extracted}). No image elements added.")
         except Exception as e:
             logger.error(f"Error in image extraction or addition block: {e}", exc_info=True)
+        
+        # Interleave images with text by sorting now
+        elements.sort(key=lambda e: (e['page_number'] if isinstance(e, dict) else e.page_number, -(e['bbox'][1] if isinstance(e, dict) else e.bbox[1])))
         
         def convert_value(value):
             if value is None:
@@ -429,11 +437,11 @@ def process_single_pdf(pdf_path: str, output_dir: str, config: Dict[str, Any] = 
                         element_type = str(element_type)
                         
                     element_dict = {
-                        'text': element.get('text', ''),
+                        'text': element.get('text',''),
                         'element_type': element_type or 'TEXT',  # Default to TEXT if empty
-                        'bbox': element.get('bbox', [0, 0, 0, 0]),
-                        'page_number': element.get('page_number', 1),
-                        'metadata': element.get('metadata', {})
+                        'bbox': element.get('bbox',(0.0,0.0,0.0,0.0)),  # Use raw bbox values instead of stringifying
+                        'page_number': element.get('page_number',1),
+                        'metadata': element.get('metadata',{})
                     }
                 else:
                     element_text = getattr(element, 'text', '')
@@ -488,7 +496,12 @@ def process_single_pdf(pdf_path: str, output_dir: str, config: Dict[str, Any] = 
 
         elements_dict = []
         logger.info(f"Processing {len(elements)} elements")
-
+        
+        # sort elements by page and vertical position (y0)
+        elements.sort(key=lambda e: (
+            e['page_number'] if isinstance(e, dict) else e.page_number,
+            -(e['bbox'][1] if isinstance(e, dict) else e.bbox[1])
+        ))
         
         for idx, elem in enumerate(elements):
             try:
@@ -511,12 +524,23 @@ def process_single_pdf(pdf_path: str, output_dir: str, config: Dict[str, Any] = 
             logger.warning(f"No valid elements found in {pdf_path}")
             return None
             
+        # Associate captions with figures without removing caption elements
+        for fig in [el for el in elements_dict if el.get('element_type') == 'FIGURE']:
+            idx = find_caption_for_figure(fig, elements_dict)
+            if idx is not None:
+                cap_el = elements_dict[idx]
+                cap_el['element_type'] = 'FIGURE_CAPTION'
+                fig.setdefault('metadata', {})['caption'] = cap_el['text'].strip()
+        
         elements_json_path = os.path.join(doc_output_dir, f"{base_name}_elements.json")
         
-        # Save elements to JSON
+        # group by page
+        pages = []
+        for pg in sorted({el['page_number'] for el in elements_dict}):
+            pages.append({'page_number': pg, 'elements': [el for el in elements_dict if el['page_number'] == pg]})
         with open(elements_json_path, 'w', encoding='utf-8') as f:
-            json.dump(elements_dict, f, ensure_ascii=False, indent=2)
-        
+            json.dump(pages, f, ensure_ascii=False, indent=2)
+
         logger.info(f"Processed {pdf_path} and saved results to {elements_json_path}")
         
         # Visualize the results if requested

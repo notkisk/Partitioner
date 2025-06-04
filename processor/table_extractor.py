@@ -47,13 +47,25 @@ def extract_tables_as_html(pdf_path: str, pages: str = 'all', flavor: str = 'lat
         table_blocks = []
         for i, table in enumerate(tables):
             try:
+                page_num = table.page
                 # Clean and process the table data
                 df = table.df
-                df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+                df = df.map(lambda x: x.strip() if isinstance(x, str) else x)
                 df.replace(["", "nan", "NaN", "NULL"], pd.NA, inplace=True)
                 df.dropna(how="all", inplace=True)
                 df.dropna(how="all", axis=1, inplace=True)
                 df.fillna("", inplace=True)
+
+                # Check if the table DataFrame contains any meaningful text content
+                has_content = False
+                for col in df.columns:
+                    if df[col].astype(str).str.strip().any():
+                        has_content = True
+                        break
+
+                if not has_content:
+                    logger.info(f"Skipping table {i+1} on page {page_num} as it contains no meaningful text content after cleaning.")
+                    continue # Skip this table block
                 
                 # Generate clean HTML without extra newlines or classes
                 def df_to_clean_html(df):

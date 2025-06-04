@@ -72,6 +72,7 @@ class ElementMetadata:
     cross_page_refs: List[int] = field(default_factory=list)
     page_number: Optional[int] = None
     table_data: Optional[Dict[str, Any]] = None
+    title_level: Optional[int] = None
 
 @dataclass
 class Element:

@@ -28,6 +28,11 @@ def merge_text_blocks(blocks: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     import re
     for block in sorted_blocks[1:]:
         prev_block = current_group[-1]
+        # merge wrapped list item continuations
+        merged_wrap = handle_wrapped_list_item_lines(prev_block, block)
+        if merged_wrap:
+            current_group[-1] = merged_wrap
+            continue
         prev_bbox = prev_block['bbox']
         curr_bbox = block['bbox']
         y_gap = abs(prev_bbox[1] - curr_bbox[1])

@@ -1,9 +1,12 @@
+import logging
 import nltk
-from typing import List, Tuple, Dict, Any
+from typing import List, Tuple, Dict, Any, Optional
 import re
 from nltk import pos_tag, sent_tokenize, word_tokenize
 from nltk.corpus import stopwords
 from dataclasses import dataclass
+
+logger = logging.getLogger(__name__)
 
 # Ensure NLTK data is downloaded
 try:
@@ -67,14 +70,14 @@ HEADER_PATTERNS = [
 HEADER_FOOTER_RE = re.compile('|'.join(HEADER_PATTERNS), re.IGNORECASE)
 
 def contains_verb(text: str) -> bool:
-    """Check if text contains any verbs using POS tagging."""
+
     if text.isupper():
         text = text.lower()
     pos_tags = pos_tag(word_tokenize(text))
     return any(tag in POS_VERB_TAGS for _, tag in pos_tags)
 
 def sentence_count(text: str, min_length: int = None) -> int:
-    """Count sentences in text, optionally filtering by minimum word length."""
+
     sentences = sent_tokenize(text)
     if min_length is None:
         return len(sentences)
@@ -87,14 +90,7 @@ def sentence_count(text: str, min_length: int = None) -> int:
     return count
 
 def get_text_stats(text: str) -> TextStats:
-    """Calculate comprehensive text statistics.
-    
-    Args:
-        text: Input text to analyze
-        
-    Returns:
-        TextStats object containing various text metrics
-    """
+
     if not text:
         return TextStats(
             alpha_ratio=0.0,
@@ -142,136 +138,69 @@ def get_text_stats(text: str) -> TextStats:
         is_all_caps=is_all_caps
     )
 
-def is_possible_title(text: str, style_info: dict = None) -> Tuple[bool, float]:
-    """Check if text could be a title using comprehensive heuristics.
-    
-    Args:
-        text: Text to evaluate
-        style_info: Optional dictionary with style information
-        
-    Returns:
-        Tuple of (is_title, confidence_score)
-    """
+def is_possible_title(text, style_info=None, coordinates=None):
     if not text or len(text) < 2:
-        return False, 0.0
-    
+        return False, 0.0, None
     text = text.strip()
+    from .text_patterns import TITLE_PATTERNS
+    import re
     stats = get_text_stats(text)
     confidence = 0.0
+    title_level = None
     
-    # Check for section number patterns (e.g., "1.2.3 Section Title")
-    section_pattern = r'^(\d+(?:\.\d+)+)\s+[A-Z]'
-    if re.match(section_pattern, text):
-        confidence += 0.8  # Very strong indicator of a section title
-    
-    # Check for common caption patterns first
-    caption_indicators = [
-        'figure', 'fig', 'table', 'chart', 'diagram', 'illustration',
-        'image', 'photo', 'source:', 'credit:', 'caption:', 'plate', 'graph',
-        'exhibit', 'panel', 'drawing', 'sketch', 'picture',
-        'map', 'photograph', 'photo', 'equation', 'formula', 'algorithm',
-        'code', 'example', 'program', 'script', 'schematic', 'flowchart',
-        'graphic', 'visualization', 'plot', 'listing', 'diagram',
-        'left:', 'right:', 'top:', 'bottom:', 'source:', 'from:', 'courtesy of',
-        '©', 'copyright', 'credit', 'photograph by', 'image by', 'photo by'
-    ]
-    
-    text_lower = text.lower()
-    if any(indicator in text_lower for indicator in caption_indicators):
-        return False, 0.0  # Very likely a caption, not a title
-    
-    # Check for caption patterns like "Figure 1:" or "Table 2.5:"
-    caption_patterns = [
-        r'(?:fig(?:\.?|ure)?|table|chart|diagram|image|photo)\s*\d+(?:\.\d+)*[.:]?',
-        r'^[A-Za-z]\s*\d+[.:]',  # Single letter followed by number (e.g., "A.1")
-        r'^\(?[A-Za-z]\s*\d+[.:]?\s*[^a-z]',  # (a) or (1) at start
-    ]
-    
-    if any(re.search(pattern, text_lower) for pattern in caption_patterns):
-        return False, 0.0
-    
-    # Length-based checks
-    if stats.word_count > 12:  # Very long for a title
-        return False, 0.0
-    elif stats.word_count <= 1:  # Single word titles are less likely in documents
+    # bonus for concise titles
+    if stats.word_count <= 8:
+        confidence += 0.1
+    # penalty for ending in punctuation
+    if text.endswith(('.', ':', ';', '!', '?')):
+        confidence -= 0.1
+    # noun ratio boost
+    pos_tags = pos_tag(word_tokenize(text))
+    noun_count = sum(1 for _, tag in pos_tags if tag.startswith('NN'))
+    if stats.word_count > 0 and noun_count / stats.word_count > 0.5:
         confidence += 0.1
     
-    # Pattern matching - only match more specific title patterns
-    if TITLE_RE.search(text) and stats.word_count > 1:  # Require at least 2 words for title patterns
-        confidence += 0.3
-    
-    # Style-based scoring - require stronger style indicators
     if style_info:
-        # Font size is a strong indicator but needs to be significantly larger
-        font_size = style_info.get('font_size', 0)
-        median_size = style_info.get('median_font_size', 12)
-        size_ratio = font_size / median_size if median_size > 0 else 1.0
-        
-        if size_ratio > 1.5:  # Must be 50% larger than median
-            confidence += 0.4
-        elif size_ratio > 1.3:  # 30% larger
-            confidence += 0.2
-        elif size_ratio > 1.1:  # 10% larger
+        if style_info.get('is_bold'):
+            confidence += 0.15
+        if style_info.get('size', 0) > 12.0:
             confidence += 0.1
-        
-        # Font weight and style - require both bold and larger size
-        if style_info.get('is_bold') and size_ratio > 1.2:
-            confidence += 0.2
-        elif style_info.get('is_bold'):
-            confidence += 0.1
-            
-        if style_info.get('is_italic'):
-            confidence -= 0.1  # Titles are less likely to be in italics
-    
-    # Text characteristics - needs sufficient text content
-    if stats.alpha_ratio < 0.5:  # Needs more text content
-        confidence -= 0.2
-    
-    # Case analysis - require proper title case for higher confidence
-    if stats.is_title_case and stats.word_count > 1:
-        confidence += 0.3
-    elif text and text[0].isupper():
-        confidence += 0.1  # Only slight boost for sentence case
-    
-    # Penalize text that looks like a caption
-    if ':' in text and stats.word_count < 4:  # Short text with colon is likely a label
-        confidence -= 0.3
-    
-    # Ensure confidence is within bounds
-    confidence = max(0.0, min(1.0, confidence))
-    
-    # Capitalization patterns
-    if stats.cap_ratio > 0.7:
-        confidence += 0.15
-    
-    # Special characters (penalize excessive use)
-    if stats.special_ratio > 0.3:
-        confidence -= 0.2
-    
-    # Position-based scoring (if available)
-    if style_info and 'y_position' in style_info:
-        y_pos = style_info['y_position']  # Normalized 0-1
-        if y_pos < 0.15 or y_pos > 0.9:  # Common title positions
+        if stats.is_all_caps:
             confidence += 0.1
     
-    # Sentence structure
-    if stats.sentence_count > 1:
+    if coordinates and 'relative_x' in coordinates and abs(coordinates['relative_x'] - 0.5) < 0.2:
+        confidence += 0.05
+    section_match = re.match(r'^(\d+(?:\.\d+)+)\s+', text)
+    if section_match:
+        confidence += 0.4
+        parts = section_match.group(1).split('.')
+        title_level = len(parts)
+    text_lower = text.lower()
+    for pattern in TITLE_PATTERNS:
+        if re.match(pattern, text_lower):
+            confidence += 0.3
+            break
+    if stats.word_count > 15:
         confidence -= 0.2
-    
-    # Ending punctuation
-    if text.endswith(('.', '!', '?')):  # Titles rarely end with these
+    if stats.has_verb:
         confidence -= 0.1
-    
-    # Final decision with adjusted threshold
-    is_title = confidence > 0.35
-    return is_title, min(1.0, max(0.0, confidence))
+    if stats.cap_ratio > 0.7:
+        confidence += 0.1
+    if stats.sentence_count > 2:
+        confidence -= 0.2
+    # extra boost for bold large font
+    if style_info and style_info.get('is_bold') and style_info.get('size', 0) >= stats.avg_word_length * 1.2:
+        confidence += 0.05
+    if confidence > 0.4:
+        return True, min(1.0, max(0.0, confidence)), title_level
+    return False, 0.0, None
 
 def is_possible_narrative(
     text: str,
     cap_threshold: float = 0.5,
     alpha_threshold: float = 0.5
 ) -> bool:
-    """Check if text could be narrative content."""
+
     if not text or text.isnumeric():
         return False
     
@@ -291,14 +220,7 @@ def is_possible_narrative(
     return contains_verb(text)
 
 def is_list_item(text: str) -> bool:
-    """Check if text is a list item using multiple patterns.
-    
-    Args:
-        text: Text to check
-        
-    Returns:
-        bool: True if text matches list item patterns
-    """
+
     if not text or not text.strip():
         return False
         
@@ -344,7 +266,7 @@ def is_list_item(text: str) -> bool:
     return False
 
 def is_header_footer(text: str) -> bool:
-    """Check if text matches header/footer patterns."""
+
     return bool(HEADER_FOOTER_RE.search(text.lower()))
 
 def is_footnote(text: str) -> bool:
