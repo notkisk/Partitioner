@@ -1,0 +1,4968 @@
+[
+  {
+    "page_number": 1,
+    "elements": [
+      {
+        "text": "SoftBank Group Corp.  Financial Report 2024",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(22.6772, 567.3848999999999, 146.7914, 573.6248999999999)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAF+NeueHaasUnicaW1G-Black",
+            "size": 6.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 22.6772,
+            "y0": 567.3848999999999,
+            "x1": 146.7914,
+            "y1": 573.6248999999999,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.0269360605304731,
+            "relative_y": 0.9531459356668166,
+            "indent_ratio": 0.0269360605304731
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "As of March 31, 2023 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(51.024, 407.3542, 304.56, 414.95419999999996)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAD+FrutigerLTStd-Roman",
+            "size": 7.599999999999994,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 51.024,
+            "y0": 407.3542,
+            "x1": 304.56,
+            "y1": 414.95419999999996,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.06060649253465417,
+            "relative_y": 0.6843114790450144,
+            "indent_ratio": 0.06060649253465417
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "¥238,772",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(346.414, 407.0541999999999, 378.654, 415.0541999999999)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 346.414,
+            "y0": 407.0541999999999,
+            "x1": 378.654,
+            "y1": 415.0541999999999,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.41147180748078727,
+            "relative_y": 0.6838075111376907,
+            "indent_ratio": 0.41147180748078727
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "¥2,652,790",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(391.182, 407.0541999999999, 429.774, 415.0541999999999)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 391.182,
+            "y0": 407.0541999999999,
+            "x1": 429.774,
+            "y1": 415.0541999999999,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.46464740049175074,
+            "relative_y": 0.6838075111376907,
+            "indent_ratio": 0.46464740049175074
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "¥414,055",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(448.462, 407.0541999999999, 480.702, 415.0541999999999)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 448.462,
+            "y0": 407.0541999999999,
+            "x1": 480.702,
+            "y1": 415.0541999999999,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.5326847925500956,
+            "relative_y": 0.6838075111376907,
+            "indent_ratio": 0.5326847925500956
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "¥2,006,238",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(493.23, 407.0541999999999, 531.822, 415.0541999999999)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 493.23,
+            "y0": 407.0541999999999,
+            "x1": 531.822,
+            "y1": 415.0541999999999,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.5858603855610591,
+            "relative_y": 0.6838075111376907,
+            "indent_ratio": 0.5858603855610591
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "¥  (38,791)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(547.766, 407.0541999999999, 583.974, 415.77419999999995)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 547.766,
+            "y0": 407.0541999999999,
+            "x1": 583.974,
+            "y1": 415.77419999999995,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.6506384444523631,
+            "relative_y": 0.6838075111376907,
+            "indent_ratio": 0.6506384444523631
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "¥3,756,785",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(595.278, 407.0541999999999, 633.87, 415.0541999999999)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 595.278,
+            "y0": 407.0541999999999,
+            "x1": 633.87,
+            "y1": 415.0541999999999,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.7070733706303675,
+            "relative_y": 0.6838075111376907,
+            "indent_ratio": 0.7070733706303675
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "¥9,029,849",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(646.302, 407.0541999999999, 684.894, 415.0541999999999)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 646.302,
+            "y0": 407.0541999999999,
+            "x1": 684.894,
+            "y1": 415.0541999999999,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.7676798631650216,
+            "relative_y": 0.6838075111376907,
+            "indent_ratio": 0.7676798631650216
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "¥1,619,366 ¥10,649,215",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(697.326, 407.0541999999999, 785.846, 415.0541999999999)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 697.326,
+            "y0": 407.0541999999999,
+            "x1": 785.846,
+            "y1": 415.0541999999999,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.8282863556996758,
+            "relative_y": 0.6838075111376907,
+            "indent_ratio": 0.8282863556996758
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Total transactions with owners and other transactions  . . . . . . . . . . . . . .",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(51.024, 393.18089999999995, 304.56, 400.7809)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAD+FrutigerLTStd-Roman",
+            "size": 7.599999999999994,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 51.024,
+            "y0": 393.18089999999995,
+            "x1": 304.56,
+            "y1": 400.7809,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.06060649253465417,
+            "relative_y": 0.6605018512421129,
+            "indent_ratio": 0.06060649253465417
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "18,216",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(406.014, 392.88089999999994, 429.678, 400.88089999999994)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 406.014,
+            "y0": 392.88089999999994,
+            "x1": 429.678,
+            "y1": 400.88089999999994,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.48226490396607635,
+            "relative_y": 0.6599978833347891,
+            "indent_ratio": 0.48226490396607635
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(82,821)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(455.134, 392.88089999999994, 482.926, 400.88089999999994)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 455.134,
+            "y0": 392.88089999999994,
+            "x1": 482.926,
+            "y1": 400.88089999999994,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.5406098183848247,
+            "relative_y": 0.6599978833347891,
+            "indent_ratio": 0.5406098183848247
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(1,539,322)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(495.518, 392.88089999999994, 533.95, 400.88089999999994)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 495.518,
+            "y0": 392.88089999999994,
+            "x1": 533.95,
+            "y1": 400.88089999999994,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.5885780802717695,
+            "relative_y": 0.6599978833347891,
+            "indent_ratio": 0.5885780802717695
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "367,619",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(553.798, 392.88089999999994, 581.75, 400.88089999999994)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 553.798,
+            "y0": 392.88089999999994,
+            "x1": 581.75,
+            "y1": 400.88089999999994,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.6578032759624179,
+            "relative_y": 0.6599978833347891,
+            "indent_ratio": 0.6578032759624179
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(2,633)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(612.494, 392.88089999999994, 635.998, 400.88089999999994)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 612.494,
+            "y0": 392.88089999999994,
+            "x1": 635.998,
+            "y1": 400.88089999999994,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.7275225979641046,
+            "relative_y": 0.6599978833347891,
+            "indent_ratio": 0.7275225979641046
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(1,238,941)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(648.59, 392.88089999999994, 687.022, 400.88089999999994)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 648.59,
+            "y0": 392.88089999999994,
+            "x1": 687.022,
+            "y1": 400.88089999999994,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.770397557875732,
+            "relative_y": 0.6599978833347891,
+            "indent_ratio": 0.770397557875732
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(287,746)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(705.966, 392.88089999999994, 738.046, 400.88089999999994)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 705.966,
+            "y0": 392.88089999999994,
+            "x1": 738.046,
+            "y1": 400.88089999999994,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.838548979082778,
+            "relative_y": 0.6599978833347891,
+            "indent_ratio": 0.838548979082778
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(1,526,687)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(749.638, 392.88089999999994, 788.07, 400.88089999999994)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 749.638,
+            "y0": 392.88089999999994,
+            "x1": 788.07,
+            "y1": 400.88089999999994,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.8904227393127369,
+            "relative_y": 0.6599978833347891,
+            "indent_ratio": 0.8904227393127369
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Other  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(58.6209, 379.0077, 304.5568999999997, 386.60769999999997)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999994,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 58.6209,
+            "y0": 379.0077,
+            "x1": 304.5568999999997,
+            "y1": 386.60769999999997,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.06963011794890069,
+            "relative_y": 0.6366923914285139,
+            "indent_ratio": 0.06963011794890069
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(1,598)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(408.398, 378.70769999999993, 431.902, 386.70769999999993)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 408.398,
+            "y0": 378.70769999999993,
+            "x1": 431.902,
+            "y1": 386.70769999999993,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.4850966278254879,
+            "relative_y": 0.6361884235211901,
+            "indent_ratio": 0.4850966278254879
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(1,598)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(663.518, 378.70769999999993, 687.022, 386.70769999999993)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 663.518,
+            "y0": 378.70769999999993,
+            "x1": 687.022,
+            "y1": 386.70769999999993,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.7881290904987588,
+            "relative_y": 0.6361884235211901,
+            "indent_ratio": 0.7881290904987588
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(59,167)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(710.254, 378.70769999999993, 738.046, 386.70769999999993)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 710.254,
+            "y0": 378.70769999999993,
+            "x1": 738.046,
+            "y1": 386.70769999999993,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.8436422810580955,
+            "relative_y": 0.6361884235211901,
+            "indent_ratio": 0.8436422810580955
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(60,765)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(760.278, 378.70769999999993, 788.07, 386.70769999999993)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 760.278,
+            "y0": 378.70769999999993,
+            "x1": 788.07,
+            "y1": 386.70769999999993,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.9030609699604462,
+            "relative_y": 0.6361884235211901,
+            "indent_ratio": 0.9030609699604462
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Share-based payment transactions  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(58.6209, 364.83449999999993, 304.5569000000001, 372.43449999999996)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999994,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 58.6209,
+            "y0": 364.83449999999993,
+            "x1": 304.5569000000001,
+            "y1": 372.43449999999996,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.06963011794890069,
+            "relative_y": 0.6128829316149147,
+            "indent_ratio": 0.06963011794890069
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(463)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(414.75, 364.5345, 431.902, 372.5345)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 414.75,
+            "y0": 364.5345,
+            "x1": 431.902,
+            "y1": 372.5345,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.4926415564978798,
+            "relative_y": 0.6123789637075912,
+            "indent_ratio": 0.4926415564978798
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(463)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(669.87, 364.5345, 687.022, 372.5345)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 669.87,
+            "y0": 364.5345,
+            "x1": 687.022,
+            "y1": 372.5345,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.7956740191711507,
+            "relative_y": 0.6123789637075912,
+            "indent_ratio": 0.7956740191711507
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "37,116",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(712.158, 364.5345, 735.822, 372.5345)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 712.158,
+            "y0": 364.5345,
+            "x1": 735.822,
+            "y1": 372.5345,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.8459038591740013,
+            "relative_y": 0.6123789637075912,
+            "indent_ratio": 0.8459038591740013
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "36,653",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(762.182, 364.5345, 785.846, 372.5345)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 762.182,
+            "y0": 364.5345,
+            "x1": 785.846,
+            "y1": 372.5345,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.905322548076352,
+            "relative_y": 0.6123789637075912,
+            "indent_ratio": 0.905322548076352
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Changes in interests in associates’ capital surplus  . . . . . . . . . . . . . . . . . . . .",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(58.6209, 350.66119999999995, 304.55690000000004, 358.2611999999999)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999994,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 58.6209,
+            "y0": 350.66119999999995,
+            "x1": 304.55690000000004,
+            "y1": 358.2611999999999,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.06963011794890069,
+            "relative_y": 0.5890733038120132,
+            "indent_ratio": 0.06963011794890069
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "21,223",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(406.014, 350.36119999999994, 429.678, 358.36119999999994)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 406.014,
+            "y0": 350.36119999999994,
+            "x1": 429.678,
+            "y1": 358.36119999999994,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.48226490396607635,
+            "relative_y": 0.5885693359046895,
+            "indent_ratio": 0.48226490396607635
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "21,223",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(661.134, 350.36119999999994, 684.798, 358.36119999999994)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 661.134,
+            "y0": 350.36119999999994,
+            "x1": 684.798,
+            "y1": 358.36119999999994,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.7852973666393472,
+            "relative_y": 0.5885693359046895,
+            "indent_ratio": 0.7852973666393472
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "21,223",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(762.179, 350.0777999999999, 785.843, 358.0777999999999)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 762.179,
+            "y0": 350.0777999999999,
+            "x1": 785.843,
+            "y1": 358.0777999999999,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.9053189846654551,
+            "relative_y": 0.5880932542215711,
+            "indent_ratio": 0.9053189846654551
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Changes in associates’ interests in their subsidiaries . . . . . . . . . . . . . . . . . . .",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(58.6209, 336.48799999999994, 304.56146000000007, 344.08799999999997)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.600000000000023,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 58.6209,
+            "y0": 336.48799999999994,
+            "x1": 304.56146000000007,
+            "y1": 344.08799999999997,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.06963011794890069,
+            "relative_y": 0.5652638439984141,
+            "indent_ratio": 0.06963011794890069
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(5,845)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(408.398, 336.188, 431.902, 344.188)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.999999999999972,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 408.398,
+            "y0": 336.188,
+            "x1": 431.902,
+            "y1": 344.188,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.4850966278254879,
+            "relative_y": 0.5647598760910906,
+            "indent_ratio": 0.4850966278254879
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(5,845)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(663.518, 336.188, 687.022, 344.188)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.999999999999972,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 663.518,
+            "y0": 336.188,
+            "x1": 687.022,
+            "y1": 344.188,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.7881290904987588,
+            "relative_y": 0.5647598760910906,
+            "indent_ratio": 0.7881290904987588
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(5,845)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(764.566, 336.188, 788.07, 344.188)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.999999999999972,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 764.566,
+            "y0": 336.188,
+            "x1": 788.07,
+            "y1": 344.188,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.9081542719357636,
+            "relative_y": 0.5647598760910906,
+            "indent_ratio": 0.9081542719357636
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Changes in interests in subsidiaries . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(58.6209, 322.3148, 304.5569000000001, 329.91479999999996)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 58.6209,
+            "y0": 322.3148,
+            "x1": 304.5569000000001,
+            "y1": 329.91479999999996,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.06963011794890069,
+            "relative_y": 0.5414543841848152,
+            "indent_ratio": 0.06963011794890069
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "4,899",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(410.302, 322.0148, 429.678, 330.0148)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 410.302,
+            "y0": 322.0148,
+            "x1": 429.678,
+            "y1": 330.0148,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.4873582059413938,
+            "relative_y": 0.5409504162774914,
+            "indent_ratio": 0.4873582059413938
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "4,899",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(665.422, 322.0148, 684.798, 330.0148)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 665.422,
+            "y0": 322.0148,
+            "x1": 684.798,
+            "y1": 330.0148,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.7903906686146647,
+            "relative_y": 0.5409504162774914,
+            "indent_ratio": 0.7903906686146647
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "27,728",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(712.158, 322.0148, 735.822, 330.0148)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 712.158,
+            "y0": 322.0148,
+            "x1": 735.822,
+            "y1": 330.0148,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.8459038591740013,
+            "relative_y": 0.5409504162774914,
+            "indent_ratio": 0.8459038591740013
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "32,627",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(762.182, 322.0148, 785.846, 330.0148)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 762.182,
+            "y0": 322.0148,
+            "x1": 785.846,
+            "y1": 330.0148,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.905322548076352,
+            "relative_y": 0.5409504162774914,
+            "indent_ratio": 0.905322548076352
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Changes from loss of control . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(58.6209, 308.1416, 304.5607, 315.74159999999995)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 58.6209,
+            "y0": 308.1416,
+            "x1": 304.5607,
+            "y1": 315.74159999999995,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.06963011794890069,
+            "relative_y": 0.517644924371216,
+            "indent_ratio": 0.06963011794890069
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(5,248)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(714.542, 307.84159999999997, 738.046, 315.84159999999997)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 714.542,
+            "y0": 307.84159999999997,
+            "x1": 738.046,
+            "y1": 315.84159999999997,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.848735583033413,
+            "relative_y": 0.5171409564638924,
+            "indent_ratio": 0.848735583033413
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(5,248)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(764.566, 307.84159999999997, 788.07, 315.84159999999997)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 764.566,
+            "y0": 307.84159999999997,
+            "x1": 788.07,
+            "y1": 315.84159999999997,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.9081542719357636,
+            "relative_y": 0.5171409564638924,
+            "indent_ratio": 0.9081542719357636
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Retirement of treasury stock  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(58.6209, 293.96829999999994, 304.5569, 301.5682999999999)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 58.6209,
+            "y0": 293.96829999999994,
+            "x1": 304.5569,
+            "y1": 301.5682999999999,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.06963011794890069,
+            "relative_y": 0.4938352965683145,
+            "indent_ratio": 0.06963011794890069
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "33",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(314.6725, 293.96829999999994, 323.1237, 301.5682999999999)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 314.6725,
+            "y0": 293.96829999999994,
+            "x1": 323.1237,
+            "y1": 301.5682999999999,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.3737691384860255,
+            "relative_y": 0.4938352965683145,
+            "indent_ratio": 0.3737691384860255
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(1,412,374)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(495.518, 293.66829999999993, 533.95, 301.66829999999993)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 495.518,
+            "y0": 293.66829999999993,
+            "x1": 533.95,
+            "y1": 301.66829999999993,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.5885780802717695,
+            "relative_y": 0.4933313286609908,
+            "indent_ratio": 0.5885780802717695
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "1,412,374",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(547.446, 293.66829999999993, 581.75, 301.66829999999993)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 547.446,
+            "y0": 293.66829999999993,
+            "x1": 581.75,
+            "y1": 301.66829999999993,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.6502583472900261,
+            "relative_y": 0.4933313286609908,
+            "indent_ratio": 0.6502583472900261
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Purchase and disposal of treasury stock . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(58.6209, 279.7951, 304.5614600000001, 287.39509999999996)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 58.6209,
+            "y0": 279.7951,
+            "x1": 304.5614600000001,
+            "y1": 287.39509999999996,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.06963011794890069,
+            "relative_y": 0.4700258367547155,
+            "indent_ratio": 0.06963011794890069
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "33",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(314.6725, 279.7951, 323.1237, 287.39509999999996)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 314.6725,
+            "y0": 279.7951,
+            "x1": 323.1237,
+            "y1": 287.39509999999996,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.3737691384860255,
+            "relative_y": 0.4700258367547155,
+            "indent_ratio": 0.3737691384860255
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(798)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(516.798, 279.4951, 533.95, 287.4951)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 516.798,
+            "y0": 279.4951,
+            "x1": 533.95,
+            "y1": 287.4951,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.6138545415671881,
+            "relative_y": 0.4695218688473918,
+            "indent_ratio": 0.6138545415671881
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(1,044,755)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(545.542, 279.4951, 583.974, 287.4951)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 545.542,
+            "y0": 279.4951,
+            "x1": 583.974,
+            "y1": 287.4951,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.6479967691741202,
+            "relative_y": 0.4695218688473918,
+            "indent_ratio": 0.6479967691741202
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(1,045,553)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(648.59, 279.4951, 687.022, 287.4951)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 648.59,
+            "y0": 279.4951,
+            "x1": 687.022,
+            "y1": 287.4951,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.770397557875732,
+            "relative_y": 0.4695218688473918,
+            "indent_ratio": 0.770397557875732
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(1,045,553)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(749.638, 279.4951, 788.07, 287.4951)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 749.638,
+            "y0": 279.4951,
+            "x1": 788.07,
+            "y1": 287.4951,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.8904227393127369,
+            "relative_y": 0.4695218688473918,
+            "indent_ratio": 0.8904227393127369
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Transfer of accumulated other comprehensive income to retained earnings . . . . .",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(58.6209, 265.6219, 304.55956, 273.22189999999995)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 58.6209,
+            "y0": 265.6219,
+            "x1": 304.55956,
+            "y1": 273.22189999999995,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.06963011794890069,
+            "relative_y": 0.4462163769411164,
+            "indent_ratio": 0.06963011794890069
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "2,633",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(512.35, 265.32189999999997, 531.726, 273.32189999999997)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 512.35,
+            "y0": 265.32189999999997,
+            "x1": 531.726,
+            "y1": 273.32189999999997,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.6085711910107021,
+            "relative_y": 0.4457124090337927,
+            "indent_ratio": 0.6085711910107021
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(2,633)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(612.494, 265.32189999999997, 635.998, 273.32189999999997)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 612.494,
+            "y0": 265.32189999999997,
+            "x1": 635.998,
+            "y1": 273.32189999999997,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.7275225979641046,
+            "relative_y": 0.4457124090337927,
+            "indent_ratio": 0.7275225979641046
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Redemption and cancellation of other equity instruments . . . . . . . . . . . . . .",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(58.6209, 251.44869999999997, 304.55690000000004, 259.04869999999994)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 58.6209,
+            "y0": 251.44869999999997,
+            "x1": 304.55690000000004,
+            "y1": 259.04869999999994,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.06963011794890069,
+            "relative_y": 0.4224069171275173,
+            "indent_ratio": 0.06963011794890069
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "33",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(314.6725, 251.44869999999997, 323.1237, 259.04869999999994)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 314.6725,
+            "y0": 251.44869999999997,
+            "x1": 323.1237,
+            "y1": 259.04869999999994,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.3737691384860255,
+            "relative_y": 0.4224069171275173,
+            "indent_ratio": 0.3737691384860255
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(82,821)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(455.134, 251.14869999999996, 482.926, 259.14869999999996)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 455.134,
+            "y0": 251.14869999999996,
+            "x1": 482.926,
+            "y1": 259.14869999999996,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.5406098183848247,
+            "relative_y": 0.4219029492201936,
+            "indent_ratio": 0.5406098183848247
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(21,776)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(506.158, 251.14869999999996, 533.95, 259.14869999999996)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 506.158,
+            "y0": 251.14869999999996,
+            "x1": 533.95,
+            "y1": 259.14869999999996,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.6012163109194788,
+            "relative_y": 0.4219029492201936,
+            "indent_ratio": 0.6012163109194788
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(104,597)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(654.942, 250.86869999999993, 687.022, 258.86869999999993)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 654.942,
+            "y0": 250.86869999999993,
+            "x1": 687.022,
+            "y1": 258.86869999999993,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.7779424865481239,
+            "relative_y": 0.42143257917335814,
+            "indent_ratio": 0.7779424865481239
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(104,597)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(755.99, 250.86869999999993, 788.07, 258.86869999999993)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 755.99,
+            "y0": 250.86869999999993,
+            "x1": 788.07,
+            "y1": 258.86869999999993,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.8979676679851287,
+            "relative_y": 0.42143257917335814,
+            "indent_ratio": 0.8979676679851287
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Distribution to owners of other equity instruments  . . . . . . . . . . . . . . . . . . .",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(58.6209, 237.2754, 304.55690000000004, 244.87539999999996)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 58.6209,
+            "y0": 237.2754,
+            "x1": 304.55690000000004,
+            "y1": 244.87539999999996,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.06963011794890069,
+            "relative_y": 0.3985972893246158,
+            "indent_ratio": 0.06963011794890069
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "33",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(314.6725, 237.2754, 323.1237, 244.87539999999996)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 314.6725,
+            "y0": 237.2754,
+            "x1": 323.1237,
+            "y1": 244.87539999999996,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.3737691384860255,
+            "relative_y": 0.3985972893246158,
+            "indent_ratio": 0.3737691384860255
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(36,680)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(506.158, 236.97539999999998, 533.95, 244.97539999999998)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 506.158,
+            "y0": 236.97539999999998,
+            "x1": 533.95,
+            "y1": 244.97539999999998,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.6012163109194788,
+            "relative_y": 0.39809332141729215,
+            "indent_ratio": 0.6012163109194788
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(36,680)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(659.23, 236.97539999999998, 687.022, 244.97539999999998)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 659.23,
+            "y0": 236.97539999999998,
+            "x1": 687.022,
+            "y1": 244.97539999999998,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.7830357885234414,
+            "relative_y": 0.39809332141729215,
+            "indent_ratio": 0.7830357885234414
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(36,680)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(760.278, 236.97539999999998, 788.07, 244.97539999999998)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 760.278,
+            "y0": 236.97539999999998,
+            "x1": 788.07,
+            "y1": 244.97539999999998,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.9030609699604462,
+            "relative_y": 0.39809332141729215,
+            "indent_ratio": 0.9030609699604462
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Cash dividends  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(58.6239, 223.10299999999995, 304.5598999999998, 230.70299999999992)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 58.6239,
+            "y0": 223.10299999999995,
+            "x1": 304.5598999999998,
+            "y1": 230.70299999999992,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.0696336813597976,
+            "relative_y": 0.3747891734254362,
+            "indent_ratio": 0.0696336813597976
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "34",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(314.6755, 223.10299999999995, 323.12669999999997, 230.70299999999992)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 314.6755,
+            "y0": 223.10299999999995,
+            "x1": 323.12669999999997,
+            "y1": 230.70299999999992,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.3737727018969224,
+            "relative_y": 0.3747891734254362,
+            "indent_ratio": 0.3737727018969224
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(70,327)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(506.158, 222.80219999999997, 533.95, 230.80219999999997)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 506.158,
+            "y0": 222.80219999999997,
+            "x1": 533.95,
+            "y1": 230.80219999999997,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.6012163109194788,
+            "relative_y": 0.37428386160369304,
+            "indent_ratio": 0.6012163109194788
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(70,327)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(659.23, 222.80219999999997, 687.022, 230.80219999999997)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 659.23,
+            "y0": 222.80219999999997,
+            "x1": 687.022,
+            "y1": 230.80219999999997,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.7830357885234414,
+            "relative_y": 0.37428386160369304,
+            "indent_ratio": 0.7830357885234414
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(288,175)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(705.966, 222.80219999999997, 738.046, 230.80219999999997)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 705.966,
+            "y0": 222.80219999999997,
+            "x1": 738.046,
+            "y1": 230.80219999999997,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.838548979082778,
+            "relative_y": 0.37428386160369304,
+            "indent_ratio": 0.838548979082778
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(358,502)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(755.99, 222.80219999999997, 788.07, 230.80219999999997)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 755.99,
+            "y0": 222.80219999999997,
+            "x1": 788.07,
+            "y1": 230.80219999999997,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.8979676679851287,
+            "relative_y": 0.37428386160369304,
+            "indent_ratio": 0.8979676679851287
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Transactions with owners and other transactions",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(51.0239, 208.92899999999997, 222.3355, 216.52899999999994)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAD+FrutigerLTStd-Roman",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 51.0239,
+            "y0": 208.92899999999997,
+            "x1": 222.3355,
+            "y1": 216.52899999999994,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.06060637375429094,
+            "relative_y": 0.35097836969741764,
+            "indent_ratio": 0.06060637375429094
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Total comprehensive income . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(51.0239, 194.7557, 304.55989999999997, 202.35569999999996)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAD+FrutigerLTStd-Roman",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 51.0239,
+            "y0": 194.7557,
+            "x1": 304.55989999999997,
+            "y1": 202.35569999999996,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.06060637375429094,
+            "relative_y": 0.32716874189451617,
+            "indent_ratio": 0.06060637375429094
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(970,144)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(501.8698, 194.45569999999998, 533.9498000000001, 202.45569999999998)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 501.8698,
+            "y0": 194.45569999999998,
+            "x1": 533.9498000000001,
+            "y1": 202.45569999999998,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.596122771383435,
+            "relative_y": 0.32666477398719246,
+            "indent_ratio": 0.596122771383435
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "1,263,260",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(599.4698, 194.45569999999998, 633.7737999999999, 202.45569999999998)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 599.4698,
+            "y0": 194.45569999999998,
+            "x1": 633.7737999999999,
+            "y1": 202.45569999999998,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.7120524058962572,
+            "relative_y": 0.32666477398719246,
+            "indent_ratio": 0.7120524058962572
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "293,116",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(656.8458, 194.45569999999998, 684.7978, 202.45569999999998)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 656.8458,
+            "y0": 194.45569999999998,
+            "x1": 684.7978,
+            "y1": 202.45569999999998,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.7802038271033034,
+            "relative_y": 0.32666477398719246,
+            "indent_ratio": 0.7802038271033034
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "175,024",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(707.8698, 194.45569999999998, 735.8218, 202.45569999999998)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 707.8698,
+            "y0": 194.45569999999998,
+            "x1": 735.8218,
+            "y1": 202.45569999999998,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.8408103196379575,
+            "relative_y": 0.32666477398719246,
+            "indent_ratio": 0.8408103196379575
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "468,140",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(757.8938, 194.45569999999998, 785.8458, 202.45569999999998)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 757.8938,
+            "y0": 194.45569999999998,
+            "x1": 785.8458,
+            "y1": 202.45569999999998,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.9002290085403082,
+            "relative_y": 0.32666477398719246,
+            "indent_ratio": 0.9002290085403082
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Other comprehensive income  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(58.6208, 180.58249999999998, 304.5568, 188.18249999999995)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 58.6208,
+            "y0": 180.58249999999998,
+            "x1": 304.5568,
+            "y1": 188.18249999999995,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.06962999916853746,
+            "relative_y": 0.30335928208091706,
+            "indent_ratio": 0.06962999916853746
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "1,263,260",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(599.4698, 180.28249999999997, 633.7737999999999, 188.28249999999997)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 599.4698,
+            "y0": 180.28249999999997,
+            "x1": 633.7737999999999,
+            "y1": 188.28249999999997,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.7120524058962572,
+            "relative_y": 0.3028553141735934,
+            "indent_ratio": 0.7120524058962572
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "1,263,260",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(650.4938, 180.28249999999997, 684.7977999999999, 188.28249999999997)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 650.4938,
+            "y0": 180.28249999999997,
+            "x1": 684.7977999999999,
+            "y1": 188.28249999999997,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.7726588984309114,
+            "relative_y": 0.3028553141735934,
+            "indent_ratio": 0.7726588984309114
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(5,319)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(714.5418, 180.28249999999997, 738.0458, 188.28249999999997)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 714.5418,
+            "y0": 180.28249999999997,
+            "x1": 738.0458,
+            "y1": 188.28249999999997,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.8487353454726865,
+            "relative_y": 0.3028553141735934,
+            "indent_ratio": 0.8487353454726865
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "1,257,941",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(751.5418, 180.28249999999997, 785.8457999999999, 188.28249999999997)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 751.5418,
+            "y0": 180.28249999999997,
+            "x1": 785.8457999999999,
+            "y1": 188.28249999999997,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.8926840798679162,
+            "relative_y": 0.3028553141735934,
+            "indent_ratio": 0.8926840798679162
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Net income . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(58.6238, 166.40999999999997, 304.5635999999997, 174.00999999999993)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 58.6238,
+            "y0": 166.40999999999997,
+            "x1": 304.5635999999997,
+            "y1": 174.00999999999993,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.06963356257943437,
+            "relative_y": 0.27955099819243506,
+            "indent_ratio": 0.06963356257943437
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(970,144)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(501.8698, 166.10929999999996, 533.9498000000001, 174.10929999999996)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 501.8698,
+            "y0": 166.10929999999996,
+            "x1": 533.9498000000001,
+            "y1": 174.10929999999996,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.596122771383435,
+            "relative_y": 0.2790458543599943,
+            "indent_ratio": 0.596122771383435
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(970,144)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(654.9418, 166.10929999999996, 687.0218, 174.10929999999996)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 654.9418,
+            "y0": 166.10929999999996,
+            "x1": 687.0218,
+            "y1": 174.10929999999996,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.7779422489873974,
+            "relative_y": 0.2790458543599943,
+            "indent_ratio": 0.7779422489873974
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "180,343",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(707.8698, 166.10929999999996, 735.8218, 174.10929999999996)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 707.8698,
+            "y0": 166.10929999999996,
+            "x1": 735.8218,
+            "y1": 174.10929999999996,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.8408103196379575,
+            "relative_y": 0.2790458543599943,
+            "indent_ratio": 0.8408103196379575
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(789,801)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(755.9898, 166.10929999999996, 788.0698, 174.10929999999996)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 755.9898,
+            "y0": 166.10929999999996,
+            "x1": 788.0698,
+            "y1": 174.10929999999996,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.8979674304244022,
+            "relative_y": 0.2790458543599943,
+            "indent_ratio": 0.8979674304244022
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Comprehensive income",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(51.0238, 152.236, 133.3698, 159.83599999999996)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAD+FrutigerLTStd-Roman",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 51.0238,
+            "y0": 152.236,
+            "x1": 133.3698,
+            "y1": 159.83599999999996,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.060606254973927715,
+            "relative_y": 0.2557401944644165,
+            "indent_ratio": 0.060606254973927715
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "As of April 1, 2022 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(51.0237, 138.06279999999998, 304.5597, 145.66279999999995)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAD+FrutigerLTStd-Roman",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 51.0237,
+            "y0": 138.06279999999998,
+            "x1": 304.5597,
+            "y1": 145.66279999999995,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.06060613619356448,
+            "relative_y": 0.23193073465081743,
+            "indent_ratio": 0.06060613619356448
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "¥238,772",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(346.4136, 137.76279999999997, 378.6536, 145.76279999999997)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 346.4136,
+            "y0": 137.76279999999997,
+            "x1": 378.6536,
+            "y1": 145.76279999999997,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.4114713323593343,
+            "relative_y": 0.23142676674349374,
+            "indent_ratio": 0.4114713323593343
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "¥2,634,574",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(391.1816, 137.76279999999997, 429.7736, 145.76279999999997)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 391.1816,
+            "y0": 137.76279999999997,
+            "x1": 429.7736,
+            "y1": 145.76279999999997,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.4646469253702978,
+            "relative_y": 0.23142676674349374,
+            "indent_ratio": 0.4646469253702978
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "¥496,876",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(448.4616, 137.76279999999997, 480.7016, 145.76279999999997)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 448.4616,
+            "y0": 137.76279999999997,
+            "x1": 480.7016,
+            "y1": 145.76279999999997,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.5326843174286426,
+            "relative_y": 0.23142676674349374,
+            "indent_ratio": 0.5326843174286426
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "¥4,515,704",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(493.2296, 137.76279999999997, 531.8216, 145.76279999999997)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 493.2296,
+            "y0": 137.76279999999997,
+            "x1": 531.8216,
+            "y1": 145.76279999999997,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.5858599104396062,
+            "relative_y": 0.23142676674349374,
+            "indent_ratio": 0.5858599104396062
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "¥(406,410)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(547.6056, 137.76279999999997, 583.9736, 145.76279999999997)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 547.6056,
+            "y0": 137.76279999999997,
+            "x1": 583.9736,
+            "y1": 145.76279999999997,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.6504479207497417,
+            "relative_y": 0.23142676674349374,
+            "indent_ratio": 0.6504479207497417
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "¥2,496,158",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(595.2776, 137.76279999999997, 633.8696, 145.76279999999997)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 595.2776,
+            "y0": 137.76279999999997,
+            "x1": 633.8696,
+            "y1": 145.76279999999997,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.7070728955089145,
+            "relative_y": 0.23142676674349374,
+            "indent_ratio": 0.7070728955089145
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "¥9,975,674",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(646.3016, 137.76279999999997, 684.8936, 145.76279999999997)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 646.3016,
+            "y0": 137.76279999999997,
+            "x1": 684.8936,
+            "y1": 145.76279999999997,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.7676793880435686,
+            "relative_y": 0.23142676674349374,
+            "indent_ratio": 0.7676793880435686
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "¥1,732,088 ¥11,707,762",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(697.3256, 137.76279999999997, 785.8456, 145.76279999999997)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 697.3256,
+            "y0": 137.76279999999997,
+            "x1": 785.8456,
+            "y1": 145.76279999999997,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.8282858805782228,
+            "relative_y": 0.23142676674349374,
+            "indent_ratio": 0.8282858805782228
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "For the fiscal year ended March 31, 2023",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(51.021, 125.56429999999995, 165.03750000000005, 132.06429999999995)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 51.021,
+            "y0": 125.56429999999995,
+            "x1": 165.03750000000005,
+            "y1": 132.06429999999995,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.06060292912375726,
+            "relative_y": 0.2109345916852014,
+            "indent_ratio": 0.06060292912375726
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Notes",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(310.9495, 125.56429999999995, 326.842, 132.06429999999995)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 310.9495,
+            "y0": 125.56429999999995,
+            "x1": 326.842,
+            "y1": 132.06429999999995,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.36934694556295955,
+            "relative_y": 0.2109345916852014,
+            "indent_ratio": 0.36934694556295955
+          },
+          "confidence": 0.95,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Common stock",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(336.735, 125.56429999999995, 378.99150000000003, 132.06429999999995)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 336.735,
+            "y0": 125.56429999999995,
+            "x1": 378.99150000000003,
+            "y1": 132.06429999999995,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.39997505612372164,
+            "relative_y": 0.2109345916852014,
+            "indent_ratio": 0.39997505612372164
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Capital surplus",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(389.203, 125.56429999999995, 430.0165, 132.06429999999995)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 389.203,
+            "y0": 125.56429999999995,
+            "x1": 430.0165,
+            "y1": 132.06429999999995,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.46229673710342206,
+            "relative_y": 0.2109345916852014,
+            "indent_ratio": 0.46229673710342206
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Treasury stock",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(544.449, 125.56429999999995, 583.0915, 132.06429999999995)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 544.449,
+            "y0": 125.56429999999995,
+            "x1": 583.0915,
+            "y1": 132.06429999999995,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.6466984998040124,
+            "relative_y": 0.2109345916852014,
+            "indent_ratio": 0.6466984998040124
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Total",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(672.1415, 125.56429999999995, 685.1415, 132.06429999999995)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 672.1415,
+            "y0": 125.56429999999995,
+            "x1": 685.1415,
+            "y1": 132.06429999999995,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.798372115121928,
+            "relative_y": 0.2109345916852014,
+            "indent_ratio": 0.798372115121928
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Total equity",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(755.413, 125.56429999999995, 787.1915, 132.06429999999995)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 755.413,
+            "y0": 125.56429999999995,
+            "x1": 787.1915,
+            "y1": 132.06429999999995,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.8972823052892897,
+            "relative_y": 0.2109345916852014,
+            "indent_ratio": 0.8972823052892897
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Other equity \ninstruments",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(446.377, 118.56379999999996, 482.84850000000006, 132.06429999999995)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 446.377,
+            "y0": 118.56379999999996,
+            "x1": 482.84850000000006,
+            "y1": 132.06429999999995,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.5302082219767428,
+            "relative_y": 0.19917450056780378,
+            "indent_ratio": 0.5302082219767428
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Retained \nearnings",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(507.867, 118.56379999999996, 533.8735, 132.06429999999995)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 507.867,
+            "y0": 118.56379999999996,
+            "x1": 533.8735,
+            "y1": 132.06429999999995,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.6032462673270855,
+            "relative_y": 0.19917450056780378,
+            "indent_ratio": 0.6032462673270855
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Accumulated \nother compre-\nhensive income",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(591.5025, 111.56329999999997, 635.9235, 132.06429999999995)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 591.5025,
+            "y0": 111.56329999999997,
+            "x1": 635.9235,
+            "y1": 132.06429999999995,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.7025888180166056,
+            "relative_y": 0.18741440945040616,
+            "indent_ratio": 0.7025888180166056
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Non-\ncontrolling \ninterests",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(706.6695, 111.56329999999997, 737.9735, 132.06429999999995)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 706.6695,
+            "y0": 111.56329999999997,
+            "x1": 737.9735,
+            "y1": 132.06429999999995,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.8393845989381036,
+            "relative_y": 0.18741440945040616,
+            "indent_ratio": 0.8393845989381036
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Equity attributable to owners of the parent",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(566.432, 95.91779999999994, 685.135, 102.41779999999994)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 566.432,
+            "y0": 95.91779999999994,
+            "x1": 685.135,
+            "y1": 102.41779999999994,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.6728099870529405,
+            "relative_y": 0.16113164313696496,
+            "indent_ratio": 0.6728099870529405
+          },
+          "confidence": 0.95,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(Millions of yen)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(750.1928, 87.30749999999995, 790.8668, 93.30749999999995)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 750.1928,
+            "y0": 87.30749999999995,
+            "x1": 790.8668,
+            "y1": 93.30749999999995,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.8910817327679389,
+            "relative_y": 0.14666726022886856,
+            "indent_ratio": 0.8910817327679389
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      }
+    ]
+  },
+  {
+    "page_number": 2,
+    "elements": [
+      {
+        "text": "SoftBank Group Corp.  Financial Report 2024",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(22.6772, 567.3848999999999, 146.7914, 573.6248999999999)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAF+NeueHaasUnicaW1G-Black",
+            "size": 6.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 22.6772,
+            "y0": 567.3848999999999,
+            "x1": 146.7914,
+            "y1": 573.6248999999999,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.0269360605304731,
+            "relative_y": 0.9531459356668166,
+            "indent_ratio": 0.0269360605304731
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "128",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(809.4208, 567.3848999999999, 819.2128, 573.3848999999999)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAH+NeueHaasUnicaW1G-Light",
+            "size": 6.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 809.4208,
+            "y0": 567.3848999999999,
+            "x1": 819.2128,
+            "y1": 573.3848999999999,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.9614329663020109,
+            "relative_y": 0.9531459356668166,
+            "indent_ratio": 0.9614329663020109
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "2,882,270",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(361.9902, 433.70399999999995, 394.0158, 441.70399999999995)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 361.9902,
+            "y0": 433.70399999999995,
+            "x1": 394.0158,
+            "y1": 441.70399999999995,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.4299732744182732,
+            "relative_y": 0.7285763242596711,
+            "indent_ratio": 0.4299732744182732
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Net balance at period end\n(Receivables in SVF2 LLC less\nMgmtCo’s Equity interests in SVF2 LLC)*7",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(192.7559, 414.00399999999996, 325.9834248, 441.6071999999999)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999994,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 192.7559,
+            "y0": 414.00399999999996,
+            "x1": 325.9834248,
+            "y1": 441.6071999999999,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.2289561581679317,
+            "relative_y": 0.6954824316787507,
+            "indent_ratio": 0.2289561581679317
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Net balance at period end\n(Receivables in SVF2 LLC less\nMgmtCo’s Equity interests in SVF2 LLC)*7",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(578.2678, 414.00399999999996, 711.4953247999999, 441.6071999999999)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999994,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 578.2678,
+            "y0": 414.00399999999996,
+            "x1": 711.4953247999999,
+            "y1": 441.6071999999999,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.6868685932841583,
+            "relative_y": 0.6954824316787507,
+            "indent_ratio": 0.6868685932841583
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "MgmtCo’s Equity interests in \nSVF2 LLC*5,6",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(192.7559, 391.20009999999996, 287.2087, 407.40329999999994)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999994,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 192.7559,
+            "y0": 391.20009999999996,
+            "x1": 287.2087,
+            "y1": 407.40329999999994,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.2289561581679317,
+            "relative_y": 0.6571743191393572,
+            "indent_ratio": 0.2289561581679317
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "MgmtCo’s Equity interests in \nSVF2 LLC*5,6",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(578.2678, 391.20009999999996, 672.7206, 407.40329999999994)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999994,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 578.2678,
+            "y0": 391.20009999999996,
+            "x1": 672.7206,
+            "y1": 407.40329999999994,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.6868685932841583,
+            "relative_y": 0.6571743191393572,
+            "indent_ratio": 0.6868685932841583
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "$ 82,506*3",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(314.302, 376.53409999999997, 348.6613656, 384.6962)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 314.302,
+            "y0": 376.53409999999997,
+            "x1": 348.6613656,
+            "y1": 384.6962,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.37332905724025706,
+            "relative_y": 0.6325370080433278,
+            "indent_ratio": 0.37332905724025706
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "$2,882,270*3,4",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(359.0897, 376.53409999999997, 403.93697700000007, 384.6962)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 359.0897,
+            "y0": 376.53409999999997,
+            "x1": 403.93697700000007,
+            "y1": 384.6962,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.4265280499827768,
+            "relative_y": 0.6325370080433278,
+            "indent_ratio": 0.4265280499827768
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "The premium received on SVF2 \nLLC’s receivables",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(192.7559, 368.39609999999993, 295.0899, 384.59929999999997)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999994,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 192.7559,
+            "y0": 368.39609999999993,
+            "x1": 295.0899,
+            "y1": 384.59929999999997,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.2289561581679317,
+            "relative_y": 0.6188660386106613,
+            "indent_ratio": 0.2289561581679317
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "The premium received on SVF2 \nLLC’s receivables",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(578.2678, 368.39609999999993, 680.6018, 384.59929999999997)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999994,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 578.2678,
+            "y0": 368.39609999999993,
+            "x1": 680.6018,
+            "y1": 384.59929999999997,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.6868685932841583,
+            "relative_y": 0.6188660386106613,
+            "indent_ratio": 0.6868685932841583
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Receipt of capital contribution \nin SVF2 LLC and related \nadjustments*1,2",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(192.7636, 337.02259999999995, 292.4148, 361.82899999999995)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999994,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 192.7636,
+            "y0": 337.02259999999995,
+            "x1": 292.4148,
+            "y1": 361.82899999999995,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.22896530425590042,
+            "relative_y": 0.5661619148092649,
+            "indent_ratio": 0.22896530425590042
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Receipt of capital contribution \nin SVF2 LLC and related \nadjustments*1,2",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(578.2755, 337.02259999999995, 677.9267, 361.82899999999995)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999994,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 578.2755,
+            "y0": 337.02259999999995,
+            "x1": 677.9267,
+            "y1": 361.82899999999995,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.6868777393721269,
+            "relative_y": 0.5661619148092649,
+            "indent_ratio": 0.6868777393721269
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Chairman & CEO of \nSoftBank Group \nCorp. and related \nentities of which \nhe holds more than \none-half of the \nvoting rights",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(116.224, 336.99979999999994, 185.2396, 396.21899999999994)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.600000000000023,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 116.224,
+            "y0": 336.99979999999994,
+            "x1": 185.2396,
+            "y1": 396.21899999999994,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.13805128936084288,
+            "relative_y": 0.5661236132483083,
+            "indent_ratio": 0.13805128936084288
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Chairman & CEO of \nSoftBank Group \nCorp. and related \nentities of which \nhe holds more than \none-half of the \nvoting rights",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(501.7359, 336.99979999999994, 570.7515, 396.21899999999994)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.600000000000023,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 501.7359,
+            "y0": 336.99979999999994,
+            "x1": 570.7515,
+            "y1": 396.21899999999994,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.5959637244770695,
+            "relative_y": 0.5661236132483083,
+            "indent_ratio": 0.5959637244770695
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Masayoshi Son\n(MASA USA\nLLC (MgmtCo))",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(51.0236, 336.99219999999997, 103.83600000000001, 361.79859999999996)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999994,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 51.0236,
+            "y0": 336.99219999999997,
+            "x1": 103.83600000000001,
+            "y1": 361.79859999999996,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.060606017413201256,
+            "relative_y": 0.5661108460613228,
+            "indent_ratio": 0.060606017413201256
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Masayoshi Son\n(MASA USA\nLLC (MgmtCo))",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(436.5355, 336.99219999999997, 489.3479, 361.79859999999996)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999994,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 436.5355,
+            "y0": 336.99219999999997,
+            "x1": 489.3479,
+            "y1": 361.79859999999996,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.5185184525294279,
+            "relative_y": 0.5661108460613228,
+            "indent_ratio": 0.5185184525294279
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Nature of relationship",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(116.221, 325.59919999999994, 176.30050000000003, 332.09919999999994)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 116.221,
+            "y0": 325.59919999999994,
+            "x1": 176.30050000000003,
+            "y1": 332.09919999999994,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.13804772594994597,
+            "relative_y": 0.5469718248341945,
+            "indent_ratio": 0.13804772594994597
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Nature of transaction",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(192.7585, 325.59919999999994, 251.5055, 332.09919999999994)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 192.7585,
+            "y0": 325.59919999999994,
+            "x1": 251.5055,
+            "y1": 332.09919999999994,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.22895924645737567,
+            "relative_y": 0.5469718248341945,
+            "indent_ratio": 0.22895924645737567
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Nature of relationship",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(501.7331, 325.59919999999994, 561.8126, 332.09919999999994)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 501.7331,
+            "y0": 325.59919999999994,
+            "x1": 561.8126,
+            "y1": 332.09919999999994,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.595960398626899,
+            "relative_y": 0.5469718248341945,
+            "indent_ratio": 0.595960398626899
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Nature of transaction",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(578.2706, 325.59919999999994, 637.0176, 332.09919999999994)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 578.2706,
+            "y0": 325.59919999999994,
+            "x1": 637.0176,
+            "y1": 332.09919999999994,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.6868719191343287,
+            "relative_y": 0.5469718248341945,
+            "indent_ratio": 0.6868719191343287
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Name of the company or \nindividual",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(51.026, 318.59869999999995, 111.09250000000002, 332.09919999999994)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAI+FrutigerLTStd-LightCn",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 51.026,
+            "y0": 318.59869999999995,
+            "x1": 111.09250000000002,
+            "y1": 332.09919999999994,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.060608868141918786,
+            "relative_y": 0.5352117337167969,
+            "indent_ratio": 0.060608868141918786
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Amount of\ntransaction*8",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(312.248, 318.59869999999995, 348.661362, 332.09919999999994)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 312.248,
+            "y0": 318.59869999999995,
+            "x1": 348.661362,
+            "y1": 332.09919999999994,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.37088930857950564,
+            "relative_y": 0.5352117337167969,
+            "indent_ratio": 0.37088930857950564
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Name of the company or \nindividual",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(436.5381, 318.59869999999995, 496.6046, 332.09919999999994)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAI+FrutigerLTStd-LightCn",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 436.5381,
+            "y0": 318.59869999999995,
+            "x1": 496.6046,
+            "y1": 332.09919999999994,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.5185215408188718,
+            "relative_y": 0.5352117337167969,
+            "indent_ratio": 0.5185215408188718
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Amount of\ntransaction*8",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(697.7601, 318.59869999999995, 734.1732619999999, 332.09919999999994)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 697.7601,
+            "y0": 318.59869999999995,
+            "x1": 734.1732619999999,
+            "y1": 332.09919999999994,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.8288019812564587,
+            "relative_y": 0.5352117337167969,
+            "indent_ratio": 0.8288019812564587
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Balance at\n period-end*8",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(364.6509, 318.59749999999997, 402.51989999999995, 332.09799999999996)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 364.6509,
+            "y0": 318.59749999999997,
+            "x1": 402.51989999999995,
+            "y1": 332.09799999999996,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.4331336635427431,
+            "relative_y": 0.5352097178451676,
+            "indent_ratio": 0.4331336635427431
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Balance at\n period-end*8",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(750.1629, 318.59749999999997, 788.0319000000001, 332.09799999999996)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 750.1629,
+            "y0": 318.59749999999997,
+            "x1": 788.0319000000001,
+            "y1": 332.09799999999996,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.891046217439333,
+            "relative_y": 0.5352097178451676,
+            "indent_ratio": 0.891046217439333
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Fiscal year ended\nMarch 31, 2023",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(304.0662, 301.12019999999995, 348.66204999999997, 315.12119999999993)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 304.0662,
+            "y0": 301.12019999999995,
+            "x1": 348.66204999999997,
+            "y1": 315.12119999999993,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.36117093682072476,
+            "relative_y": 0.5058497234896081,
+            "indent_ratio": 0.36117093682072476
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "As of March \n31, 2023",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(368.6875, 301.12019999999995, 404.327, 315.12119999999993)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 368.6875,
+            "y0": 301.12019999999995,
+            "x1": 404.327,
+            "y1": 315.12119999999993,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.43792835168489946,
+            "relative_y": 0.5058497234896081,
+            "indent_ratio": 0.43792835168489946
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(Thousands of U.S. dollars)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(333.9908, 291.51779999999997, 405.3548, 297.51779999999997)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 333.9908,
+            "y0": 291.51779999999997,
+            "x1": 405.3548,
+            "y1": 297.51779999999997,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.3967154853959543,
+            "relative_y": 0.4897187187119924,
+            "indent_ratio": 0.3967154853959543
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(Thousands of U.S. dollars)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(719.5027, 291.51779999999997, 790.8667, 297.51779999999997)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 719.5027,
+            "y0": 291.51779999999997,
+            "x1": 790.8667,
+            "y1": 297.51779999999997,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.854627920512181,
+            "relative_y": 0.4897187187119924,
+            "indent_ratio": 0.854627920512181
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "384,870",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(363.6864, 255.28999999999996, 392.59839999999997, 263.28999999999996)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 363.6864,
+            "y0": 255.28999999999996,
+            "x1": 392.59839999999997,
+            "y1": 263.28999999999996,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.43198802693938637,
+            "relative_y": 0.4288598902021919,
+            "indent_ratio": 0.43198802693938637
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Net balance at period end\n(Receivables in SVF2 LLC less\nMgmtCo’s Equity interests in SVF2 LLC)*7",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(192.7559, 235.58999999999997, 325.9834248, 263.19319999999993)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 192.7559,
+            "y0": 235.58999999999997,
+            "x1": 325.9834248,
+            "y1": 263.19319999999993,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.2289561581679317,
+            "relative_y": 0.39576599762127146,
+            "indent_ratio": 0.2289561581679317
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Net balance at period end\n(Receivables in SVF2 LLC less\nMgmtCo’s Equity interests in SVF2 LLC)*7",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(578.2678, 235.58999999999997, 711.4953247999999, 263.19319999999993)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 578.2678,
+            "y0": 235.58999999999997,
+            "x1": 711.4953247999999,
+            "y1": 263.19319999999993,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.6868685932841583,
+            "relative_y": 0.39576599762127146,
+            "indent_ratio": 0.6868685932841583
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "MgmtCo’s Equity interests in \nSVF2 LLC*5,6",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(192.7559, 212.78609999999998, 287.2087, 228.98929999999996)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 192.7559,
+            "y0": 212.78609999999998,
+            "x1": 287.2087,
+            "y1": 228.98929999999996,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.2289561581679317,
+            "relative_y": 0.357457885081878,
+            "indent_ratio": 0.2289561581679317
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "MgmtCo’s Equity interests in \nSVF2 LLC*5,6",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(578.2678, 212.78609999999998, 672.7206, 228.98929999999996)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 578.2678,
+            "y0": 212.78609999999998,
+            "x1": 672.7206,
+            "y1": 228.98929999999996,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.6868685932841583,
+            "relative_y": 0.357457885081878,
+            "indent_ratio": 0.6868685932841583
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "¥11,185*3",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(314.1538, 198.12009999999998, 348.661384, 206.28209999999996)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 314.1538,
+            "y0": 198.12009999999998,
+            "x1": 348.661384,
+            "y1": 206.28209999999996,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.37315302474194967,
+            "relative_y": 0.3328205739858486,
+            "indent_ratio": 0.37315302474194967
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "¥384,870*3,4",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(361.3141, 198.12009999999998, 403.93696, 206.28209999999996)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 361.3141,
+            "y0": 198.12009999999998,
+            "x1": 403.93696,
+            "y1": 206.28209999999996,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.4291702003824728,
+            "relative_y": 0.3328205739858486,
+            "indent_ratio": 0.4291702003824728
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "The premium received on SVF2 \nLLC’s receivables",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(192.7559, 189.98209999999995, 295.0899, 206.18529999999993)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 192.7559,
+            "y0": 189.98209999999995,
+            "x1": 295.0899,
+            "y1": 206.18529999999993,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.2289561581679317,
+            "relative_y": 0.319149604553182,
+            "indent_ratio": 0.2289561581679317
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "The premium received on SVF2 \nLLC’s receivables",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(578.2678, 189.98209999999995, 680.6018, 206.18529999999993)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 578.2678,
+            "y0": 189.98209999999995,
+            "x1": 680.6018,
+            "y1": 206.18529999999993,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.6868685932841583,
+            "relative_y": 0.319149604553182,
+            "indent_ratio": 0.6868685932841583
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Receipt of capital contribution \nin SVF2 LLC and related \nadjustments*1,2",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(192.7636, 158.60859999999997, 292.4148, 183.4149999999999)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 192.7636,
+            "y0": 158.60859999999997,
+            "x1": 292.4148,
+            "y1": 183.4149999999999,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.22896530425590042,
+            "relative_y": 0.2664454807517857,
+            "indent_ratio": 0.22896530425590042
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Receipt of capital contribution \nin SVF2 LLC and related \nadjustments*1,2",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(578.2755, 158.60859999999997, 677.9267, 183.4149999999999)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 578.2755,
+            "y0": 158.60859999999997,
+            "x1": 677.9267,
+            "y1": 183.4149999999999,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.6868777393721269,
+            "relative_y": 0.2664454807517857,
+            "indent_ratio": 0.6868777393721269
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Chairman & CEO of \nSoftBank Group \nCorp. and related \nentities of which \nhe holds more than \none-half of the \nvoting rights",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(116.224, 158.58579999999995, 185.2396, 217.80499999999995)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 116.224,
+            "y0": 158.58579999999995,
+            "x1": 185.2396,
+            "y1": 217.80499999999995,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.13805128936084288,
+            "relative_y": 0.26640717919082907,
+            "indent_ratio": 0.13805128936084288
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Chairman & CEO of \nSoftBank Group \nCorp. and related \nentities of which \nhe holds more than \none-half of the \nvoting rights",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(501.7359, 158.58579999999995, 570.7515, 217.80499999999995)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 501.7359,
+            "y0": 158.58579999999995,
+            "x1": 570.7515,
+            "y1": 217.80499999999995,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.5959637244770695,
+            "relative_y": 0.26640717919082907,
+            "indent_ratio": 0.5959637244770695
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Masayoshi Son\n(MASA USA\nLLC (MgmtCo))",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(51.0236, 158.57819999999998, 103.83600000000001, 183.38459999999992)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 51.0236,
+            "y0": 158.57819999999998,
+            "x1": 103.83600000000001,
+            "y1": 183.38459999999992,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.060606017413201256,
+            "relative_y": 0.26639441200384356,
+            "indent_ratio": 0.060606017413201256
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Masayoshi Son\n(MASA USA\nLLC (MgmtCo))",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(436.5355, 158.57819999999998, 489.3479, 183.38459999999992)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 7.599999999999966,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 436.5355,
+            "y0": 158.57819999999998,
+            "x1": 489.3479,
+            "y1": 183.38459999999992,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.5185184525294279,
+            "relative_y": 0.26639441200384356,
+            "indent_ratio": 0.5185184525294279
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Nature of relationship",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(116.221, 147.18509999999998, 176.30050000000003, 153.68509999999998)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 116.221,
+            "y0": 147.18509999999998,
+            "x1": 176.30050000000003,
+            "y1": 153.68509999999998,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.13804772594994597,
+            "relative_y": 0.24725522278741288,
+            "indent_ratio": 0.13804772594994597
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Nature of transaction",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(192.7585, 147.18509999999998, 251.5055, 153.68509999999998)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 192.7585,
+            "y0": 147.18509999999998,
+            "x1": 251.5055,
+            "y1": 153.68509999999998,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.22895924645737567,
+            "relative_y": 0.24725522278741288,
+            "indent_ratio": 0.22895924645737567
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Nature of relationship",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(501.7331, 147.18509999999998, 561.8126, 153.68509999999998)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 501.7331,
+            "y0": 147.18509999999998,
+            "x1": 561.8126,
+            "y1": 153.68509999999998,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.595960398626899,
+            "relative_y": 0.24725522278741288,
+            "indent_ratio": 0.595960398626899
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Nature of transaction",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(578.2706, 147.18509999999998, 637.0176, 153.68509999999998)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 578.2706,
+            "y0": 147.18509999999998,
+            "x1": 637.0176,
+            "y1": 153.68509999999998,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.6868719191343287,
+            "relative_y": 0.24725522278741288,
+            "indent_ratio": 0.6868719191343287
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Name of the company or \nindividual",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(51.026, 140.18459999999993, 111.09250000000002, 153.68509999999998)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAI+FrutigerLTStd-LightCn",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 51.026,
+            "y0": 140.18459999999993,
+            "x1": 111.09250000000002,
+            "y1": 153.68509999999998,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.060608868141918786,
+            "relative_y": 0.23549513167001515,
+            "indent_ratio": 0.060608868141918786
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Amount of\ntransaction",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(317.968, 140.18459999999993, 348.661, 153.68509999999998)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 317.968,
+            "y0": 140.18459999999993,
+            "x1": 348.661,
+            "y1": 153.68509999999998,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.37768354535628174,
+            "relative_y": 0.23549513167001515,
+            "indent_ratio": 0.37768354535628174
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Balance at\n period-end",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(370.371, 140.18459999999993, 402.52, 153.68509999999998)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 370.371,
+            "y0": 140.18459999999993,
+            "x1": 402.52,
+            "y1": 153.68509999999998,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.4399280190998824,
+            "relative_y": 0.23549513167001515,
+            "indent_ratio": 0.4399280190998824
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Name of the company or \nindividual",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(436.5381, 140.18459999999993, 496.6046, 153.68509999999998)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAI+FrutigerLTStd-LightCn",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 436.5381,
+            "y0": 140.18459999999993,
+            "x1": 496.6046,
+            "y1": 153.68509999999998,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.5185215408188718,
+            "relative_y": 0.23549513167001515,
+            "indent_ratio": 0.5185215408188718
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Amount of\ntransaction",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(703.4801, 140.18459999999993, 734.1731, 153.68509999999998)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 703.4801,
+            "y0": 140.18459999999993,
+            "x1": 734.1731,
+            "y1": 153.68509999999998,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.8355962180332348,
+            "relative_y": 0.23549513167001515,
+            "indent_ratio": 0.8355962180332348
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Balance at\n period-end",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(755.8831, 140.18459999999993, 788.0321, 153.68509999999998)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 755.8831,
+            "y0": 140.18459999999993,
+            "x1": 788.0321,
+            "y1": 153.68509999999998,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.8978406917768355,
+            "relative_y": 0.23549513167001515,
+            "indent_ratio": 0.8978406917768355
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Fiscal year ended\nMarch 31, 2023",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(304.0662, 122.70609999999994, 348.66204999999997, 136.70709999999997)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 304.0662,
+            "y0": 122.70609999999994,
+            "x1": 348.66204999999997,
+            "y1": 136.70709999999997,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.36117093682072476,
+            "relative_y": 0.20613312144282642,
+            "indent_ratio": 0.36117093682072476
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "As of March \n31, 2023",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(368.6875, 122.70609999999994, 404.327, 136.70709999999997)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.5,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 368.6875,
+            "y0": 122.70609999999994,
+            "x1": 404.327,
+            "y1": 136.70709999999997,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.43792835168489946,
+            "relative_y": 0.20613312144282642,
+            "indent_ratio": 0.43792835168489946
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(Millions of yen)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(361.3449, 113.10379999999998, 405.3549, 119.10379999999998)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 361.3449,
+            "y0": 113.10379999999998,
+            "x1": 405.3549,
+            "y1": 119.10379999999998,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.4292067847343477,
+            "relative_y": 0.1900022846545132,
+            "indent_ratio": 0.4292067847343477
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(Millions of yen)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(746.8568, 113.10379999999998, 790.8668, 119.10379999999998)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 6.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 746.8568,
+            "y0": 113.10379999999998,
+            "x1": 790.8668,
+            "y1": 119.10379999999998,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.8871192198505743,
+            "relative_y": 0.1900022846545132,
+            "indent_ratio": 0.8871192198505743
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "For the fiscal year ended March 31, 2024",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(436.5354, 97.57979999999998, 583.1033999999999, 105.57979999999998)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+FrutigerLTStd-Light",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 436.5354,
+            "y0": 97.57979999999998,
+            "x1": 583.1033999999999,
+            "y1": 105.57979999999998,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.5185183337490646,
+            "relative_y": 0.1639236253435381,
+            "indent_ratio": 0.5185183337490646
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(a) Transactions between SVF2 and related parties\nFor the fiscal year ended March 31, 2023",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(51.0236, 85.67979999999994, 244.39159999999984, 105.57579999999996)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAD+FrutigerLTStd-Roman",
+            "size": 8.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 51.0236,
+            "y0": 85.67979999999994,
+            "x1": 244.39159999999984,
+            "y1": 105.57579999999996,
+            "page_width": 841.89,
+            "page_height": 595.276,
+            "relative_x": 0.060606017413201256,
+            "relative_y": 0.1439328983530328,
+            "indent_ratio": 0.060606017413201256
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      }
+    ]
+  }
+]

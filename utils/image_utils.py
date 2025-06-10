@@ -1,15 +1,15 @@
 import os
-import hashlib
 import fitz  # PyMuPDF
 from typing import List, Dict, Tuple, Optional
 from pathlib import Path
 from processor.data_models import ElementType
+from partitioner_max.libs.hash_utils import compute_sha256
 
 def generate_secure_filename(prefix: str = "img") -> str:
     """Generate a secure random filename using SHA-256."""
     random_bytes = os.urandom(32)
-    hash_object = hashlib.sha256(random_bytes)
-    return f"{prefix}_{hash_object.hexdigest()[:16]}.png"
+    hash_str = compute_sha256(random_bytes.decode('latin-1'))
+    return f"{prefix}_{hash_str[:16]}.png"
 
 def extract_images_from_pdf(
     pdf_path: str, 

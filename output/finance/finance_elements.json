@@ -1,0 +1,3549 @@
+[
+  {
+    "page_number": 1,
+    "elements": [
+      {
+        "text": "Jazz Pharmaceuticals [JAZZ]",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(33.0, 744.6, 158.37024, 755.64)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 11.04,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 33.0,
+            "y0": 744.6,
+            "x1": 158.37024,
+            "y1": 755.64,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.05392156862745098,
+            "relative_y": 0.9401515151515152,
+            "indent_ratio": 0.05392156862745098
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Number of shares (m) \n    63.3 \nBV / Share (US $) \n         19.73 \nNet Debt (US$ m) \n   893.5 \n  9.8 \nNet Debt / Total Cap. (%) \nSource: Company data, Goldman Stanley estimates.",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(227.04, 691.77, 392.18024, 735.69)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 9.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 227.04,
+            "y0": 691.77,
+            "x1": 392.18024,
+            "y1": 735.69,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.37098039215686274,
+            "relative_y": 0.8734469696969697,
+            "indent_ratio": 0.37098039215686274
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Enterprise Value (US$ m) \nMarket Cap (US$ m)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(404.16, 691.77, 497.394, 708.33)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 9.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 404.16,
+            "y0": 691.77,
+            "x1": 497.394,
+            "y1": 708.33,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.6603921568627451,
+            "relative_y": 0.8734469696969697,
+            "indent_ratio": 0.6603921568627451
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "9,089.5 \n8,196.0",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(509.76, 691.77, 559.914, 708.33)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 9.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 509.76,
+            "y0": 691.77,
+            "x1": 559.914,
+            "y1": 708.33,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.8329411764705882,
+            "relative_y": 0.8734469696969697,
+            "indent_ratio": 0.8329411764705882
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Financial and Valuation Metrics \nYear \nGAAP EPS (US $) \nGAAP P / E (x) \nRevenue (US $m) \nEV / Revenue (x) \nEBITDA (US $m) \nEV / EBITDA (x)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(229.2, 577.77, 349.074, 669.9300000000001)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAE+Calibri-Bold",
+            "size": 9.0,
+            "is_bold": true,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 229.2,
+            "y0": 577.77,
+            "x1": 349.074,
+            "y1": 669.9300000000001,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.37450980392156863,
+            "relative_y": 0.7295075757575757,
+            "indent_ratio": 0.37450980392156863
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "■  Our $170.00 target price is based on an FY 14 EV / EBITDA multiple of 20.7x and an FY 15 \nEV / EBITDA multiple of 15.3x, vs. median peer company multiples of 21.8x and 15.3x, \nrespectively.  Given  Jazz’s  higher  revenue  growth,  margins,  and  EBITDA  growth,  we \nbelieve this is still quite conservative. A DCF analysis with our long-term FCF projections, \na  discount  rate  of  8.07%,  and  a  Terminal  FCF  growth  rate  of  0.3%  also  produces  an \nimplied share price of $168.71.",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(225.48, 488.72976, 564.7234, 561.6878)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAI+ArialMT",
+            "size": 9.479999999999961,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 225.48,
+            "y0": 488.72976,
+            "x1": 564.7234,
+            "y1": 561.6878,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.3684313725490196,
+            "relative_y": 0.6170830303030304,
+            "indent_ratio": 0.3684313725490196
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "■  Catalysts: 1) Possible price increases for Xyrem – Given the historical price increases \nand the price ranges for comparable orphan drugs, we believe the company is likely \nto announce another round of price increases at the end of FY 14 or early FY 15, and \nthat there is significant room to grow pricing beyond the current levels. 2)  Launch of \nnew  marketing  campaigns  for  Xyrem  –  Jazz  management  is  in  the  process  of \nlaunching awareness campaigns for narcolepsy patients in key geographies, and has \nalready reported 11,400 Xyrem patients in Q1, above our FY 14 estimate of ~11,300. \n3)  Settlement of Roxane lawsuit  –  We believe this will be decided in Jazz’s favor, \nresulting  in  a  delayed  entrance  for  Xyrem  generics.  Current  market  expectations \npoint to generics in FY 19 or FY 20, but we believe FY 21 is more likely (with peak \nsales of ~$3.0 billion in FY 20).",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(225.6, 349.04976, 564.7746319999997, 479.7031)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAI+ArialMT",
+            "size": 9.480000000000018,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 225.6,
+            "y0": 349.04976,
+            "x1": 564.7746319999997,
+            "y1": 479.7031,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.3686274509803921,
+            "relative_y": 0.4407193939393939,
+            "indent_ratio": 0.3686274509803921
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "$200.00\n$180.00\n$160.00\n$140.00\n$120.00\n$100.00\n$80.00\n$60.00\n$40.00\n$20.00\n$0.00",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(57.4267, 294.29605000000004, 75.3237437, 359.50065)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAE+Calibri-Bold",
+            "size": 5.382999999999981,
+            "is_bold": true,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 57.4267,
+            "y0": 294.29605000000004,
+            "x1": 75.3237437,
+            "y1": 359.50065,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.093834477124183,
+            "relative_y": 0.37158592171717175,
+            "indent_ratio": 0.093834477124183
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "■  FY 14 Guidance: The Company reaffirmed its FY 14 guidance across the board, with \nrevenue of $1.10 billion – $1.16 billion, Xyrem sales of $755 – $755 million, Erwinaze \nat $185 – $200 million, Defitelio at $42 – $52 million, and Adjusted Net Income of \n$496  –  $520  million.  While  we  believe  the  market  has  already  priced  in  these \nexpectations, we continue to see Jazz as an undervalued, high-growth story going \nforward, and we believe that its longer-term revenue, EPS, and EBITDA are likely to \nexceed consensus estimates in FY 15, FY 16, and beyond.",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(225.48, 254.72976000000006, 564.7499439999999, 340.2868)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAI+ArialMT",
+            "size": 9.480000000000018,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 225.48,
+            "y0": 254.72976000000006,
+            "x1": 564.7499439999999,
+            "y1": 340.2868,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.3684313725490196,
+            "relative_y": 0.32162848484848494,
+            "indent_ratio": 0.3684313725490196
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "■  Q1  Results:  Jazz  Pharmaceuticals  reported  strong  Q1  results  on  Thursday,  with \nrevenue of $247 million vs. $196 million in Q1 of FY 13, representing 26% YoY growth. \nThe GAAP Net Loss was $93 million vs. GAAP Net Income of $43 million in Q1 of FY \n13, but $127 million of that was due to an upfront license fee and milestone payment \nfor  JZP-110.  Adjusted  Net Income  was $101  million  vs. $84 million  in  Q1  of  FY  13. \nThese  figures  were  slightly ahead  of Goldman  Stanley  estimates of $240  million in \nrevenue and $95 million in Adjusted Net Income.",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(225.48, 160.28976, 564.69976, 245.84680000000003)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAI+ArialMT",
+            "size": 9.480000000000018,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 225.48,
+            "y0": 160.28976,
+            "x1": 564.69976,
+            "y1": 245.84680000000003,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.3684313725490196,
+            "relative_y": 0.2023860606060606,
+            "indent_ratio": 0.3684313725490196
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Rating: \nPrice (9 May 14, US$): \nTarget Price (US$): \n52-Week Price Range: \nMarket Cap. (US$ m): \nEnterprise Value (US$ m): \n      *Target Price is for 12 months.",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(38.28, 111.69000000000005, 149.89354, 174.45000000000005)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 9.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 38.28,
+            "y0": 111.69000000000005,
+            "x1": 149.89354,
+            "y1": 174.45000000000005,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.06254901960784313,
+            "relative_y": 0.14102272727272736,
+            "indent_ratio": 0.06254901960784313
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Goldman Stanley",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(54.12, 35.85000000000002, 197.00904, 55.889999999999986)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 20.039999999999964,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 54.12,
+            "y0": 35.85000000000002,
+            "x1": 197.00904,
+            "y1": 55.889999999999986,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.0884313725490196,
+            "relative_y": 0.04526515151515154,
+            "indent_ratio": 0.0884313725490196
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "9 May 2014 \nAmericas/United States \nEquity Research \n       Specialty Pharmaceuticals",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(443.7542, 23.49000000000001, 564.45358, 71.0122)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 9.480000000000018,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 443.7542,
+            "y0": 23.49000000000001,
+            "x1": 564.45358,
+            "y1": 71.0122,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.7250885620915033,
+            "relative_y": 0.02965909090909092,
+            "indent_ratio": 0.7250885620915033
+          },
+          "confidence": 0.95,
+          "cross_page_refs": []
+        }
+      }
+    ]
+  },
+  {
+    "page_number": 2,
+    "elements": [
+      {
+        "text": "Jazz Pharmaceuticals [JAZZ]",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(33.0, 732.33, 146.97226, 742.29)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 9.96,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 33.0,
+            "y0": 732.33,
+            "x1": 146.97226,
+            "y1": 742.29,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.05392156862745098,
+            "relative_y": 0.9246590909090909,
+            "indent_ratio": 0.05392156862745098
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "7 / 9",
+        "element_type": "ElementType.LIST_ITEM",
+        "bbox": "(545.5217, 731.52, 566.49504, 742.56)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 9.96,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 545.5217,
+            "y0": 731.52,
+            "x1": 566.49504,
+            "y1": 742.56,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.8913753267973856,
+            "relative_y": 0.9236363636363636,
+            "indent_ratio": 0.8913753267973856
+          },
+          "list_group_id": "a259d82f-0e90-49bc-97eb-4b98470cadc3",
+          "confidence": 0.9,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Source: Company data, Goldman Stanley estimates.",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(37.56, 706.77, 201.10248, 716.25)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAK+Calibri-Italic",
+            "size": 8.040000000000006,
+            "is_bold": false,
+            "is_italic": true,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 37.56,
+            "y0": 706.77,
+            "x1": 201.10248,
+            "y1": 716.25,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.06137254901960785,
+            "relative_y": 0.8923863636363636,
+            "indent_ratio": 0.06137254901960785
+          },
+          "confidence": 0.95,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Annual EBITDA Growth Rate:",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(56.36081, 678.080075, 136.2675506, 684.962375)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAK+Calibri-Italic",
+            "size": 6.882300000000001,
+            "is_bold": false,
+            "is_italic": true,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 56.36081,
+            "y0": 678.080075,
+            "x1": 136.2675506,
+            "y1": 684.962375,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.09209282679738562,
+            "relative_y": 0.8561617108585858,
+            "indent_ratio": 0.09209282679738562
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Annual Free Cash Flow Growth Rate:",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(51.60568, 650.5574750000001, 152.16636326, 657.439775)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAK+Calibri-Italic",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": true,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 51.60568,
+            "y0": 650.5574750000001,
+            "x1": 152.16636326,
+            "y1": 657.439775,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.08432300653594771,
+            "relative_y": 0.8214109532828283,
+            "indent_ratio": 0.08432300653594771
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "58.4%",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(224.9988, 650.5574750000001, 242.17482209999997, 657.439775)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAK+Calibri-Italic",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": true,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 224.9988,
+            "y0": 650.5574750000001,
+            "x1": 242.17482209999997,
+            "y1": 657.439775,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.3676450980392157,
+            "relative_y": 0.8214109532828283,
+            "indent_ratio": 0.3676450980392157
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "22.2%",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(262.1274, 650.5574750000001, 279.30342210000003, 657.439775)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAK+Calibri-Italic",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": true,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 262.1274,
+            "y0": 650.5574750000001,
+            "x1": 279.30342210000003,
+            "y1": 657.439775,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.42831274509803924,
+            "relative_y": 0.8214109532828283,
+            "indent_ratio": 0.42831274509803924
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "26.1%",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(299.256, 650.5574750000001, 316.4320221, 657.439775)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAK+Calibri-Italic",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": true,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 299.256,
+            "y0": 650.5574750000001,
+            "x1": 316.4320221,
+            "y1": 657.439775,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.4889803921568627,
+            "relative_y": 0.8214109532828283,
+            "indent_ratio": 0.4889803921568627
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "23.1%",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(336.3845, 650.5574750000001, 353.5605221, 657.439775)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAK+Calibri-Italic",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": true,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 336.3845,
+            "y0": 650.5574750000001,
+            "x1": 353.5605221,
+            "y1": 657.439775,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.5496478758169935,
+            "relative_y": 0.8214109532828283,
+            "indent_ratio": 0.5496478758169935
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "20.6%",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(373.5131, 650.5574750000001, 390.6891221, 657.439775)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAK+Calibri-Italic",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": true,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 373.5131,
+            "y0": 650.5574750000001,
+            "x1": 390.6891221,
+            "y1": 657.439775,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.610315522875817,
+            "relative_y": 0.8214109532828283,
+            "indent_ratio": 0.610315522875817
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "17.6%",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(410.6417, 650.5574750000001, 427.8177221, 657.439775)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAK+Calibri-Italic",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": true,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 410.6417,
+            "y0": 650.5574750000001,
+            "x1": 427.8177221,
+            "y1": 657.439775,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.6709831699346406,
+            "relative_y": 0.8214109532828283,
+            "indent_ratio": 0.6709831699346406
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "15.5%",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(447.7703, 650.5574750000001, 464.94632210000003, 657.439775)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAK+Calibri-Italic",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": true,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 447.7703,
+            "y0": 650.5574750000001,
+            "x1": 464.94632210000003,
+            "y1": 657.439775,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.7316508169934641,
+            "relative_y": 0.8214109532828283,
+            "indent_ratio": 0.7316508169934641
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(44.9%)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(481.0682, 650.5574750000001, 502.28709806, 657.439775)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAK+Calibri-Italic",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": true,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 481.0682,
+            "y0": 650.5574750000001,
+            "x1": 502.28709806,
+            "y1": 657.439775,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.7860591503267974,
+            "relative_y": 0.8214109532828283,
+            "indent_ratio": 0.7860591503267974
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(26.4%)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(518.1968, 650.5574750000001, 539.4156980600001, 657.439775)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAK+Calibri-Italic",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": true,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 518.1968,
+            "y0": 650.5574750000001,
+            "x1": 539.4156980600001,
+            "y1": 657.439775,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.846726797385621,
+            "relative_y": 0.8214109532828283,
+            "indent_ratio": 0.846726797385621
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "8.7%",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(562.5941, 650.5574750000001, 576.3252721, 657.439775)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAK+Calibri-Italic",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": true,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 562.5941,
+            "y0": 650.5574750000001,
+            "x1": 576.3252721,
+            "y1": 657.439775,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.9192714052287582,
+            "relative_y": 0.8214109532828283,
+            "indent_ratio": 0.9192714052287582
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Normal Discount Period:\nMid-Year Discount Period:",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(51.5919, 623.028275, 124.65854674000002, 639.0846750000001)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 51.5919,
+            "y0": 623.028275,
+            "x1": 124.65854674000002,
+            "y1": 639.0846750000001,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.08430049019607844,
+            "relative_y": 0.7866518623737374,
+            "indent_ratio": 0.08430049019607844
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "0.647\n0.323",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(227.6651, 623.028275, 243.4149645, 639.0846750000001)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 227.6651,
+            "y0": 623.028275,
+            "x1": 243.4149645,
+            "y1": 639.0846750000001,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.3720017973856209,
+            "relative_y": 0.7866518623737374,
+            "indent_ratio": 0.3720017973856209
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "1.647\n1.147",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(264.7937, 623.028275, 280.5435645, 639.0846750000001)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 264.7937,
+            "y0": 623.028275,
+            "x1": 280.5435645,
+            "y1": 639.0846750000001,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.43266944444444444,
+            "relative_y": 0.7866518623737374,
+            "indent_ratio": 0.43266944444444444
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "2.647\n2.147",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(301.9223, 623.028275, 317.6721645, 639.0846750000001)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 301.9223,
+            "y0": 623.028275,
+            "x1": 317.6721645,
+            "y1": 639.0846750000001,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.493337091503268,
+            "relative_y": 0.7866518623737374,
+            "indent_ratio": 0.493337091503268
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "3.647\n3.147",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(339.0509, 623.028275, 354.80066450000004, 639.0846750000001)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 339.0509,
+            "y0": 623.028275,
+            "x1": 354.80066450000004,
+            "y1": 639.0846750000001,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.5540047385620915,
+            "relative_y": 0.7866518623737374,
+            "indent_ratio": 0.5540047385620915
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "4.647\n4.147",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(376.1795, 623.028275, 391.92926450000004, 639.0846750000001)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 376.1795,
+            "y0": 623.028275,
+            "x1": 391.92926450000004,
+            "y1": 639.0846750000001,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.6146723856209151,
+            "relative_y": 0.7866518623737374,
+            "indent_ratio": 0.6146723856209151
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "5.647\n5.147",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(413.308, 623.028275, 429.05786450000005, 639.0846750000001)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 413.308,
+            "y0": 623.028275,
+            "x1": 429.05786450000005,
+            "y1": 639.0846750000001,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.6753398692810457,
+            "relative_y": 0.7866518623737374,
+            "indent_ratio": 0.6753398692810457
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "6.647\n6.147",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(450.4366, 623.028275, 466.1864645, 639.0846750000001)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 450.4366,
+            "y0": 623.028275,
+            "x1": 466.1864645,
+            "y1": 639.0846750000001,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.7360075163398693,
+            "relative_y": 0.7866518623737374,
+            "indent_ratio": 0.7360075163398693
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "7.647\n7.147",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(487.5652, 623.028275, 503.3150645, 639.0846750000001)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 487.5652,
+            "y0": 623.028275,
+            "x1": 503.3150645,
+            "y1": 639.0846750000001,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.7966751633986928,
+            "relative_y": 0.7866518623737374,
+            "indent_ratio": 0.7966751633986928
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "8.647\n8.147",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(524.6938, 623.028275, 540.4436645, 639.0846750000001)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 524.6938,
+            "y0": 623.028275,
+            "x1": 540.4436645,
+            "y1": 639.0846750000001,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.8573428104575164,
+            "relative_y": 0.7866518623737374,
+            "indent_ratio": 0.8573428104575164
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "9.647\n9.147",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(561.8224, 623.028275, 577.5722645, 639.0846750000001)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 561.8224,
+            "y0": 623.028275,
+            "x1": 577.5722645,
+            "y1": 639.0846750000001,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.9180104575163399,
+            "relative_y": 0.7866518623737374,
+            "indent_ratio": 0.9180104575163399
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Annual Unlevered Free Cash Flow:\nUnlevered Free Cash Flow for Remaining Quarters:\nNet Present Value of Free Cash Flow:",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(51.64702, 586.324975, 195.94420933, 611.555475)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAE+Calibri-Bold",
+            "size": 6.8822999999999865,
+            "is_bold": true,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 51.64702,
+            "y0": 586.324975,
+            "x1": 195.94420933,
+            "y1": 611.555475,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.08439055555555555,
+            "relative_y": 0.7403093118686869,
+            "indent_ratio": 0.08439055555555555
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Less: Taxes, Excluding Effect of Interest:",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(51.80549, 494.54947500000003, 163.55917988000002, 501.431775)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 51.80549,
+            "y0": 494.54947500000003,
+            "x1": 163.55917988000002,
+            "y1": 501.431775,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.08464949346405229,
+            "relative_y": 0.6244311553030304,
+            "indent_ratio": 0.08464949346405229
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(54.8)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(227.4928, 494.54947500000003, 243.73871259999999, 501.431775)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 227.4928,
+            "y0": 494.54947500000003,
+            "x1": 243.73871259999999,
+            "y1": 501.431775,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.3717202614379085,
+            "relative_y": 0.6244311553030304,
+            "indent_ratio": 0.3717202614379085
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(112.9)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(261.1766, 494.54947500000003, 280.86598466000004, 501.431775)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 261.1766,
+            "y0": 494.54947500000003,
+            "x1": 280.86598466000004,
+            "y1": 501.431775,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.4267591503267974,
+            "relative_y": 0.6244311553030304,
+            "indent_ratio": 0.4267591503267974
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(146.4)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(298.3052, 494.54947500000003, 317.99458466000004, 501.431775)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 298.3052,
+            "y0": 494.54947500000003,
+            "x1": 317.99458466000004,
+            "y1": 501.431775,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.48742679738562095,
+            "relative_y": 0.6244311553030304,
+            "indent_ratio": 0.48742679738562095
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(186.0)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(335.4338, 494.54947500000003, 355.12318466000005, 501.431775)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 335.4338,
+            "y0": 494.54947500000003,
+            "x1": 355.12318466000005,
+            "y1": 501.431775,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.5480944444444444,
+            "relative_y": 0.6244311553030304,
+            "indent_ratio": 0.5480944444444444
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(229.1)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(372.5624, 494.54947500000003, 392.25178466000006, 501.431775)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 372.5624,
+            "y0": 494.54947500000003,
+            "x1": 392.25178466000006,
+            "y1": 501.431775,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.608762091503268,
+            "relative_y": 0.6244311553030304,
+            "indent_ratio": 0.608762091503268
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(276.2)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(409.691, 494.54947500000003, 429.38038466, 501.431775)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 409.691,
+            "y0": 494.54947500000003,
+            "x1": 429.38038466,
+            "y1": 501.431775,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.6694297385620914,
+            "relative_y": 0.6244311553030304,
+            "indent_ratio": 0.6694297385620914
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(320.2)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(446.8195, 494.54947500000003, 466.50888466000004, 501.431775)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 446.8195,
+            "y0": 494.54947500000003,
+            "x1": 466.50888466000004,
+            "y1": 501.431775,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.7300972222222222,
+            "relative_y": 0.6244311553030304,
+            "indent_ratio": 0.7300972222222222
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(102.5)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(483.9481, 494.54947500000003, 503.63748466000004, 501.431775)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 483.9481,
+            "y0": 494.54947500000003,
+            "x1": 503.63748466000004,
+            "y1": 501.431775,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.7907648692810457,
+            "relative_y": 0.6244311553030304,
+            "indent_ratio": 0.7907648692810457
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(114.5)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(521.0767, 494.54947500000003, 540.7660846599999, 501.431775)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 521.0767,
+            "y0": 494.54947500000003,
+            "x1": 540.7660846599999,
+            "y1": 501.431775,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.8514325163398692,
+            "relative_y": 0.6244311553030304,
+            "indent_ratio": 0.8514325163398692
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "(125.9)",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(558.2053, 494.54947500000003, 577.8946846599999, 501.431775)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 558.2053,
+            "y0": 494.54947500000003,
+            "x1": 577.8946846599999,
+            "y1": 501.431775,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.9121001633986927,
+            "relative_y": 0.6244311553030304,
+            "indent_ratio": 0.9121001633986927
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Annual / Annualized Operating Margin:",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(56.39403, 476.19437500000004, 164.22196881999997, 483.076675)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAK+Calibri-Italic",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": true,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 56.39403,
+            "y0": 476.19437500000004,
+            "x1": 164.22196881999997,
+            "y1": 483.076675,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.09214710784313726,
+            "relative_y": 0.601255523989899,
+            "indent_ratio": 0.09214710784313726
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Operating Income (EBIT):",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(51.79171, 467.020275, 121.75041277, 473.902575)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 51.79171,
+            "y0": 467.020275,
+            "x1": 121.75041277,
+            "y1": 473.902575,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.084626977124183,
+            "relative_y": 0.5896720643939394,
+            "indent_ratio": 0.084626977124183
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Annual / Annualized Revenue Growth Rate:",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(56.38714, 457.846175, 175.69194108, 464.728475)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAK+Calibri-Italic",
+            "size": 6.8822999999999865,
+            "is_bold": false,
+            "is_italic": true,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 56.38714,
+            "y0": 457.846175,
+            "x1": 175.69194108,
+            "y1": 464.728475,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.09213584967320262,
+            "relative_y": 0.5780886047979799,
+            "indent_ratio": 0.09213584967320262
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "We then calculated Unlevered Free Cash Flow as follows:",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(40.68, 375.9299, 262.90067999999997, 385.4099)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 9.480000000000018,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 40.68,
+            "y0": 375.9299,
+            "x1": 262.90067999999997,
+            "y1": 385.4099,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.06647058823529411,
+            "relative_y": 0.4746589646464646,
+            "indent_ratio": 0.06647058823529411
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "ource: Company data, Goldman Stanley estimates.",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(41.039712, 356.49, 201.10248, 365.97)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAK+Calibri-Italic",
+            "size": 8.039999999999964,
+            "is_bold": false,
+            "is_italic": true,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 41.039712,
+            "y0": 356.49,
+            "x1": 201.10248,
+            "y1": 365.97,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.06705835294117647,
+            "relative_y": 0.4501136363636364,
+            "indent_ratio": 0.06705835294117647
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "EBITDA:\nEBITDA Margin:",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(56.30446, 328.314075, 100.31440659999998, 344.407175)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 56.30446,
+            "y0": 328.314075,
+            "x1": 100.31440659999998,
+            "y1": 344.407175,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.09200075163398692,
+            "relative_y": 0.4145379734848485,
+            "indent_ratio": 0.09200075163398692
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "$",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(210.9369, 328.314075, 226.6453722, 335.19957500000004)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 210.9369,
+            "y0": 328.314075,
+            "x1": 226.6453722,
+            "y1": 335.19957500000004,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.344668137254902,
+            "relative_y": 0.4145379734848485,
+            "indent_ratio": 0.344668137254902
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "565.1\n51.8%",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(225.1696, 328.314075, 242.34562209999999, 344.407175)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 225.1696,
+            "y0": 328.314075,
+            "x1": 242.34562209999999,
+            "y1": 344.407175,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.36792418300653595,
+            "relative_y": 0.4145379734848485,
+            "indent_ratio": 0.36792418300653595
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "$",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(248.0655, 328.314075, 263.7739722, 335.19957500000004)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 248.0655,
+            "y0": 328.314075,
+            "x1": 263.7739722,
+            "y1": 335.19957500000004,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.40533578431372547,
+            "relative_y": 0.4145379734848485,
+            "indent_ratio": 0.40533578431372547
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "760.7\n53.5%",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(262.2981, 328.314075, 279.4741221, 344.407175)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 262.2981,
+            "y0": 328.314075,
+            "x1": 279.4741221,
+            "y1": 344.407175,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.42859166666666665,
+            "relative_y": 0.4145379734848485,
+            "indent_ratio": 0.42859166666666665
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "$",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(285.1941, 328.314075, 300.9025722, 335.19957500000004)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 285.1941,
+            "y0": 328.314075,
+            "x1": 300.9025722,
+            "y1": 335.19957500000004,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.466003431372549,
+            "relative_y": 0.4145379734848485,
+            "indent_ratio": 0.466003431372549
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "946.0\n52.3%",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(299.4267, 328.314075, 316.6027221, 344.407175)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 299.4267,
+            "y0": 328.314075,
+            "x1": 316.6027221,
+            "y1": 344.407175,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.48925931372549014,
+            "relative_y": 0.4145379734848485,
+            "indent_ratio": 0.48925931372549014
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "$",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(322.3227, 328.314075, 333.4426722, 335.19957500000004)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 322.3227,
+            "y0": 328.314075,
+            "x1": 333.4426722,
+            "y1": 335.19957500000004,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.5266710784313725,
+            "relative_y": 0.4145379734848485,
+            "indent_ratio": 0.5266710784313725
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "1,171.0\n51.3%",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(332.2714, 328.314075, 353.7313221, 344.407175)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 332.2714,
+            "y0": 328.314075,
+            "x1": 353.7313221,
+            "y1": 344.407175,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.5429271241830066,
+            "relative_y": 0.4145379734848485,
+            "indent_ratio": 0.5429271241830066
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "$",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(359.4513, 328.314075, 370.5712722, 335.19957500000004)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 359.4513,
+            "y0": 328.314075,
+            "x1": 370.5712722,
+            "y1": 335.19957500000004,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.5873387254901961,
+            "relative_y": 0.4145379734848485,
+            "indent_ratio": 0.5873387254901961
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "1,413.7\n50.3%",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(369.4, 328.314075, 390.8599221, 344.407175)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 369.4,
+            "y0": 328.314075,
+            "x1": 390.8599221,
+            "y1": 344.407175,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.60359477124183,
+            "relative_y": 0.4145379734848485,
+            "indent_ratio": 0.60359477124183
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "$",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(396.5799, 328.314075, 407.6998722, 335.19957500000004)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 396.5799,
+            "y0": 328.314075,
+            "x1": 407.6998722,
+            "y1": 335.19957500000004,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.6480063725490196,
+            "relative_y": 0.4145379734848485,
+            "indent_ratio": 0.6480063725490196
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "1,665.7\n49.4%",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(406.5286, 328.314075, 427.9885221, 344.407175)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 406.5286,
+            "y0": 328.314075,
+            "x1": 427.9885221,
+            "y1": 344.407175,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.6642624183006536,
+            "relative_y": 0.4145379734848485,
+            "indent_ratio": 0.6642624183006536
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "$",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(433.7084, 328.314075, 444.8283722, 335.19957500000004)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 433.7084,
+            "y0": 328.314075,
+            "x1": 444.8283722,
+            "y1": 335.19957500000004,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.7086738562091504,
+            "relative_y": 0.4145379734848485,
+            "indent_ratio": 0.7086738562091504
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "1,918.8\n48.6%",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(443.6572, 328.314075, 465.1171221, 344.407175)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 443.6572,
+            "y0": 328.314075,
+            "x1": 465.1171221,
+            "y1": 344.407175,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.7249300653594771,
+            "relative_y": 0.4145379734848485,
+            "indent_ratio": 0.7249300653594771
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "$",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(470.837, 328.314075, 486.5455722, 335.19957500000004)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 470.837,
+            "y0": 328.314075,
+            "x1": 486.5455722,
+            "y1": 335.19957500000004,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.7693415032679738,
+            "relative_y": 0.4145379734848485,
+            "indent_ratio": 0.7693415032679738
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "686.0\n48.3%",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(485.0697, 328.314075, 502.2457221, 344.407175)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 485.0697,
+            "y0": 328.314075,
+            "x1": 502.2457221,
+            "y1": 344.407175,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.7925975490196079,
+            "relative_y": 0.4145379734848485,
+            "indent_ratio": 0.7925975490196079
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "$",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(507.9656, 328.314075, 523.6741722, 335.19957500000004)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 507.9656,
+            "y0": 328.314075,
+            "x1": 523.6741722,
+            "y1": 335.19957500000004,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.8300091503267973,
+            "relative_y": 0.4145379734848485,
+            "indent_ratio": 0.8300091503267973
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "755.7\n48.0%",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(522.1983, 328.314075, 539.3743221, 344.407175)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 522.1983,
+            "y0": 328.314075,
+            "x1": 539.3743221,
+            "y1": 344.407175,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.8532651960784314,
+            "relative_y": 0.4145379734848485,
+            "indent_ratio": 0.8532651960784314
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "$",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(545.0942, 328.314075, 560.8027722, 335.19957500000004)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 545.0942,
+            "y0": 328.314075,
+            "x1": 560.8027722,
+            "y1": 335.19957500000004,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.8906767973856209,
+            "relative_y": 0.4145379734848485,
+            "indent_ratio": 0.8906767973856209
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "822.6\n47.8%",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(559.3269, 328.314075, 576.5029221, 344.407175)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 559.3269,
+            "y0": 328.314075,
+            "x1": 576.5029221,
+            "y1": 344.407175,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.913932843137255,
+            "relative_y": 0.4145379734848485,
+            "indent_ratio": 0.913932843137255
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Weighted Average Diluted Shares Outstanding:\nDiluted Earnings Per Share (EPS):",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(51.76415, 300.772075, 181.01285509000007, 316.835975)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 51.76415,
+            "y0": 300.772075,
+            "x1": 181.01285509000007,
+            "y1": 316.835975,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.08458194444444445,
+            "relative_y": 0.3797627209595959,
+            "indent_ratio": 0.08458194444444445
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "61.6\n3.40",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(228.9879, 300.772075, 241.6649145, 316.835975)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 228.9879,
+            "y0": 300.772075,
+            "x1": 241.6649145,
+            "y1": 316.835975,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.37416323529411766,
+            "relative_y": 0.3797627209595959,
+            "indent_ratio": 0.37416323529411766
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "61.6\n7.85",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(266.1096, 300.772075, 278.7935145, 316.835975)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 266.1096,
+            "y0": 300.772075,
+            "x1": 278.7935145,
+            "y1": 316.835975,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.4348196078431373,
+            "relative_y": 0.3797627209595959,
+            "indent_ratio": 0.4348196078431373
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "61.6\n10.32",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(299.7865, 300.772075, 315.9221145, 316.835975)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 299.7865,
+            "y0": 300.772075,
+            "x1": 315.9221145,
+            "y1": 316.835975,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.4898472222222222,
+            "relative_y": 0.3797627209595959,
+            "indent_ratio": 0.4898472222222222
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "61.6\n13.52",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(336.9082, 300.772075, 353.05071449999997, 316.835975)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 336.9082,
+            "y0": 300.772075,
+            "x1": 353.05071449999997,
+            "y1": 316.835975,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.5505035947712419,
+            "relative_y": 0.3797627209595959,
+            "indent_ratio": 0.5505035947712419
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "61.6\n16.71",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(374.0299, 300.772075, 390.1793145, 316.835975)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 374.0299,
+            "y0": 300.772075,
+            "x1": 390.1793145,
+            "y1": 316.835975,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.6111599673202615,
+            "relative_y": 0.3797627209595959,
+            "indent_ratio": 0.6111599673202615
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "61.6\n20.44",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(411.1516, 300.772075, 427.3079145, 316.835975)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 411.1516,
+            "y0": 300.772075,
+            "x1": 427.3079145,
+            "y1": 316.835975,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.671816339869281,
+            "relative_y": 0.3797627209595959,
+            "indent_ratio": 0.671816339869281
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "61.6\n23.69",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(448.2733, 300.772075, 464.4365145, 316.835975)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 448.2733,
+            "y0": 300.772075,
+            "x1": 464.4365145,
+            "y1": 316.835975,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.7324727124183007,
+            "relative_y": 0.3797627209595959,
+            "indent_ratio": 0.7324727124183007
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "61.6\n7.59",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(488.8398, 300.772075, 501.5651145, 316.835975)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 488.8398,
+            "y0": 300.772075,
+            "x1": 501.5651145,
+            "y1": 316.835975,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.798757843137255,
+            "relative_y": 0.3797627209595959,
+            "indent_ratio": 0.798757843137255
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "61.6\n8.47",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(525.9615, 300.772075, 538.6937144999999, 316.835975)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 525.9615,
+            "y0": 300.772075,
+            "x1": 538.6937144999999,
+            "y1": 316.835975,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.8594142156862745,
+            "relative_y": 0.3797627209595959,
+            "indent_ratio": 0.8594142156862745
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "61.6\n9.32",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(563.0832, 300.772075, 575.8223145, 316.835975)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 563.0832,
+            "y0": 300.772075,
+            "x1": 575.8223145,
+            "y1": 316.835975,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.9200705882352942,
+            "relative_y": 0.3797627209595959,
+            "indent_ratio": 0.9200705882352942
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Effective Tax Rate:",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(56.35269, 282.408475, 108.70752029999997, 289.29397500000005)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAK+Calibri-Italic",
+            "size": 6.885500000000036,
+            "is_bold": false,
+            "is_italic": true,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 56.35269,
+            "y0": 282.408475,
+            "x1": 108.70752029999997,
+            "y1": 289.29397500000005,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.09207955882352942,
+            "relative_y": 0.35657635732323234,
+            "indent_ratio": 0.09207955882352942
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Revenue Growth:",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(61.01701, 227.324475, 109.15809977999999, 234.209975)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAK+Calibri-Italic",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": true,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 61.01701,
+            "y0": 227.324475,
+            "x1": 109.15809977999999,
+            "y1": 234.209975,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.09970099673202615,
+            "relative_y": 0.28702585227272726,
+            "indent_ratio": 0.09970099673202615
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "JZP-110 Sales:\nJZP-386 Sales:\nTotal Revenue:",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(56.41469, 199.78927499999998, 99.98447333000001, 225.03157499999998)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 56.41469,
+            "y0": 199.78927499999998,
+            "x1": 99.98447333000001,
+            "y1": 225.03157499999998,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.09218086601307189,
+            "relative_y": 0.2522591856060606,
+            "indent_ratio": 0.09218086601307189
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "-\n-\n1,090.4\n25.0%",
+        "element_type": "ElementType.LIST_ITEM",
+        "bbox": "(220.238, 199.78927499999998, 242.39522209999998, 234.209975)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 220.238,
+            "y0": 199.78927499999998,
+            "x1": 242.39522209999998,
+            "y1": 234.209975,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.3598660130718954,
+            "relative_y": 0.2522591856060606,
+            "indent_ratio": 0.3598660130718954
+          },
+          "list_group_id": "733b1d18-c756-4959-90b9-b6521ef65a29",
+          "confidence": 0.9,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "-\n-\n1,421.9\n30.4%",
+        "element_type": "ElementType.LIST_ITEM",
+        "bbox": "(257.3666, 199.78927499999998, 279.5238221, 234.209975)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 257.3666,
+            "y0": 199.78927499999998,
+            "x1": 279.5238221,
+            "y1": 234.209975,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.42053366013071897,
+            "relative_y": 0.2522591856060606,
+            "indent_ratio": 0.42053366013071897
+          },
+          "list_group_id": "7f6d512a-4338-4c25-a3bb-0c6ef76da38e",
+          "confidence": 0.9,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "-\n-\n1,807.8\n27.1%",
+        "element_type": "ElementType.LIST_ITEM",
+        "bbox": "(294.4952, 199.78927499999998, 316.6524221, 234.209975)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 294.4952,
+            "y0": 199.78927499999998,
+            "x1": 316.6524221,
+            "y1": 234.209975,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.4812013071895425,
+            "relative_y": 0.2522591856060606,
+            "indent_ratio": 0.4812013071895425
+          },
+          "list_group_id": "60ea599d-cdfb-4ff8-9144-5f8e06dfab1d",
+          "confidence": 0.9,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "24.5\n-\n2,284.0\n26.3%",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(331.6238, 199.78927499999998, 353.78102210000003, 234.209975)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 331.6238,
+            "y0": 199.78927499999998,
+            "x1": 353.78102210000003,
+            "y1": 234.209975,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.541868954248366,
+            "relative_y": 0.2522591856060606,
+            "indent_ratio": 0.541868954248366
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "61.1\n-\n2,810.8\n23.1%",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(368.7524, 199.78927499999998, 390.90962210000004, 234.209975)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 368.7524,
+            "y0": 199.78927499999998,
+            "x1": 390.90962210000004,
+            "y1": 234.209975,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.6025366013071896,
+            "relative_y": 0.2522591856060606,
+            "indent_ratio": 0.6025366013071896
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "112.5\n-\n3,372.2\n20.0%",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(405.8809, 199.78927499999998, 428.0382221, 234.209975)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 405.8809,
+            "y0": 199.78927499999998,
+            "x1": 428.0382221,
+            "y1": 234.209975,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.6632040849673203,
+            "relative_y": 0.2522591856060606,
+            "indent_ratio": 0.6632040849673203
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "133.9\n-\n3,951.8\n17.2%",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(443.0095, 199.78927499999998, 465.1668221, 234.209975)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 443.0095,
+            "y0": 199.78927499999998,
+            "x1": 465.1668221,
+            "y1": 234.209975,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.7238717320261437,
+            "relative_y": 0.2522591856060606,
+            "indent_ratio": 0.7238717320261437
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "210.6\n-\n1,421.3\n(64.0%)",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(480.1381, 199.78927499999998, 502.50759806, 234.209975)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 480.1381,
+            "y0": 199.78927499999998,
+            "x1": 502.50759806,
+            "y1": 234.209975,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.7845393790849673,
+            "relative_y": 0.2522591856060606,
+            "indent_ratio": 0.7845393790849673
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "242.1\n-\n1,573.9\n10.7%",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(517.2667, 199.78927499999998, 539.4171220999999, 234.209975)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 517.2667,
+            "y0": 199.78927499999998,
+            "x1": 539.4171220999999,
+            "y1": 234.209975,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.8452070261437908,
+            "relative_y": 0.2522591856060606,
+            "indent_ratio": 0.8452070261437908
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "319.0\n-\n1,721.1\n9.4%",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(554.3953, 199.78927499999998, 576.5456720999999, 234.209975)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 554.3953,
+            "y0": 199.78927499999998,
+            "x1": 576.5456720999999,
+            "y1": 234.209975,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.9058746732026144,
+            "relative_y": 0.2522591856060606,
+            "indent_ratio": 0.9058746732026144
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Risk-Adjusted Pipeline Drug Sales:",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(56.39403, 190.61097499999994, 149.29818964999998, 197.49647499999992)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 56.39403,
+            "y0": 190.61097499999994,
+            "x1": 149.29818964999998,
+            "y1": 197.49647499999992,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.09214710784313726,
+            "relative_y": 0.2406704229797979,
+            "indent_ratio": 0.09214710784313726
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "$",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(211.0196, 153.897475, 226.72807219999999, 160.78297499999996)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 211.0196,
+            "y0": 153.897475,
+            "x1": 226.72807219999999,
+            "y1": 160.78297499999996,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.3448032679738562,
+            "relative_y": 0.19431499368686866,
+            "indent_ratio": 0.3448032679738562
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "687.2\n203.4\n57.8\n142.0",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(225.9495, 153.897475, 241.6925145, 188.31807500000002)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 225.9495,
+            "y0": 153.897475,
+            "x1": 241.6925145,
+            "y1": 188.31807500000002,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.36919852941176473,
+            "relative_y": 0.19431499368686866,
+            "indent_ratio": 0.36919852941176473
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "$",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(248.1482, 153.897475, 263.8566722, 160.78297499999996)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 248.1482,
+            "y0": 153.897475,
+            "x1": 263.8566722,
+            "y1": 160.78297499999996,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.40547091503267974,
+            "relative_y": 0.19431499368686866,
+            "indent_ratio": 0.40547091503267974
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "951.8\n234.2\n79.8\n156.2",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(263.0781, 153.897475, 278.8211145, 188.31807500000002)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 263.0781,
+            "y0": 153.897475,
+            "x1": 278.8211145,
+            "y1": 188.31807500000002,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.4298661764705882,
+            "relative_y": 0.19431499368686866,
+            "indent_ratio": 0.4298661764705882
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "$",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(285.2767, 153.897475, 296.3967722, 160.78297499999996)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 285.2767,
+            "y0": 153.897475,
+            "x1": 296.3967722,
+            "y1": 160.78297499999996,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.4661383986928105,
+            "relative_y": 0.19431499368686866,
+            "indent_ratio": 0.4661383986928105
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "1,265.5\n266.6\n107.1\n168.7",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(295.2255, 153.897475, 315.94966450000004, 188.31807500000002)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 295.2255,
+            "y0": 153.897475,
+            "x1": 315.94966450000004,
+            "y1": 188.31807500000002,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.48239460784313726,
+            "relative_y": 0.19431499368686866,
+            "indent_ratio": 0.48239460784313726
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "$",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(322.4053, 153.897475, 333.5252722, 160.78297499999996)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 322.4053,
+            "y0": 153.897475,
+            "x1": 333.5252722,
+            "y1": 160.78297499999996,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.526806045751634,
+            "relative_y": 0.19431499368686866,
+            "indent_ratio": 0.526806045751634
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "1,635.9\n300.7\n140.7\n182.1",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(332.3541, 153.897475, 353.07826450000005, 188.31807500000002)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 332.3541,
+            "y0": 153.897475,
+            "x1": 353.07826450000005,
+            "y1": 188.31807500000002,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.5430622549019608,
+            "relative_y": 0.19431499368686866,
+            "indent_ratio": 0.5430622549019608
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "$",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(359.5339, 153.897475, 370.65387219999997, 160.78297499999996)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 359.5339,
+            "y0": 153.897475,
+            "x1": 370.65387219999997,
+            "y1": 160.78297499999996,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.5874736928104576,
+            "relative_y": 0.19431499368686866,
+            "indent_ratio": 0.5874736928104576
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "2,037.9\n336.7\n182.0\n193.1",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(369.4827, 153.897475, 390.20686450000005, 188.31807500000002)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 369.4827,
+            "y0": 153.897475,
+            "x1": 390.20686450000005,
+            "y1": 188.31807500000002,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.6037299019607844,
+            "relative_y": 0.19431499368686866,
+            "indent_ratio": 0.6037299019607844
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "$",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(396.6625, 153.897475, 407.7824722, 160.78297499999996)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 396.6625,
+            "y0": 153.897475,
+            "x1": 407.7824722,
+            "y1": 160.78297499999996,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.6481413398692811,
+            "relative_y": 0.19431499368686866,
+            "indent_ratio": 0.6481413398692811
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "2,498.9\n346.8\n209.3\n204.7",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(406.6113, 153.897475, 427.3354645, 188.31807500000002)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 406.6113,
+            "y0": 153.897475,
+            "x1": 427.3354645,
+            "y1": 188.31807500000002,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.6643975490196079,
+            "relative_y": 0.19431499368686866,
+            "indent_ratio": 0.6643975490196079
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "$",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(433.7911, 153.897475, 444.9110722, 160.78297499999996)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 433.7911,
+            "y0": 153.897475,
+            "x1": 444.9110722,
+            "y1": 160.78297499999996,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.7088089869281046,
+            "relative_y": 0.19431499368686866,
+            "indent_ratio": 0.7088089869281046
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "2,976.5\n385.8\n240.7\n214.9",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(443.7398, 153.897475, 464.4640645, 188.31807500000002)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 443.7398,
+            "y0": 153.897475,
+            "x1": 464.4640645,
+            "y1": 188.31807500000002,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.7250650326797385,
+            "relative_y": 0.19431499368686866,
+            "indent_ratio": 0.7250650326797385
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "$",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(470.9197, 153.897475, 486.62827219999997, 160.78297499999996)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 470.9197,
+            "y0": 153.897475,
+            "x1": 486.62827219999997,
+            "y1": 160.78297499999996,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.7694766339869281,
+            "relative_y": 0.19431499368686866,
+            "indent_ratio": 0.7694766339869281
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "310.9\n397.3\n276.9\n225.6",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(485.8497, 153.897475, 501.5926645, 188.31807500000002)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 485.8497,
+            "y0": 153.897475,
+            "x1": 501.5926645,
+            "y1": 188.31807500000002,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.7938720588235294,
+            "relative_y": 0.19431499368686866,
+            "indent_ratio": 0.7938720588235294
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "$",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(508.0483, 153.897475, 523.7568722, 160.78297499999996)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 508.0483,
+            "y0": 153.897475,
+            "x1": 523.7568722,
+            "y1": 160.78297499999996,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.8301442810457516,
+            "relative_y": 0.19431499368686866,
+            "indent_ratio": 0.8301442810457516
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "339.1\n439.6\n318.4\n234.7",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(522.9783, 153.897475, 538.7212645, 188.31807500000002)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 522.9783,
+            "y0": 153.897475,
+            "x1": 538.7212645,
+            "y1": 188.31807500000002,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.854539705882353,
+            "relative_y": 0.19431499368686866,
+            "indent_ratio": 0.854539705882353
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "$",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(545.1769, 153.897475, 560.8853722, 160.78297499999996)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 545.1769,
+            "y0": 153.897475,
+            "x1": 560.8853722,
+            "y1": 160.78297499999996,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.8908119281045752,
+            "relative_y": 0.19431499368686866,
+            "indent_ratio": 0.8908119281045752
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "339.1\n452.7\n366.1\n244.0",
+        "element_type": "ElementType.TITLE",
+        "bbox": "(560.1069, 153.897475, 575.8498645, 188.31807500000002)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 560.1069,
+            "y0": 153.897475,
+            "x1": 575.8498645,
+            "y1": 188.31807500000002,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.9152073529411765,
+            "relative_y": 0.19431499368686866,
+            "indent_ratio": 0.9152073529411765
+          },
+          "confidence": 0.8999999999999999,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Existing Products:\nXyrem Sales:\nErwinaze Sales:\nDefitelio Sales:\nOther Sales and Royalties:",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(56.38714, 144.71907499999998, 133.60345284999997, 188.31807500000002)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 6.885499999999979,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 56.38714,
+            "y0": 144.71907499999998,
+            "x1": 133.60345284999997,
+            "y1": 188.31807500000002,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.09213584967320262,
+            "relative_y": 0.18272610479797977,
+            "indent_ratio": 0.09213584967320262
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Goldman Stanley",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(40.56, 44.069999999999936, 154.80695999999998, 60.02999999999997)",
+        "page_number": 2,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAC+Calibri",
+            "size": 15.960000000000036,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 40.56,
+            "y0": 44.069999999999936,
+            "x1": 154.80695999999998,
+            "y1": 60.02999999999997,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.06627450980392158,
+            "relative_y": 0.055643939393939315,
+            "indent_ratio": 0.06627450980392158
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      }
+    ]
+  },
+  {
+    "page_number": 3,
+    "elements": [
+      {
+        "text": "Attachment V",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(71.641, 36.343890599999895, 127.8101388, 46.30649059999996)",
+        "page_number": 3,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAL+NimbusRomNo9L-Regu",
+            "size": 9.962600000000066,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 71.641,
+            "y0": 36.343890599999895,
+            "x1": 127.8101388,
+            "y1": 46.30649059999996,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.11706045751633988,
+            "relative_y": 0.045888750757575626,
+            "indent_ratio": 0.11706045751633988
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Exhibit 4.1",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(495.716, 36.343890599999895, 539.999757, 46.30649059999996)",
+        "page_number": 3,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAL+NimbusRomNo9L-Regu",
+            "size": 9.962600000000066,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 495.716,
+            "y0": 36.343890599999895,
+            "x1": 539.999757,
+            "y1": 46.30649059999996,
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "relative_x": 0.8099934640522876,
+            "relative_y": 0.045888750757575626,
+            "indent_ratio": 0.8099934640522876
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,287 @@
+[
+  {
+    "page_number": 1,
+    "elements": [
+      {
+        "text": "6",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(294.8, 773.192, 300.8, 785.192)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAE+TimesNewRomanPSMT",
+            "size": 11.999999999999993,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 294.8,
+            "y0": 773.192,
+            "x1": 300.8,
+            "y1": 785.192,
+            "page_width": 595.0,
+            "page_height": 842.0,
+            "relative_x": 0.4954621848739496,
+            "relative_y": 0.9182802850356294,
+            "indent_ratio": 0.4954621848739496
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "\"Upon ascending to the second floor of the tower, we were greeted by a gruesome sight:\na ragged collection of bones wearing the robes of one of the senior enchanters. I had\nknown her for years, watched her raise countless apprentices, and now she was a mere\npuppet for some demon.\"",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(85.2, 702.092, 509.9639999999999, 755.492)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAE+TimesNewRomanPSMT",
+            "size": 12.000000000000014,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 85.2,
+            "y0": 702.092,
+            "x1": 509.9639999999999,
+            "y1": 755.492,
+            "page_width": 595.0,
+            "page_height": 842.0,
+            "relative_x": 0.14319327731092438,
+            "relative_y": 0.8338384798099763,
+            "indent_ratio": 0.14319327731092438
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Thankfully, abominations are rare. The Circle has methods for weeding out those who are too at risk\nfor demonic possession, and scant few mages would give up their free will to submit to such a bond\nwith a demon. But once an abomination is created, it will do its best to create more. Considering\nthat entire squads of templars have been known to fall at the hands of a single abomination, it is not\nsurprising that the Chantry takes the business of the Circle of Magi very seriously indeed.",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(56.8, 595.2919999999999, 538.0839999999997, 662.492)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAE+TimesNewRomanPSMT",
+            "size": 12.000000000000028,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 56.8,
+            "y0": 595.2919999999999,
+            "x1": 538.0839999999997,
+            "y1": 662.492,
+            "page_width": 595.0,
+            "page_height": 842.0,
+            "relative_x": 0.09546218487394957,
+            "relative_y": 0.7069976247030878,
+            "indent_ratio": 0.09546218487394957
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "Regardless of the reason, a demon always attempts to possess a mage when it encounters one—by\nforce or by making some kind of deal depending on the strength of the mage. Should the demon get\nthe upper hand, the result is an unholy union known as an abomination. Abominations have been\nresponsible for some of the worst cataclysms in history, and the notion that some mage in a remote\ntower could turn into such a creature unbeknownst to any was the driving force behind the creation\nof the Circle of Magi.",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(56.8, 506.49199999999996, 538.1319999999997, 587.492)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAE+TimesNewRomanPSMT",
+            "size": 12.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 56.8,
+            "y0": 506.49199999999996,
+            "x1": 538.1319999999997,
+            "y1": 587.492,
+            "page_width": 595.0,
+            "page_height": 842.0,
+            "relative_x": 0.09546218487394957,
+            "relative_y": 0.6015344418052256,
+            "indent_ratio": 0.09546218487394957
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "It is known that mages are able to walk the Fade while completely aware of their surroundings,\nunlike most others who may only enter the realm as dreamers and leave it scarcely aware of their\nexperience. Demons are drawn to mages, though whether it is because of this awareness or simply\nby virtue of their magical power in our world is unknown.",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(56.8, 445.292, 538.2039999999997, 498.692)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAE+TimesNewRomanPSMT",
+            "size": 12.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 56.8,
+            "y0": 445.292,
+            "x1": 538.2039999999997,
+            "y1": 498.692,
+            "page_width": 595.0,
+            "page_height": 842.0,
+            "relative_x": 0.09546218487394957,
+            "relative_y": 0.5288503562945368,
+            "indent_ratio": 0.09546218487394957
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "—Transcribed from a tale told by a former templar in Cumberland, 8:84 Blessed.",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(85.2, 411.692, 475.83599999999984, 423.692)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAG+TimesNewRomanPS-ItalicMT",
+            "size": 12.0,
+            "is_bold": false,
+            "is_italic": true,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 85.2,
+            "y0": 411.692,
+            "x1": 475.83599999999984,
+            "y1": 423.692,
+            "page_width": 595.0,
+            "page_height": 842.0,
+            "relative_x": 0.14319327731092438,
+            "relative_y": 0.4889453681710214,
+            "indent_ratio": 0.14319327731092438
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "We shouted prayers to the Maker and deflected what magic we could, but as we fought,\nthe   creature   fought   harder.   I   saw   my   comrades   fall,   burned   by  the   flaming   sky  or\ncrushed by debris. The monstrous creature, looking as if a demon were wearing a man\nlike a twisted suit of skin, spotted me and grinned. We had forced it to this, I realized;\nthe mage had made this pact, given himself over to the demon to survive our assault.\"",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(85.2, 336.792, 509.9279999999998, 403.99199999999996)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAE+TimesNewRomanPSMT",
+            "size": 12.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 85.2,
+            "y0": 336.792,
+            "x1": 509.9279999999998,
+            "y1": 403.99199999999996,
+            "page_width": 595.0,
+            "page_height": 842.0,
+            "relative_x": 0.14319327731092438,
+            "relative_y": 0.3999904988123515,
+            "indent_ratio": 0.14319327731092438
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "There, perched atop the spire of the village chantry, stood the mage. But he was human\nno longer.",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(85.2, 303.192, 510.0359999999998, 328.99199999999996)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAE+TimesNewRomanPSMT",
+            "size": 12.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 85.2,
+            "y0": 303.192,
+            "x1": 510.0359999999998,
+            "y1": 328.99199999999996,
+            "page_width": 595.0,
+            "page_height": 842.0,
+            "relative_x": 0.14319327731092438,
+            "relative_y": 0.3600855106888361,
+            "indent_ratio": 0.14319327731092438
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "As we approached, a home on the edge of the town exploded, sending splinters of wood\nand fist-sized chunks of rocks into our ranks. We had but moments to regroup before\nfire rained from the sky, the sounds of destruction wrapped in a hideous laughter from\nthe center of the village.",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(85.2, 242.09199999999998, 509.92799999999994, 295.49199999999996)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAE+TimesNewRomanPSMT",
+            "size": 12.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 85.2,
+            "y0": 242.09199999999998,
+            "x1": 509.92799999999994,
+            "y1": 295.49199999999996,
+            "page_width": 595.0,
+            "page_height": 842.0,
+            "relative_x": 0.14319327731092438,
+            "relative_y": 0.28752019002375295,
+            "indent_ratio": 0.14319327731092438
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      },
+      {
+        "text": "\"We arrived in the dead of night. We had been tracking the maleficar for days, and\nfinally had him cornered... or so we thought.",
+        "element_type": "ElementType.TEXT",
+        "bbox": "(85.2, 208.49199999999996, 509.61600000000004, 234.29200000000003)",
+        "page_number": 1,
+        "metadata": {
+          "style_info": {
+            "font": "AAAAAE+TimesNewRomanPSMT",
+            "size": 12.0,
+            "is_bold": false,
+            "is_italic": false,
+            "median_font_size": 12
+          },
+          "coordinates": {
+            "x0": 85.2,
+            "y0": 208.49199999999996,
+            "x1": 509.61600000000004,
+            "y1": 234.29200000000003,
+            "page_width": 595.0,
+            "page_height": 842.0,
+            "relative_x": 0.14319327731092438,
+            "relative_y": 0.24761520190023747,
+            "indent_ratio": 0.14319327731092438
+          },
+          "confidence": 0.7,
+          "cross_page_refs": []
+        }
+      }
+    ]
+  }
+]
