@@ -158,6 +158,9 @@ def draw_bbox_on_pdf(pdf_path: str, elements: List[dict], output_dir: str, struc
             'FIGURE_CAPTION': (0, 0.9, 0.9),  # Light Teal
             'FIGURE_FOOTNOTE': (0, 0.8, 0.8), # Lighter Teal
             
+            # Signature elements
+            'SIGNATURE': (0.8, 0.2, 0.2),    # Reddish color for signatures
+            
             # Split elements
             'SPLIT_CONTINUATION': (1, 0.5, 0.5),  # Light red for continuations
             'SPLIT_HEADER': (0.5, 0.8, 0.5),     # Light green for headers
@@ -369,7 +372,52 @@ def process_single_pdf(pdf_path: str, output_dir: str, config: Dict[str, Any] = 
         except Exception as e:
             logger.error(f"Error in image extraction or addition block: {e}", exc_info=True)
         
-        # Interleave images with text by sorting now
+        # Add signature detection
+        try:
+            from partitioner_max.utils.signature_utils import process_page_for_signatures
+            import cv2
+            
+            logger.info("Starting signature detection...")
+            
+            # Create a directory for signature outputs
+            signature_output_dir = os.path.join(doc_output_dir, "signatures")
+            os.makedirs(signature_output_dir, exist_ok=True)
+            
+            # Process each page for signatures
+            doc = fitz.open(pdf_path)
+            for page_num, page in enumerate(doc, 1):
+                # Convert PDF page to image
+                pix = page.get_pixmap(matrix=fitz.Matrix(2, 2))  # Higher DPI for better detection
+                img = np.frombuffer(pix.samples, dtype=np.uint8).reshape(pix.height, pix.width, 3)
+                
+                # Detect signatures
+                detections = process_page_for_signatures(
+                    page_image=img,
+                    output_dir=signature_output_dir,
+                    device='cpu'  # or 'cuda' if available
+                )
+                
+                # Add signature elements to the main elements list
+                for det in detections:
+                    elements.append({
+                        'element_type': 'signature',
+                        'bbox': det['bbox'],
+                        'page_number': page_num,
+                        'score': det['confidence'],
+                        'source': 'signature_detection',
+                        'text': '[SIGNATURE]',
+                        'metadata': {
+                            'detection_confidence': det['confidence'],
+                            'image_path': det.get('image_path', '')
+                        }
+                    })
+                    
+            logger.info(f"Detected {len([e for e in elements if e.get('element_type') == 'signature'])} signatures")
+            
+        except Exception as e:
+            logger.error(f"Error during signature detection: {e}", exc_info=True)
+        
+        # Interleave all elements (text, images, signatures) by page and position
         elements.sort(key=lambda e: (e['page_number'] if isinstance(e, dict) else e.page_number, -(e['bbox'][1] if isinstance(e, dict) else e.bbox[1])))
         
         def convert_value(value):
